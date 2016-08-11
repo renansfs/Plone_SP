@@ -2,8 +2,8 @@
 
 import sys
 sys.path[0:0] = [
-  '/home/vagrant/Plone/buildout-cache/eggs/setuptools-25.1.6-py2.7.egg',
-  '/home/vagrant/Plone/buildout-cache/eggs/zc.buildout-2.5.2-py2.7.egg',
+  '/home/vagrant/Plone_SP/buildout-cache/eggs/setuptools-25.1.6-py2.7.egg',
+  '/home/vagrant/Plone_SP/buildout-cache/eggs/zc.buildout-2.5.2-py2.7.egg',
   ]
 
 import zc.buildout.buildout

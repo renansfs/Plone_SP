@@ -2,10 +2,10 @@
 
 import sys
 sys.path[0:0] = [
-  '/home/vagrant/Plone/buildout-cache/eggs/collective.recipe.backup-3.0.0-py2.7.egg',
-  '/home/vagrant/Plone/buildout-cache/eggs/zc.buildout-2.5.2-py2.7.egg',
-  '/home/vagrant/Plone/buildout-cache/eggs/zc.recipe.egg-1.3.2-py2.7.egg',
-  '/home/vagrant/Plone/buildout-cache/eggs/setuptools-23.1.0-py2.7.egg',
+  '/home/vagrant/Plone_SP/buildout-cache/eggs/collective.recipe.backup-3.0.0-py2.7.egg',
+  '/home/vagrant/Plone_SP/buildout-cache/eggs/zc.buildout-2.5.2-py2.7.egg',
+  '/home/vagrant/Plone_SP/buildout-cache/eggs/zc.recipe.egg-1.3.2-py2.7.egg',
+  '/home/vagrant/Plone_SP/buildout-cache/eggs/setuptools-23.1.0-py2.7.egg',
   ]
 
 
@@ -35,16 +35,16 @@ import collective.recipe.backup.main
 
 if __name__ == '__main__':
     sys.exit(collective.recipe.backup.main.restore_main(
-        bin_dir='/home/vagrant/Plone/zinstance/bin',
-        storages=[{'backup_location': '/home/vagrant/Plone/zinstance/var/backups',
-  'blob_backup_location': '/home/vagrant/Plone/zinstance/var/blobstoragebackups',
-  'blob_snapshot_location': '/home/vagrant/Plone/zinstance/var/blobstoragesnapshots',
-  'blob_zip_location': '/home/vagrant/Plone/zinstance/var/blobstoragezips',
-  'blobdir': '/home/vagrant/Plone/zinstance/var/blobstorage',
-  'datafs': '/home/vagrant/Plone/zinstance/var/filestorage/Data.fs',
-  'snapshot_location': '/home/vagrant/Plone/zinstance/var/snapshotbackups',
+        bin_dir='/home/vagrant/Plone_SP/zinstance/bin',
+        storages=[{'backup_location': '/home/vagrant/Plone_SP/zinstance/var/backups',
+  'blob_backup_location': '/home/vagrant/Plone_SP/zinstance/var/blobstoragebackups',
+  'blob_snapshot_location': '/home/vagrant/Plone_SP/zinstance/var/blobstoragesnapshots',
+  'blob_zip_location': '/home/vagrant/Plone_SP/zinstance/var/blobstoragezips',
+  'blobdir': '/home/vagrant/Plone_SP/zinstance/var/blobstorage',
+  'datafs': '/home/vagrant/Plone_SP/zinstance/var/filestorage/Data.fs',
+  'snapshot_location': '/home/vagrant/Plone_SP/zinstance/var/snapshotbackups',
   'storage': '1',
-  'zip_location': '/home/vagrant/Plone/zinstance/var/zipbackups'}],
+  'zip_location': '/home/vagrant/Plone_SP/zinstance/var/zipbackups'}],
         keep=2,
         keep_blob_days=14,
         full=False,

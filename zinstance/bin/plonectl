@@ -2,13 +2,13 @@
 
 import sys
 sys.path[0:0] = [
-  '/home/vagrant/Plone/buildout-cache/eggs/plone.recipe.unifiedinstaller-4.3.2-py2.7.egg',
-  '/home/vagrant/Plone/buildout-cache/eggs/zc.recipe.egg-1.3.2-py2.7.egg',
-  '/home/vagrant/Plone/buildout-cache/eggs/zc.buildout-2.5.2-py2.7.egg',
-  '/home/vagrant/Plone/buildout-cache/eggs/setuptools-23.1.0-py2.7.egg',
+  '/home/vagrant/Plone_SP/buildout-cache/eggs/plone.recipe.unifiedinstaller-4.3.2-py2.7.egg',
+  '/home/vagrant/Plone_SP/buildout-cache/eggs/zc.recipe.egg-1.3.2-py2.7.egg',
+  '/home/vagrant/Plone_SP/buildout-cache/eggs/zc.buildout-2.5.2-py2.7.egg',
+  '/home/vagrant/Plone_SP/buildout-cache/eggs/setuptools-23.1.0-py2.7.egg',
   ]
 
 import plone.recipe.unifiedinstaller.ctl
 
 if __name__ == '__main__':
-    sys.exit(plone.recipe.unifiedinstaller.ctl.main(server=None, clients=['instance'], location=r'/home/vagrant/Plone/zinstance', binDirectory=r'/home/vagrant/Plone/zinstance/bin', fileStorage=r'/home/vagrant/Plone/zinstance/var/filestorage/Data.fs'))
+    sys.exit(plone.recipe.unifiedinstaller.ctl.main(server=None, clients=['instance'], location=r'/home/vagrant/Plone_SP/zinstance', binDirectory=r'/home/vagrant/Plone_SP/zinstance/bin', fileStorage=r'/home/vagrant/Plone_SP/zinstance/var/filestorage/Data.fs'))

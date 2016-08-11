@@ -4915,3 +4915,1687 @@ AttributeError: portal_syndication
 2016-08-09T17:12:05 INFO SignalHandler Caught signal SIGINT
 ------
 2016-08-09T17:12:05 INFO Z2 Shutting down
+------
+2016-08-10T16:42:59 INFO ZServer HTTP server started at Wed Aug 10 16:42:59 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-10T16:43:04 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-10T16:43:05 INFO ZODB.blob (26506) Blob temporary directory '/home/vagrant/Plone_SP/zinstance/var/blobstorage/tmp' does not exist. Created new directory.
+------
+2016-08-10T16:43:05 WARNING ZODB.blob (26506) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-10T16:43:14 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-10T16:43:15 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-10T16:43:19 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-10T16:43:23 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-10T16:43:23 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T16:43:23 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T16:43:23 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T16:43:23 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T16:43:23 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T16:43:23 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T16:43:23 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T16:43:23 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T16:43:24 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-10T16:43:24 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-10T16:43:25 INFO Zope Ready to handle requests
+------
+2016-08-10T16:43:39 ERROR Zope.SiteErrorLog 1470847419.770.160050312559 http://127.0.0.1:8080/Plone/1234/plonesoftwarecenter_view
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.CMFCore.FSPageTemplate, line 237, in _exec
+  Module Products.CMFCore.FSPageTemplate, line 177, in pt_render
+  Module Products.PageTemplates.PageTemplate, line 87, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 132, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 240, in __call__
+  Module zope.tal.talinterpreter, line 271, in __call__
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 888, in do_useMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 946, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 851, in do_condition
+  Module Products.PageTemplates.Expressions, line 205, in evaluateBoolean
+  Module zope.tales.tales, line 696, in evaluate
+   - URL: file:/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.4-py2.7.egg/Products/PloneSoftwareCenter/skins/plonesoftwarecenter/plonesoftwarecenter_view.pt
+   - Line 95, Column 15
+   - Expression: <PathExpr standard:u'context/portal_syndication/isSiteSyndicationAllowed'>
+   - Names:
+      {'container': <PloneSite at /Plone>,
+       'context': <PloneSoftwareCenter at /Plone/1234>,
+       'default': <object object at 0xb7541940>,
+       'here': <PloneSoftwareCenter at /Plone/1234>,
+       'loop': {u'category': <Products.PageTemplates.Expressions.PathIterator object at 0xb11e18ac>},
+       'nothing': None,
+       'options': {'args': ()},
+       'repeat': <Products.PageTemplates.Expressions.SafeMapping object at 0xb437ea7c>,
+       'request': <HTTPRequest, URL=http://127.0.0.1:8080/Plone/1234/plonesoftwarecenter_view>,
+       'root': <Application at >,
+       'template': <FSPageTemplate at /Plone/plonesoftwarecenter_view used for /Plone/1234>,
+       'traverse_subpath': [],
+       'user': <PropertiedUser 'admin'>}
+  Module zope.tales.expressions, line 217, in __call__
+  Module Products.PageTemplates.Expressions, line 147, in _eval
+  Module zope.tales.expressions, line 124, in _eval
+  Module Products.PageTemplates.Expressions, line 74, in boboAwareZopeTraverse
+  Module OFS.Traversable, line 317, in restrictedTraverse
+  Module OFS.Traversable, line 285, in unrestrictedTraverse
+   - __traceback_info__: ([], 'portal_syndication')
+AttributeError: portal_syndication
+------
+2016-08-10T16:45:20 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-10T16:45:20 INFO Z2 Shutting down
+------
+2016-08-10T16:47:28 INFO ZServer HTTP server started at Wed Aug 10 16:47:28 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-10T16:47:30 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-10T16:47:40 ERROR Application Could not import Products.PloneSoftwareCenter
+Traceback (most recent call last):
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Zope2-2.13.24-py2.7.egg/OFS/Application.py", line 606, in import_product
+    product=__import__(pname, global_dict, global_dict, silly)
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.4-py2.7.egg/Products/PloneSoftwareCenter/__init__.py", line 10, in <module>
+    from Products.PloneSoftwareCenter import config
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.4-py2.7.egg/Products/PloneSoftwareCenter/config.py", line 57, in <module>
+    trove = TroveClassifier(trove_default)
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.4-py2.7.egg/Products/PloneSoftwareCenter/trove.py", line 22, in __init__
+    trove = urlopen(PYPI_CLASSIFIERS_URL)
+  File "/usr/lib/python2.7/urllib2.py", line 127, in urlopen
+    return _opener.open(url, data, timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 404, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 422, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 382, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1214, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/lib/python2.7/urllib2.py", line 1187, in do_open
+    r = h.getresponse(buffering=True)
+  File "/usr/lib/python2.7/httplib.py", line 1051, in getresponse
+    response.begin()
+  File "/usr/lib/python2.7/httplib.py", line 415, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python2.7/httplib.py", line 371, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+timeout: timed out
+------
+2016-08-10T16:48:19 INFO ZServer HTTP server started at Wed Aug 10 16:48:19 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-10T16:48:21 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-10T16:48:22 WARNING ZODB.blob (26693) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-10T16:48:27 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-10T16:48:27 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-10T16:48:31 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-10T16:48:33 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-10T16:48:33 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T16:48:33 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T16:48:33 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T16:48:33 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T16:48:34 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T16:48:34 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T16:48:34 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T16:48:34 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T16:48:34 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-10T16:48:34 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-10T16:48:35 INFO Zope Ready to handle requests
+------
+2016-08-10T16:49:32 INFO CMFQuickInstallerTool Multiple extension profiles found for product plone.app.contenttypes. Used profile: plone.app.contenttypes:default
+------
+2016-08-10T16:49:32 INFO Products.GenericSetup.tool Importing profile profile-plone.app.contenttypes:default with dependency strategy upgrade.
+------
+2016-08-10T16:49:32 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.z3cform:default. Profile stays at version (u'2',).
+------
+2016-08-10T16:49:32 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.jquerytools:default. Profile stays at version (u'3',).
+------
+2016-08-10T16:49:32 INFO Products.GenericSetup.tool No upgrades available for profile profile-collective.z3cform.datetimewidget:default. Profile stays at version (u'1', u'0').
+------
+2016-08-10T16:49:32 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.dexterity:default. Profile stays at version (u'2003',).
+------
+2016-08-10T16:49:32 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.registry:default. Profile stays at version (u'1', u'0a1').
+------
+2016-08-10T16:49:32 INFO Products.GenericSetup.tool Applying profile profile-plone.formwidget.datetime:default
+------
+2016-08-10T16:49:33 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-10T16:49:34 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2016-08-10T16:49:34 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2016-08-10T16:49:34 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-10T16:49:34 INFO Products.GenericSetup.tool Applying profile profile-plone.formwidget.recurrence:default
+------
+2016-08-10T16:49:34 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-10T16:49:34 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2016-08-10T16:49:34 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2016-08-10T16:49:34 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-10T16:49:34 INFO Products.GenericSetup.tool Applying profile profile-plone.app.event:default
+------
+2016-08-10T16:49:34 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-10T16:49:34 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2016-08-10T16:49:34 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2016-08-10T16:49:34 INFO GenericSetup.actions Actions tool imported.
+------
+2016-08-10T16:49:34 INFO GenericSetup.controlpanel Control panel imported.
+------
+2016-08-10T16:49:34 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-10T16:49:34 INFO GenericSetup.browserlayer Browser layers imported
+------
+2016-08-10T16:49:34 INFO plone.app.event.setuphandlers Old catalog DateIndex start deleted.
+------
+2016-08-10T16:49:34 INFO plone.app.event.setuphandlers Catalog DateRecurringIndex start created.
+------
+2016-08-10T16:49:34 INFO plone.app.event.setuphandlers Catalog metadata column start already exists.
+------
+2016-08-10T16:49:34 INFO plone.app.event.setuphandlers Old catalog DateIndex end deleted.
+------
+2016-08-10T16:49:34 INFO plone.app.event.setuphandlers Catalog DateRecurringIndex end created.
+------
+2016-08-10T16:49:34 INFO plone.app.event.setuphandlers Catalog metadata column end already exists.
+------
+2016-08-10T16:49:34 INFO plone.app.event.setuphandlers Catalog FieldIndex sync_uid created.
+------
+2016-08-10T16:49:34 INFO plone.app.event.setuphandlers Catalog metadata column sync_uid created.
+------
+2016-08-10T16:49:35 INFO GenericSetup.types Types tool imported.
+------
+2016-08-10T16:49:35 INFO GenericSetup.types 'Folder' type info imported.
+------
+2016-08-10T16:49:35 INFO GenericSetup.types 'Plone Site' type info imported.
+------
+2016-08-10T16:49:35 INFO GenericSetup.types 'Topic' type info imported.
+------
+2016-08-10T16:49:35 INFO GenericSetup.types 'Collection' type info imported.
+------
+2016-08-10T16:49:35 WARNING GenericSetup.portlets Cannot register portlet type portlets.Calendar because it is already registered.
+------
+2016-08-10T16:49:35 WARNING GenericSetup.portlets Cannot register portlet type portlets.Events because it is already registered.
+------
+2016-08-10T16:49:35 INFO GenericSetup.portlets Portlets imported
+------
+2016-08-10T16:49:35 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.querystring:default. Profile stays at version (u'5',).
+------
+2016-08-10T16:49:35 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.intid:default. Profile stays at version (u'1',).
+------
+2016-08-10T16:49:35 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.formwidget.autocomplete:default. Profile stays at version (u'1',).
+------
+2016-08-10T16:49:35 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.formwidget.contenttree:default. Profile stays at version (u'1', u'0a6').
+------
+2016-08-10T16:49:35 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.relationfield:default. Profile stays at version (u'1',).
+------
+2016-08-10T16:49:35 INFO Products.GenericSetup.tool Applying profile profile-plone.formwidget.querystring:default
+------
+2016-08-10T16:49:35 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-10T16:49:35 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2016-08-10T16:49:35 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2016-08-10T16:49:35 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-10T16:49:35 INFO Products.GenericSetup.tool Applying profile profile-plone.app.versioningbehavior:default
+------
+2016-08-10T16:49:35 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-10T16:49:35 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-10T16:49:35 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.discussion:default. Profile stays at version (u'101',).
+------
+2016-08-10T16:49:35 INFO Products.GenericSetup.tool Applying main profile profile-plone.app.contenttypes:default
+------
+2016-08-10T16:49:35 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-10T16:49:35 INFO GenericSetup. DiffTool settings imported.
+------
+2016-08-10T16:49:36 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2016-08-10T16:49:36 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-10T16:49:36 INFO GenericSetup.browserlayer Browser layers imported
+------
+2016-08-10T16:49:36 INFO GenericSetup. DiffTool settings imported.
+------
+2016-08-10T16:49:36 INFO GenericSetup.types Types tool imported.
+------
+2016-08-10T16:49:36 INFO GenericSetup.types 'Plone Site' type info imported.
+------
+2016-08-10T16:49:36 INFO GenericSetup.types 'Collection' type info imported.
+------
+2016-08-10T16:49:36 INFO GenericSetup.types 'Document' type info imported.
+------
+2016-08-10T16:49:36 INFO GenericSetup.types 'Folder' type info imported.
+------
+2016-08-10T16:49:36 INFO GenericSetup.types 'Link' type info imported.
+------
+2016-08-10T16:49:36 INFO GenericSetup.types 'File' type info imported.
+------
+2016-08-10T16:49:36 INFO GenericSetup.types 'Image' type info imported.
+------
+2016-08-10T16:49:36 INFO GenericSetup.types 'News Item' type info imported.
+------
+2016-08-10T16:49:36 INFO GenericSetup.types 'Event' type info imported.
+------
+2016-08-10T16:49:36 INFO CMFQuickInstallerTool Multiple extension profiles found for product sc.photogallery. Used profile: sc.photogallery:default
+------
+2016-08-10T16:49:36 INFO Products.GenericSetup.tool Importing profile profile-sc.photogallery:default with dependency strategy upgrade.
+------
+2016-08-10T16:49:36 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.z3cform:default. Profile stays at version (u'2',).
+------
+2016-08-10T16:49:36 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.jquerytools:default. Profile stays at version (u'3',).
+------
+2016-08-10T16:49:36 INFO Products.GenericSetup.tool No upgrades available for profile profile-collective.z3cform.datetimewidget:default. Profile stays at version (u'1', u'0').
+------
+2016-08-10T16:49:36 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.dexterity:default. Profile stays at version (u'2003',).
+------
+2016-08-10T16:49:36 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.intid:default. Profile stays at version (u'1',).
+------
+2016-08-10T16:49:36 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.formwidget.autocomplete:default. Profile stays at version (u'1',).
+------
+2016-08-10T16:49:36 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.formwidget.contenttree:default. Profile stays at version (u'1', u'0a6').
+------
+2016-08-10T16:49:36 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.relationfield:default. Profile stays at version (u'1',).
+------
+2016-08-10T16:49:36 INFO Products.GenericSetup.tool Applying main profile profile-sc.photogallery:default
+------
+2016-08-10T16:49:36 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-10T16:49:36 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2016-08-10T16:49:36 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2016-08-10T16:49:36 INFO GenericSetup.controlpanel Control panel imported.
+------
+2016-08-10T16:49:36 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-10T16:49:36 INFO GenericSetup.browserlayer Browser layers imported
+------
+2016-08-10T16:49:36 INFO GenericSetup.propertiestool Properties tool imported.
+------
+2016-08-10T16:49:36 INFO GenericSetup.types Types tool imported.
+------
+2016-08-10T16:49:36 INFO GenericSetup.types 'Photo Gallery' type info imported.
+------
+2016-08-10T16:49:37 INFO Products.GenericSetup.tool Importing profile profile-plone.app.referenceablebehavior:default with dependency strategy upgrade.
+------
+2016-08-10T16:49:37 INFO Products.GenericSetup.tool Applying main profile profile-plone.app.referenceablebehavior:default
+------
+2016-08-10T16:49:37 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-10T16:49:37 INFO GenericSetup.toolset Toolset imported.
+------
+2016-08-10T16:49:37 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-10T16:49:37 INFO Products.GenericSetup.tool Importing profile profile-collective.js.cycle2:default with dependency strategy upgrade.
+------
+2016-08-10T16:49:37 INFO Products.GenericSetup.tool Applying main profile profile-collective.js.cycle2:default
+------
+2016-08-10T16:49:37 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-10T16:49:37 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-10T16:49:45 INFO Products.GenericSetup.tool Importing profile profile-plone.app.event.at:default with dependency strategy upgrade.
+------
+2016-08-10T16:49:45 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.z3cform:default. Profile stays at version (u'2',).
+------
+2016-08-10T16:49:45 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.registry:default. Profile stays at version (u'1', u'0a1').
+------
+2016-08-10T16:49:45 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.jquerytools:default. Profile stays at version (u'3',).
+------
+2016-08-10T16:49:45 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.formwidget.datetime:default. Profile stays at version (u'4',).
+------
+2016-08-10T16:49:45 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.formwidget.recurrence:default. Profile stays at version (u'3',).
+------
+2016-08-10T16:49:45 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.event:default. Profile stays at version (u'14',).
+------
+2016-08-10T16:49:45 INFO Products.GenericSetup.tool Applying main profile profile-plone.app.event.at:default
+------
+2016-08-10T16:49:46 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-10T16:49:46 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-10T16:49:46 INFO GenericSetup.types Types tool imported.
+------
+2016-08-10T16:49:46 ERROR Zope.SiteErrorLog 1470847786.390.332757230757 http://127.0.0.1:8080/Plone/portal_quickinstaller/installProducts
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Products.CMFQuickInstallerTool.QuickInstallerTool, line 686, in installProducts
+  Module Products.CMFQuickInstallerTool.QuickInstallerTool, line 603, in installProduct
+   - __traceback_info__: ('plone.app.event.at',)
+  Module Products.GenericSetup.tool, line 379, in runAllImportStepsFromProfile
+   - __traceback_info__: profile-plone.app.event.at:default
+  Module Products.GenericSetup.tool, line 1414, in _runImportStepsFromContext
+  Module Products.GenericSetup.tool, line 1226, in _doRunImportStep
+   - __traceback_info__: typeinfo
+  Module Products.CMFCore.exportimport.typeinfo, line 225, in importTypesTool
+  Module Products.GenericSetup.utils, line 853, in importObjects
+   - __traceback_info__: portal_types
+  Module Products.GenericSetup.utils, line 849, in importObjects
+   - __traceback_info__: types/Event
+  Module Products.GenericSetup.utils, line 512, in _importBody
+  Module Products.CMFCore.exportimport.typeinfo, line 60, in _importNode
+  Module Products.GenericSetup.utils, line 738, in _initProperties
+ValueError: undefined property 'content_meta_type'
+------
+2016-08-10T16:50:03 INFO plone.app.contenttypes.migration.utils Stored 0 relations for later restore.
+------
+2016-08-10T16:50:03 INFO plone.app.contenttypes.migration.browser Start migrating 3 objects from ATFolder to Folder
+------
+2016-08-10T16:50:03 INFO plone.app.contenttypes.migration.migration Migrating /Plone/news
+------
+2016-08-10T16:50:04 INFO plone.app.contenttypes.migration.migration Migrating /Plone/events
+------
+2016-08-10T16:50:04 INFO plone.app.contenttypes.migration.migration Migrating /Plone/Members
+------
+2016-08-10T16:50:04 INFO plone.app.contenttypes.migration.browser Finished migrating 3 objects from ATFolder to Folder in 0:00:00
+------
+2016-08-10T16:50:04 INFO plone.app.contenttypes.migration.browser Start migrating 1 objects from ATDocument to Document
+------
+2016-08-10T16:50:04 INFO plone.app.contenttypes.migration.migration Migrating /Plone/front-page
+------
+2016-08-10T16:50:04 INFO plone.app.contenttypes.migration.browser Finished migrating 1 objects from ATDocument to Document in 0:00:00
+------
+2016-08-10T16:50:04 INFO plone.app.contenttypes.migration.browser Start migrating 2 objects from Collection to Collection
+------
+2016-08-10T16:50:04 INFO plone.app.contenttypes.migration.migration Migrating /Plone/news/aggregator
+------
+2016-08-10T16:50:04 INFO plone.app.contenttypes.migration.migration Migrating /Plone/events/aggregator
+------
+2016-08-10T16:50:05 INFO plone.app.contenttypes.migration.browser Finished migrating 2 objects from Collection to Collection in 0:00:00
+------
+2016-08-10T16:50:05 INFO plone.app.contenttypes.migration.browser The following types were not migrated: 
+ BlobFile
+News Item
+Image
+Topic
+BlobImage
+Link
+File
+Event
+-----------------------------
+Migration finished in: 0:00:01
+-----------------------------
+Migration statictics:
+{'Collection': {'amount_migrated': 2,
+                'old_meta_type': 'Collection',
+                'type_name': 'Collection'},
+ 'Document': {'amount_migrated': 1,
+              'old_meta_type': 'ATDocument',
+              'type_name': 'Document'},
+ 'Folder': {'amount_migrated': 3,
+            'old_meta_type': 'ATFolder',
+            'type_name': 'Folder'}}
+-----------------------------
+State before:
+{'ATDocument': 1,
+ 'ATFolder': 3,
+ 'Collection': 2,
+ 'Cover': 1,
+ 'PSCProject': 2,
+ 'PSCReleaseFolder': 2,
+ 'PloneSoftwareCenter': 1}
+-----------------------------
+Stats after:
+{'Collection': 2,
+ 'Cover': 1,
+ 'Document': 1,
+ 'Folder': 3,
+ 'PSCProject': 2,
+ 'PSCReleaseFolder': 2,
+ 'PloneSoftwareCenter': 1}
+-----------------------------
+
+------
+2016-08-10T16:53:02 ERROR Zope.SiteErrorLog 1470847982.50.573484829125 http://127.0.0.1:8080/Plone/1234/plonesoftwarecenter_view
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.CMFCore.FSPageTemplate, line 237, in _exec
+  Module Products.CMFCore.FSPageTemplate, line 177, in pt_render
+  Module Products.PageTemplates.PageTemplate, line 87, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 132, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 240, in __call__
+  Module zope.tal.talinterpreter, line 271, in __call__
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 888, in do_useMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 946, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 851, in do_condition
+  Module Products.PageTemplates.Expressions, line 205, in evaluateBoolean
+  Module zope.tales.tales, line 696, in evaluate
+   - URL: file:/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.4-py2.7.egg/Products/PloneSoftwareCenter/skins/plonesoftwarecenter/plonesoftwarecenter_view.pt
+   - Line 95, Column 15
+   - Expression: <PathExpr standard:u'context/portal_syndication/isSiteSyndicationAllowed'>
+   - Names:
+      {'container': <PloneSite at /Plone>,
+       'context': <PloneSoftwareCenter at /Plone/1234>,
+       'default': <object object at 0xb74aba00>,
+       'here': <PloneSoftwareCenter at /Plone/1234>,
+       'loop': {u'category': <Products.PageTemplates.Expressions.PathIterator object at 0xb06a55ac>},
+       'nothing': None,
+       'options': {'args': ()},
+       'repeat': <Products.PageTemplates.Expressions.SafeMapping object at 0xb0980234>,
+       'request': <HTTPRequest, URL=http://127.0.0.1:8080/Plone/1234/plonesoftwarecenter_view>,
+       'root': <Application at >,
+       'template': <FSPageTemplate at /Plone/plonesoftwarecenter_view used for /Plone/1234>,
+       'traverse_subpath': [],
+       'user': <PropertiedUser 'admin'>}
+  Module zope.tales.expressions, line 217, in __call__
+  Module Products.PageTemplates.Expressions, line 147, in _eval
+  Module zope.tales.expressions, line 124, in _eval
+  Module Products.PageTemplates.Expressions, line 74, in boboAwareZopeTraverse
+  Module OFS.Traversable, line 317, in restrictedTraverse
+  Module OFS.Traversable, line 285, in unrestrictedTraverse
+   - __traceback_info__: ([], 'portal_syndication')
+AttributeError: portal_syndication
+------
+2016-08-10T16:53:37 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-10T16:53:37 INFO Z2 Shutting down
+------
+2016-08-10T16:54:31 INFO ZServer HTTP server started at Wed Aug 10 16:54:31 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-10T16:54:34 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-10T16:54:35 WARNING ZODB.blob (26710) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-10T16:54:39 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-10T16:54:39 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-10T16:54:43 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-10T16:54:46 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-10T16:54:46 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T16:54:46 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T16:54:46 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T16:54:46 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T16:54:46 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T16:54:46 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T16:54:46 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T16:54:46 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T16:54:46 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-10T16:54:46 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-10T16:54:47 INFO Zope Ready to handle requests
+------
+2016-08-10T16:55:02 WARNING OFS.Uninstalled Could not import class 'IBrowserLayer' from module 'sc.photogallery.interfaces'
+------
+2016-08-10T16:55:33 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-10T16:55:33 INFO Z2 Shutting down
+------
+2016-08-10T17:43:36 INFO ZServer HTTP server started at Wed Aug 10 17:43:36 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-10T17:43:38 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-10T17:43:39 WARNING ZODB.blob (27611) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-10T17:43:45 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-10T17:43:45 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-10T17:43:46 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-10T17:43:49 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-10T17:43:49 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T17:43:49 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T17:43:49 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T17:43:49 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T17:43:49 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T17:43:49 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T17:43:49 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T17:43:49 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T17:43:49 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-10T17:43:50 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-10T17:43:50 INFO Zope Ready to handle requests
+------
+2016-08-10T17:43:50 WARNING OFS.Uninstalled Could not import class 'Document' from module 'plone.app.contenttypes.content'
+------
+2016-08-10T17:43:50 WARNING OFS.Uninstalled Could not import class 'Folder' from module 'plone.app.contenttypes.content'
+------
+2016-08-10T17:43:50 WARNING OFS.Uninstalled Could not import class 'IBrowserLayer' from module 'plone.app.event.interfaces'
+------
+2016-08-10T17:43:50 WARNING OFS.Uninstalled Could not import class 'IPloneAppContenttypesLayer' from module 'plone.app.contenttypes.interfaces'
+------
+2016-08-10T17:43:50 WARNING OFS.Uninstalled Could not import class 'IBrowserLayer' from module 'sc.photogallery.interfaces'
+------
+2016-08-10T17:44:01 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-10T17:44:01 INFO Z2 Shutting down
+------
+2016-08-10T17:45:08 INFO ZServer HTTP server started at Wed Aug 10 17:45:08 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-10T17:45:10 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-10T17:45:12 WARNING ZODB.blob (27741) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-10T17:45:18 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-10T17:45:21 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-10T17:45:21 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-10T17:45:24 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-10T17:45:24 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T17:45:24 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T17:45:24 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T17:45:24 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T17:45:24 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T17:45:24 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T17:45:24 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T17:45:24 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T17:45:24 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-10T17:45:25 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-10T17:45:25 INFO Zope Ready to handle requests
+------
+2016-08-10T17:46:06 WARNING OFS.Uninstalled Could not import class 'IBrowserLayer' from module 'sc.photogallery.interfaces'
+------
+2016-08-10T17:47:11 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-10T17:47:11 INFO Z2 Shutting down
+------
+2016-08-10T18:04:20 INFO ZServer HTTP server started at Wed Aug 10 18:04:20 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-10T18:04:23 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-10T18:04:23 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-10T18:04:33 ERROR Application Could not import Products.PloneSoftwareCenter
+Traceback (most recent call last):
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Zope2-2.13.24-py2.7.egg/OFS/Application.py", line 606, in import_product
+    product=__import__(pname, global_dict, global_dict, silly)
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.4-py2.7.egg/Products/PloneSoftwareCenter/__init__.py", line 10, in <module>
+    from Products.PloneSoftwareCenter import config
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.4-py2.7.egg/Products/PloneSoftwareCenter/config.py", line 57, in <module>
+    trove = TroveClassifier(trove_default)
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.4-py2.7.egg/Products/PloneSoftwareCenter/trove.py", line 22, in __init__
+    trove = urlopen(PYPI_CLASSIFIERS_URL)
+  File "/usr/lib/python2.7/urllib2.py", line 127, in urlopen
+    return _opener.open(url, data, timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 404, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 422, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 382, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1214, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/lib/python2.7/urllib2.py", line 1187, in do_open
+    r = h.getresponse(buffering=True)
+  File "/usr/lib/python2.7/httplib.py", line 1051, in getresponse
+    response.begin()
+  File "/usr/lib/python2.7/httplib.py", line 415, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python2.7/httplib.py", line 371, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+timeout: timed out
+------
+2016-08-10T18:04:42 INFO ZServer HTTP server started at Wed Aug 10 18:04:42 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-10T18:04:45 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-10T18:04:45 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-10T18:04:46 WARNING ZODB.blob (27912) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-10T18:04:51 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-10T18:04:54 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-10T18:04:54 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-10T18:04:57 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-10T18:04:57 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T18:04:57 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T18:04:57 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T18:04:57 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T18:04:57 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T18:04:57 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T18:04:57 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T18:04:57 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T18:04:57 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-10T18:04:58 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-10T18:04:58 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-10T18:04:58 INFO Zope Ready to handle requests
+------
+2016-08-10T18:05:23 WARNING OFS.Uninstalled Could not import class 'IBrowserLayer' from module 'sc.photogallery.interfaces'
+------
+2016-08-10T18:05:45 INFO Products.GenericSetup.tool Importing profile profile-auslfe.formonline.pfgadapter:default with dependency strategy upgrade.
+------
+2016-08-10T18:05:45 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.jquerytools:default. Profile stays at version (u'3',).
+------
+2016-08-10T18:05:45 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.z3cform:default. Profile stays at version (u'2',).
+------
+2016-08-10T18:05:45 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.registry:default. Profile stays at version (u'1', u'0a1').
+------
+2016-08-10T18:05:45 INFO Products.GenericSetup.tool No upgrades available for profile profile-collective.js.jqueryui:default. Profile stays at version (u'2200',).
+------
+2016-08-10T18:05:45 INFO Products.GenericSetup.tool Applying profile profile-Products.PloneFormGen:default
+------
+2016-08-10T18:05:46 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-10T18:05:46 INFO GenericSetup.toolset Toolset imported.
+------
+2016-08-10T18:05:46 WARNING Plone Deprecation Warning 
+An icon for the 'controlpanel/PloneFormGen' action is being added to the action icons tool. The action icons tool has been deprecated and will be removed in Plone 5. You should register action icons directly on the action now, using the 'icon_expr' setting.
+------
+2016-08-10T18:05:46 INFO GenericSetup.action-icons Action icons tool settings imported.
+------
+2016-08-10T18:05:46 INFO GenericSetup.skins Skins tool imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.actions Actions tool imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.controlpanel Control panel imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup. ArchetypeTool settings imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.portal_tinymce TinyMCE Settings imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.propertiestool Properties tool imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types Types tool imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types 'FieldsetFolder' type info imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types 'FormBooleanField' type info imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types 'FormCaptchaField' type info imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types 'FormCustomScriptAdapter' type info imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types 'FormDateField' type info imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types 'FormFileField' type info imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types 'FormFixedPointField' type info imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types 'FormFolder' type info imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types 'FormIntegerField' type info imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types 'FormLabelField' type info imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types 'FormLikertField' type info imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types 'FormLinesField' type info imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types 'FormMailerAdapter' type info imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types 'FormMultiSelectionField' type info imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types 'FormPasswordField' type info imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types 'FormRichLabelField' type info imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types 'FormRichTextField' type info imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types 'FormSaveDataAdapter' type info imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types 'FormSelectionField' type info imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types 'FormStringField' type info imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types 'FormTextField' type info imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types 'FormThanksPage' type info imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types 'FieldsetStart' type info imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.types 'FieldsetEnd' type info imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.factorytool FactoryTool settings imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.workflow Workflow tool imported.
+------
+2016-08-10T18:05:47 INFO Products.GenericSetup.tool Applying profile profile-auslfe.formonline.content:default
+------
+2016-08-10T18:05:47 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-10T18:05:47 INFO GenericSetup.workflow Workflow tool imported.
+------
+2016-08-10T18:05:48 INFO Products.GenericSetup.tool Applying profile profile-auslfe.formonline.content:withtypes
+------
+2016-08-10T18:05:48 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-10T18:05:48 INFO GenericSetup. DiffTool settings imported.
+------
+2016-08-10T18:05:48 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-10T18:05:48 INFO GenericSetup. DiffTool settings imported.
+------
+2016-08-10T18:05:48 INFO GenericSetup.propertiestool Properties tool imported.
+------
+2016-08-10T18:05:48 INFO GenericSetup.types Types tool imported.
+------
+2016-08-10T18:05:48 INFO GenericSetup.types 'FormOnline' type info imported.
+------
+2016-08-10T18:05:48 INFO GenericSetup.factorytool FactoryTool settings imported.
+------
+2016-08-10T18:05:48 INFO GenericSetup. RepositoryTool settings imported.
+------
+2016-08-10T18:05:48 INFO GenericSetup.workflow Workflow tool imported.
+------
+2016-08-10T18:05:48 INFO Products.GenericSetup.tool Applying main profile profile-auslfe.formonline.pfgadapter:default
+------
+2016-08-10T18:05:48 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-10T18:05:48 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-10T18:05:48 INFO GenericSetup.propertiestool Properties tool imported.
+------
+2016-08-10T18:05:48 INFO GenericSetup.types Types tool imported.
+------
+2016-08-10T18:05:48 INFO GenericSetup.types 'FormFolder' type info imported.
+------
+2016-08-10T18:05:48 INFO GenericSetup.types 'FormOnlineAdapter' type info imported.
+------
+2016-08-10T18:05:48 INFO GenericSetup.factorytool FactoryTool settings imported.
+------
+2016-08-10T18:05:48 INFO GenericSetup.workflow Workflow tool imported.
+------
+2016-08-10T18:06:58 WARNING PloneFormGen User not authorized to create mail adapters. Form Folder created with no action adapter.
+------
+2016-08-10T18:08:31 ERROR Zope.SiteErrorLog 1470852511.820.1876131605 http://127.0.0.1:8080/Plone/a/fg_base_view_p3
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Products.CMFFormController.FSControllerPageTemplate, line 91, in __call__
+  Module Products.CMFFormController.BaseControllerPageTemplate, line 26, in _call
+  Module Products.CMFFormController.FormController, line 384, in validate
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Products.CMFFormController.FSControllerValidator, line 58, in __call__
+  Module Products.CMFFormController.Script, line 145, in __call__
+  Module Products.CMFCore.FSPythonScript, line 127, in __call__
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.PythonScripts.PythonScript, line 344, in _exec
+  Module script, line 41, in fgvalidate_base
+   - <FSControllerValidator at /Plone/fgvalidate_base used for /Plone/a>
+   - Line 41
+  Module Products.PloneFormGen.content.form, line 587, in fgvalidate
+  Module Products.PloneFormGen.content.form, line 635, in fgProcessActionAdapters
+  Module Products.PloneFormGen.content.formMailerAdapter, line 524, in onSuccess
+  Module Products.PloneFormGen.content.formMailerAdapter, line 945, in send_form
+  Module Products.PloneFormGen.content.formMailerAdapter, line 635, in get_mail_text
+  Module Products.PloneFormGen.content.formMailerAdapter, line 898, in get_header_body_tuple
+AssertionError: 
+                    Unable to mail form input because no recipient address has been specified.
+                    Please check the recipient settings of the PloneFormGen "Mailer" within the
+                    current form folder.
+------
+2016-08-10T18:22:06 WARNING PloneFormGen User not authorized to create mail adapters. Form Folder created with no action adapter.
+------
+2016-08-10T18:24:10 WARNING PloneFormGen User not authorized to create mail adapters. Form Folder created with no action adapter.
+------
+2016-08-10T18:29:51 WARNING PloneFormGen User not authorized to create mail adapters. Form Folder created with no action adapter.
+------
+2016-08-10T18:31:36 WARNING PloneFormGen User not authorized to create mail adapters. Form Folder created with no action adapter.
+------
+2016-08-10T19:00:00 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-10T19:00:00 INFO Z2 Shutting down
+------
+2016-08-10T19:18:11 INFO ZServer HTTP server started at Wed Aug 10 19:18:11 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-10T19:18:14 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-10T19:18:14 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-10T19:18:21 WARNING ZODB.blob (28400) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-10T19:18:27 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-10T19:18:30 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-10T19:18:31 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-10T19:18:34 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-10T19:18:34 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T19:18:34 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T19:18:34 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T19:18:34 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T19:18:34 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T19:18:34 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T19:18:34 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T19:18:34 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T19:18:34 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-10T19:18:34 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-10T19:18:35 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-10T19:18:35 INFO Zope Ready to handle requests
+------
+2016-08-10T19:18:35 WARNING OFS.Uninstalled Could not import class 'IBrowserLayer' from module 'sc.photogallery.interfaces'
+------
+2016-08-10T19:20:18 INFO Products.GenericSetup.tool Importing profile profile-Products.SimpleAttachment:default with dependency strategy upgrade.
+------
+2016-08-10T19:20:18 INFO Products.GenericSetup.tool Applying main profile profile-Products.SimpleAttachment:default
+------
+2016-08-10T19:20:19 INFO GenericSetup.workflow Workflow tool imported.
+------
+2016-08-10T19:20:19 INFO GenericSetup.skins Skins tool imported.
+------
+2016-08-10T19:20:20 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-10T19:20:20 INFO GenericSetup.propertiestool Properties tool imported.
+------
+2016-08-10T19:20:20 INFO GenericSetup.types Types tool imported.
+------
+2016-08-10T19:20:20 INFO GenericSetup.types 'Document' type info imported.
+------
+2016-08-10T19:20:20 INFO GenericSetup.types 'Document' type info imported.
+------
+2016-08-10T19:20:20 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-10T19:20:20 INFO Products.GenericSetup.tool Importing profile profile-Products.Ploneboard:default with dependency strategy upgrade.
+------
+2016-08-10T19:20:20 INFO Products.GenericSetup.tool No upgrades available for profile profile-Products.SimpleAttachment:default. Profile stays at version (u'4401',).
+------
+2016-08-10T19:20:20 INFO Products.GenericSetup.tool No upgrades available for profile profile-Products.CMFPlacefulWorkflow:base. Profile stays at version (u'1', u'4', u'1').
+------
+2016-08-10T19:20:20 INFO Products.GenericSetup.tool Applying main profile profile-Products.Ploneboard:default
+------
+2016-08-10T19:20:20 INFO GenericSetup.toolset Toolset imported.
+------
+2016-08-10T19:20:20 INFO GenericSetup.catalog Catalog imported.
+------
+2016-08-10T19:20:20 INFO GenericSetup.workflow Workflow tool imported.
+------
+2016-08-10T19:20:20 WARNING Plone Deprecation Warning 
+An icon for the 'controlpanel/Ploneboard' action is being added to the action icons tool. The action icons tool has been deprecated and will be removed in Plone 5. You should register action icons directly on the action now, using the 'icon_expr' setting.
+------
+2016-08-10T19:20:20 INFO GenericSetup.action-icons Action icons tool settings imported.
+------
+2016-08-10T19:20:20 INFO GenericSetup.skins Skins tool imported.
+------
+2016-08-10T19:20:20 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2016-08-10T19:20:20 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2016-08-10T19:20:20 INFO GenericSetup.controlpanel Control panel imported.
+------
+2016-08-10T19:20:20 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-10T19:20:20 INFO GenericSetup.propertiestool Properties tool imported.
+------
+2016-08-10T19:20:20 INFO GenericSetup.types Types tool imported.
+------
+2016-08-10T19:20:20 INFO GenericSetup.types 'Ploneboard' type info imported.
+------
+2016-08-10T19:20:20 INFO GenericSetup.types 'PloneboardComment' type info imported.
+------
+2016-08-10T19:20:20 INFO GenericSetup.types 'PloneboardConversation' type info imported.
+------
+2016-08-10T19:20:20 INFO GenericSetup.types 'PloneboardForum' type info imported.
+------
+2016-08-10T19:20:20 INFO Plone Debug: setupCommentLocalRoles 
+Updated 0 of total 0 comments
+------
+2016-08-10T19:20:20 INFO Plone Debug: setupComment 
+Updated Widget Attachment Management
+------
+2016-08-10T19:20:20 INFO GenericSetup.factorytool FactoryTool settings imported.
+------
+2016-08-10T19:20:20 INFO GenericSetup.portlets Portlets imported
+------
+2016-08-10T19:20:20 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-10T19:20:21 ERROR Zope.SiteErrorLog 1470856821.850.549441256472 http://127.0.0.1:8080/Plone/portal_quickinstaller/installProducts
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 146, in publish
+  Module Zope2.App.startup, line 301, in commit
+  Module transaction._manager, line 89, in commit
+  Module transaction._transaction, line 329, in commit
+  Module transaction._transaction, line 443, in _commitResources
+  Module ZODB.Connection, line 567, in commit
+  Module ZODB.Connection, line 623, in _commit
+  Module ZODB.Connection, line 658, in _store_objects
+  Module ZODB.serialize, line 422, in serialize
+  Module ZODB.serialize, line 431, in _dump
+PicklingError: Can't pickle <class 'sc.photogallery.interfaces.IBrowserLayer'>: import of module sc.photogallery.interfaces failed
+------
+2016-08-10T19:22:14 INFO Products.GenericSetup.tool Importing profile profile-Products.Ploneboard:default with dependency strategy upgrade.
+------
+2016-08-10T19:22:14 INFO Products.GenericSetup.tool Applying profile profile-Products.SimpleAttachment:default
+------
+2016-08-10T19:22:15 INFO GenericSetup.workflow Workflow tool imported.
+------
+2016-08-10T19:22:15 INFO GenericSetup.skins Skins tool imported.
+------
+2016-08-10T19:22:15 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-10T19:22:15 INFO GenericSetup.propertiestool Properties tool imported.
+------
+2016-08-10T19:22:15 INFO GenericSetup.types Types tool imported.
+------
+2016-08-10T19:22:15 INFO GenericSetup.types 'Document' type info imported.
+------
+2016-08-10T19:22:15 INFO GenericSetup.types 'Document' type info imported.
+------
+2016-08-10T19:22:15 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-10T19:22:15 INFO Products.GenericSetup.tool No upgrades available for profile profile-Products.CMFPlacefulWorkflow:base. Profile stays at version (u'1', u'4', u'1').
+------
+2016-08-10T19:22:15 INFO Products.GenericSetup.tool Applying main profile profile-Products.Ploneboard:default
+------
+2016-08-10T19:22:15 INFO GenericSetup.toolset Toolset imported.
+------
+2016-08-10T19:22:15 INFO GenericSetup.catalog Catalog imported.
+------
+2016-08-10T19:22:15 INFO GenericSetup.workflow Workflow tool imported.
+------
+2016-08-10T19:22:15 WARNING Plone Deprecation Warning 
+An icon for the 'controlpanel/Ploneboard' action is being added to the action icons tool. The action icons tool has been deprecated and will be removed in Plone 5. You should register action icons directly on the action now, using the 'icon_expr' setting.
+------
+2016-08-10T19:22:15 INFO GenericSetup.action-icons Action icons tool settings imported.
+------
+2016-08-10T19:22:15 INFO GenericSetup.skins Skins tool imported.
+------
+2016-08-10T19:22:15 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2016-08-10T19:22:15 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2016-08-10T19:22:15 INFO GenericSetup.controlpanel Control panel imported.
+------
+2016-08-10T19:22:15 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-10T19:22:15 INFO GenericSetup.propertiestool Properties tool imported.
+------
+2016-08-10T19:22:15 INFO GenericSetup.types Types tool imported.
+------
+2016-08-10T19:22:15 INFO GenericSetup.types 'Ploneboard' type info imported.
+------
+2016-08-10T19:22:15 INFO GenericSetup.types 'PloneboardComment' type info imported.
+------
+2016-08-10T19:22:15 INFO GenericSetup.types 'PloneboardConversation' type info imported.
+------
+2016-08-10T19:22:15 INFO GenericSetup.types 'PloneboardForum' type info imported.
+------
+2016-08-10T19:22:15 INFO Plone Debug: setupCommentLocalRoles 
+Updated 0 of total 0 comments
+------
+2016-08-10T19:22:15 INFO Plone Debug: setupComment 
+Updated Widget Attachment Management
+------
+2016-08-10T19:22:15 INFO GenericSetup.factorytool FactoryTool settings imported.
+------
+2016-08-10T19:22:15 INFO GenericSetup.portlets Portlets imported
+------
+2016-08-10T19:22:15 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-10T19:22:16 ERROR Zope.SiteErrorLog 1470856936.870.058576152907 http://127.0.0.1:8080/Plone/portal_quickinstaller/installProducts
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 146, in publish
+  Module Zope2.App.startup, line 301, in commit
+  Module transaction._manager, line 89, in commit
+  Module transaction._transaction, line 329, in commit
+  Module transaction._transaction, line 443, in _commitResources
+  Module ZODB.Connection, line 567, in commit
+  Module ZODB.Connection, line 623, in _commit
+  Module ZODB.Connection, line 658, in _store_objects
+  Module ZODB.serialize, line 422, in serialize
+  Module ZODB.serialize, line 431, in _dump
+PicklingError: Can't pickle <class 'sc.photogallery.interfaces.IBrowserLayer'>: import of module sc.photogallery.interfaces failed
+------
+2016-08-10T19:22:53 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-10T19:22:53 INFO Z2 Shutting down
+------
+2016-08-10T19:25:38 INFO ZServer HTTP server started at Wed Aug 10 19:25:38 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-10T19:25:41 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-10T19:25:41 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-10T19:25:45 WARNING ZODB.blob (28418) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-10T19:25:50 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-10T19:25:53 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-10T19:25:54 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-10T19:25:56 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-10T19:25:56 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T19:25:56 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T19:25:56 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T19:25:56 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T19:25:56 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T19:25:56 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T19:25:56 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T19:25:56 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T19:25:57 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-10T19:25:57 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-10T19:25:57 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-10T19:25:57 INFO Zope Ready to handle requests
+------
+2016-08-10T19:27:12 INFO Products.GenericSetup.tool Importing profile profile-Products.Ploneboard:default with dependency strategy upgrade.
+------
+2016-08-10T19:27:12 INFO Products.GenericSetup.tool Applying profile profile-Products.SimpleAttachment:default
+------
+2016-08-10T19:27:13 INFO GenericSetup.workflow Workflow tool imported.
+------
+2016-08-10T19:27:14 INFO GenericSetup.skins Skins tool imported.
+------
+2016-08-10T19:27:14 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-10T19:27:14 INFO GenericSetup.propertiestool Properties tool imported.
+------
+2016-08-10T19:27:14 INFO GenericSetup.types Types tool imported.
+------
+2016-08-10T19:27:14 INFO GenericSetup.types 'Document' type info imported.
+------
+2016-08-10T19:27:14 INFO GenericSetup.types 'Document' type info imported.
+------
+2016-08-10T19:27:14 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-10T19:27:14 INFO Products.GenericSetup.tool No upgrades available for profile profile-Products.CMFPlacefulWorkflow:base. Profile stays at version (u'1', u'4', u'1').
+------
+2016-08-10T19:27:14 INFO Products.GenericSetup.tool Applying main profile profile-Products.Ploneboard:default
+------
+2016-08-10T19:27:14 INFO GenericSetup.toolset Toolset imported.
+------
+2016-08-10T19:27:14 INFO GenericSetup.catalog Catalog imported.
+------
+2016-08-10T19:27:14 INFO GenericSetup.workflow Workflow tool imported.
+------
+2016-08-10T19:27:14 WARNING Plone Deprecation Warning 
+An icon for the 'controlpanel/Ploneboard' action is being added to the action icons tool. The action icons tool has been deprecated and will be removed in Plone 5. You should register action icons directly on the action now, using the 'icon_expr' setting.
+------
+2016-08-10T19:27:14 INFO GenericSetup.action-icons Action icons tool settings imported.
+------
+2016-08-10T19:27:14 INFO GenericSetup.skins Skins tool imported.
+------
+2016-08-10T19:27:15 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2016-08-10T19:27:15 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2016-08-10T19:27:15 INFO GenericSetup.controlpanel Control panel imported.
+------
+2016-08-10T19:27:15 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-10T19:27:15 INFO GenericSetup.propertiestool Properties tool imported.
+------
+2016-08-10T19:27:15 INFO GenericSetup.types Types tool imported.
+------
+2016-08-10T19:27:15 INFO GenericSetup.types 'Ploneboard' type info imported.
+------
+2016-08-10T19:27:15 INFO GenericSetup.types 'PloneboardComment' type info imported.
+------
+2016-08-10T19:27:15 INFO GenericSetup.types 'PloneboardConversation' type info imported.
+------
+2016-08-10T19:27:15 INFO GenericSetup.types 'PloneboardForum' type info imported.
+------
+2016-08-10T19:27:15 INFO Plone Debug: setupCommentLocalRoles 
+Updated 0 of total 0 comments
+------
+2016-08-10T19:27:15 INFO Plone Debug: setupComment 
+Updated Widget Attachment Management
+------
+2016-08-10T19:27:15 INFO GenericSetup.factorytool FactoryTool settings imported.
+------
+2016-08-10T19:27:15 INFO GenericSetup.portlets Portlets imported
+------
+2016-08-10T19:27:15 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-10T19:29:21 WARNING Plone Deprecation Warning 
+Products.Ploneboard.content.PloneboardForum.PloneboardForum.getNumberOfConversations is deprecated in favor of Products.Ploneboard.browser.forum.ForumView.getNumberOfConversations
+------
+2016-08-10T19:29:21 WARNING Plone Deprecation Warning 
+Products.Ploneboard.content.PloneboardForum.PloneboardForum.getNumberOfConversations is deprecated in favor of Products.Ploneboard.browser.forum.ForumView.getNumberOfConversations
+------
+2016-08-10T19:29:21 WARNING Plone Deprecation Warning 
+Products.Ploneboard.content.PloneboardForum.PloneboardForum.getNumberOfConversations is deprecated in favor of Products.Ploneboard.browser.forum.ForumView.getNumberOfConversations
+------
+2016-08-10T19:29:21 WARNING Plone Deprecation Warning 
+Products.Ploneboard.content.PloneboardForum.PloneboardForum.getNumberOfConversations is deprecated in favor of Products.Ploneboard.browser.forum.ForumView.getNumberOfConversations
+------
+2016-08-10T19:29:51 WARNING Plone Deprecation Warning 
+Products.Ploneboard.content.PloneboardForum.PloneboardForum.getNumberOfConversations is deprecated in favor of Products.Ploneboard.browser.forum.ForumView.getNumberOfConversations
+------
+2016-08-10T19:29:51 WARNING Plone Deprecation Warning 
+Products.Ploneboard.content.PloneboardForum.PloneboardForum.getNumberOfConversations is deprecated in favor of Products.Ploneboard.browser.forum.ForumView.getNumberOfConversations
+------
+2016-08-10T19:29:51 WARNING Plone Deprecation Warning 
+Products.Ploneboard.content.PloneboardForum.PloneboardForum.getNumberOfConversations is deprecated in favor of Products.Ploneboard.browser.forum.ForumView.getNumberOfConversations
+------
+2016-08-10T19:29:51 WARNING Plone Deprecation Warning 
+Products.Ploneboard.content.PloneboardForum.PloneboardForum.getNumberOfConversations is deprecated in favor of Products.Ploneboard.browser.forum.ForumView.getNumberOfConversations
+------
+2016-08-10T19:36:46 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-10T19:36:46 INFO Z2 Shutting down
+------
+2016-08-10T19:37:15 INFO ZServer HTTP server started at Wed Aug 10 19:37:15 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-10T19:37:17 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-10T19:37:18 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-10T19:37:18 WARNING ZODB.blob (28434) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-10T19:37:24 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-10T19:37:27 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-10T19:37:27 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-10T19:37:30 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-10T19:37:30 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T19:37:30 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T19:37:30 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T19:37:30 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T19:37:30 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T19:37:30 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T19:37:30 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T19:37:30 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T19:37:31 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-10T19:37:31 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-10T19:37:31 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-10T19:37:31 INFO Zope Ready to handle requests
+------
+2016-08-10T19:38:04 ERROR Zope.SiteErrorLog 1470857884.260.902274842583 http://127.0.0.1:8080/Plone/formonline.2016-08-10.1258701682/manage_historicalComparison
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module OFS.History, line 178, in manage_historicalComparison
+HistorySelectionError: No historical revision was selected.<p>
+------
+2016-08-10T19:38:21 ERROR Zope.SiteErrorLog 1470857901.930.263936102432 http://127.0.0.1:8080/Plone/formonline.2016-08-10.2812824768/manage_historicalComparison
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module OFS.History, line 178, in manage_historicalComparison
+HistorySelectionError: No historical revision was selected.<p>
+------
+2016-08-10T19:40:37 ERROR Zope.SiteErrorLog 1470858037.210.173196263117 http://127.0.0.1:8080/Plone/1234/plonesoftwarecenter_view
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.CMFCore.FSPageTemplate, line 237, in _exec
+  Module Products.CMFCore.FSPageTemplate, line 177, in pt_render
+  Module Products.PageTemplates.PageTemplate, line 87, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 132, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 240, in __call__
+  Module zope.tal.talinterpreter, line 271, in __call__
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 888, in do_useMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 946, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 851, in do_condition
+  Module Products.PageTemplates.Expressions, line 205, in evaluateBoolean
+  Module zope.tales.tales, line 696, in evaluate
+   - URL: file:/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.4-py2.7.egg/Products/PloneSoftwareCenter/skins/plonesoftwarecenter/plonesoftwarecenter_view.pt
+   - Line 95, Column 15
+   - Expression: <PathExpr standard:u'context/portal_syndication/isSiteSyndicationAllowed'>
+   - Names:
+      {'container': <PloneSite at /Plone>,
+       'context': <PloneSoftwareCenter at /Plone/1234>,
+       'default': <object object at 0xb74cba00>,
+       'here': <PloneSoftwareCenter at /Plone/1234>,
+       'loop': {u'category': <Products.PageTemplates.Expressions.PathIterator object at 0xb006eaec>},
+       'nothing': None,
+       'options': {'args': ()},
+       'repeat': <Products.PageTemplates.Expressions.SafeMapping object at 0xafed9874>,
+       'request': <HTTPRequest, URL=http://127.0.0.1:8080/Plone/1234/plonesoftwarecenter_view>,
+       'root': <Application at >,
+       'template': <FSPageTemplate at /Plone/plonesoftwarecenter_view used for /Plone/1234>,
+       'traverse_subpath': [],
+       'user': <PropertiedUser 'admin'>}
+  Module zope.tales.expressions, line 217, in __call__
+  Module Products.PageTemplates.Expressions, line 147, in _eval
+  Module zope.tales.expressions, line 124, in _eval
+  Module Products.PageTemplates.Expressions, line 74, in boboAwareZopeTraverse
+  Module OFS.Traversable, line 317, in restrictedTraverse
+  Module OFS.Traversable, line 285, in unrestrictedTraverse
+   - __traceback_info__: ([], 'portal_syndication')
+AttributeError: portal_syndication
+------
+2016-08-10T19:41:25 ERROR Zope.SiteErrorLog 1470858085.910.334081368357 http://127.0.0.1:8080/Plone/1234/plonesoftwarecenter_view
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.CMFCore.FSPageTemplate, line 237, in _exec
+  Module Products.CMFCore.FSPageTemplate, line 177, in pt_render
+  Module Products.PageTemplates.PageTemplate, line 87, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 132, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 240, in __call__
+  Module zope.tal.talinterpreter, line 271, in __call__
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 888, in do_useMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 946, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 851, in do_condition
+  Module Products.PageTemplates.Expressions, line 205, in evaluateBoolean
+  Module zope.tales.tales, line 696, in evaluate
+   - URL: file:/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.4-py2.7.egg/Products/PloneSoftwareCenter/skins/plonesoftwarecenter/plonesoftwarecenter_view.pt
+   - Line 95, Column 15
+   - Expression: <PathExpr standard:u'context/portal_syndication/isSiteSyndicationAllowed'>
+   - Names:
+      {'container': <PloneSite at /Plone>,
+       'context': <PloneSoftwareCenter at /Plone/1234>,
+       'default': <object object at 0xb74cba00>,
+       'here': <PloneSoftwareCenter at /Plone/1234>,
+       'loop': {u'category': <Products.PageTemplates.Expressions.PathIterator object at 0xb00366cc>},
+       'nothing': None,
+       'options': {'args': ()},
+       'repeat': <Products.PageTemplates.Expressions.SafeMapping object at 0xafef27ac>,
+       'request': <HTTPRequest, URL=http://127.0.0.1:8080/Plone/1234/plonesoftwarecenter_view>,
+       'root': <Application at >,
+       'template': <FSPageTemplate at /Plone/plonesoftwarecenter_view used for /Plone/1234>,
+       'traverse_subpath': [],
+       'user': <PropertiedUser 'admin'>}
+  Module zope.tales.expressions, line 217, in __call__
+  Module Products.PageTemplates.Expressions, line 147, in _eval
+  Module zope.tales.expressions, line 124, in _eval
+  Module Products.PageTemplates.Expressions, line 74, in boboAwareZopeTraverse
+  Module OFS.Traversable, line 317, in restrictedTraverse
+  Module OFS.Traversable, line 285, in unrestrictedTraverse
+   - __traceback_info__: ([], 'portal_syndication')
+AttributeError: portal_syndication
+------
+2016-08-10T19:43:37 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-10T19:43:37 INFO Z2 Shutting down
+------
+2016-08-10T19:57:08 INFO ZServer HTTP server started at Wed Aug 10 19:57:08 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-10T19:57:11 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-10T19:57:11 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-10T19:57:12 WARNING ZODB.blob (28619) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-10T19:57:17 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-10T19:57:20 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-10T19:57:22 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-10T19:57:22 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-10T19:57:25 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-10T19:57:25 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T19:57:25 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T19:57:25 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T19:57:25 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T19:57:25 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T19:57:25 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T19:57:25 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-10T19:57:25 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-10T19:57:26 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-10T19:57:26 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-10T19:57:26 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-10T19:57:26 INFO Zope Ready to handle requests
+------
+2016-08-10T20:00:44 INFO CMFQuickInstallerTool Multiple extension profiles found for product collective.fingerpointing. Used profile: collective.fingerpointing:default
+------
+2016-08-10T20:00:44 INFO Products.GenericSetup.tool Importing profile profile-collective.fingerpointing:default with dependency strategy upgrade.
+------
+2016-08-10T20:00:44 INFO Products.GenericSetup.tool Applying main profile profile-collective.fingerpointing:default
+------
+2016-08-10T20:00:46 INFO GenericSetup.actions Actions tool imported.
+------
+2016-08-10T20:00:46 INFO GenericSetup.controlpanel Control panel imported.
+------
+2016-08-10T20:00:46 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-10T20:00:46 INFO GenericSetup.browserlayer Browser layers imported
+------
+2016-08-10T20:00:46 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-10T20:00:46 INFO Products.GenericSetup.tool Importing profile profile-collective.portlet.embed:default with dependency strategy upgrade.
+------
+2016-08-10T20:00:46 INFO Products.GenericSetup.tool Applying main profile profile-collective.portlet.embed:default
+------
+2016-08-10T20:00:46 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-10T20:00:46 INFO GenericSetup.portlets Portlets imported
+------
+2016-08-10T20:00:46 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-11T16:11:38 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-11T16:11:38 INFO Z2 Shutting down
+------
+2016-08-11T16:18:36 INFO ZServer HTTP server started at Thu Aug 11 16:18:36 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-11T16:18:43 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-11T16:18:43 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-11T16:18:45 WARNING ZODB.blob (1727) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-11T16:18:55 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-11T16:18:58 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-11T16:19:00 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-11T16:19:00 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-11T16:19:05 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-11T16:19:05 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-11T16:19:05 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-11T16:19:05 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-11T16:19:05 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-11T16:19:05 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-11T16:19:05 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-11T16:19:05 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-11T16:19:05 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-11T16:19:06 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-11T16:19:06 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-11T16:19:07 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-11T16:19:07 INFO Zope Ready to handle requests
+------
+2016-08-11T16:19:30 INFO plone.protect auto rotating keyring _system
+------
+2016-08-11T16:19:30 INFO plone.protect auto rotating keyring _forms
+------
+2016-08-11T16:19:30 INFO plone.protect auto rotating keyring _anon
+------
+2016-08-11T16:19:30 INFO plone.protect auto rotating keyring _system
+------
+2016-08-11T16:19:30 INFO plone.protect auto rotating keyring _forms
+------
+2016-08-11T16:19:30 INFO plone.protect auto rotating keyring _anon
+------
+2016-08-11T16:19:30 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=login 
+------
+2016-08-11T16:19:54 INFO CMFQuickInstallerTool Multiple extension profiles found for product collective.lazysizes. Used profile: collective.lazysizes:default
+------
+2016-08-11T16:19:54 INFO Products.GenericSetup.tool Importing profile profile-collective.lazysizes:default with dependency strategy upgrade.
+------
+2016-08-11T16:19:54 INFO Products.GenericSetup.tool Applying main profile profile-collective.lazysizes:default
+------
+2016-08-11T16:19:56 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2016-08-11T16:19:56 INFO GenericSetup.controlpanel Control panel imported.
+------
+2016-08-11T16:19:56 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-11T16:19:56 INFO GenericSetup.browserlayer Browser layers imported
+------
+2016-08-11T16:19:57 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-11T16:21:13 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-11T16:21:13 INFO Z2 Shutting down
