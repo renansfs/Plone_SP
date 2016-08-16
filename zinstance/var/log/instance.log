@@ -6599,3 +6599,549 @@ AttributeError: portal_syndication
 2016-08-11T16:21:13 INFO SignalHandler Caught signal SIGINT
 ------
 2016-08-11T16:21:13 INFO Z2 Shutting down
+------
+2016-08-16T17:53:20 INFO ZServer HTTP server started at Tue Aug 16 17:53:20 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-16T17:53:26 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-16T17:53:27 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-16T17:53:28 INFO ZODB.blob (5598) Blob temporary directory '/home/vagrant/Plone_SP/zinstance/var/blobstorage/tmp' does not exist. Created new directory.
+------
+2016-08-16T17:53:28 WARNING ZODB.blob (5598) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-16T17:53:36 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-16T17:53:37 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-16T17:53:38 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-16T17:53:38 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-16T17:53:42 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-16T17:53:42 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-16T17:53:42 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-16T17:53:42 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-16T17:53:42 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-16T17:53:42 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-16T17:53:42 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-16T17:53:42 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-16T17:53:42 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-16T17:53:42 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-16T17:53:42 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-16T17:53:43 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-16T17:53:43 INFO Zope Ready to handle requests
+------
+2016-08-16T17:54:02 INFO plone.protect auto rotating keyring _forms
+------
+2016-08-16T17:54:02 INFO plone.protect auto rotating keyring _anon
+------
+2016-08-16T17:54:02 INFO plone.protect auto rotating keyring _forms
+------
+2016-08-16T17:54:02 INFO plone.protect auto rotating keyring _anon
+------
+2016-08-16T17:54:02 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=login 
+------
+2016-08-16T17:54:11 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormMailerAdapter at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.0513604886/mailer>
+------
+2016-08-16T17:54:11 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.0513604886>
+------
+2016-08-16T17:54:11 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGStringField at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.0513604886/replyto>
+------
+2016-08-16T17:54:11 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.0513604886>
+------
+2016-08-16T17:54:11 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGStringField at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.0513604886/topic>
+------
+2016-08-16T17:54:11 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.0513604886>
+------
+2016-08-16T17:54:11 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGTextField at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.0513604886/comments>
+------
+2016-08-16T17:54:11 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.0513604886>
+------
+2016-08-16T17:54:11 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormThanksPage at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.0513604886/thank-you>
+------
+2016-08-16T17:54:11 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.0513604886>
+------
+2016-08-16T17:54:11 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.0513604886>
+------
+2016-08-16T17:54:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormMailerAdapter at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.0513604886/mailer>
+------
+2016-08-16T17:54:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.0513604886>
+------
+2016-08-16T17:54:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGStringField at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.0513604886/replyto>
+------
+2016-08-16T17:54:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.0513604886>
+------
+2016-08-16T17:54:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGStringField at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.0513604886/topic>
+------
+2016-08-16T17:54:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.0513604886>
+------
+2016-08-16T17:54:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGTextField at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.0513604886/comments>
+------
+2016-08-16T17:54:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.0513604886>
+------
+2016-08-16T17:54:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormThanksPage at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.0513604886/thank-you>
+------
+2016-08-16T17:54:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.0513604886>
+------
+2016-08-16T17:54:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.0513604886>
+------
+2016-08-16T17:54:26 WARNING PloneFormGen User not authorized to create mail adapters. Form Folder created with no action adapter.
+------
+2016-08-16T17:57:02 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormOnline at /Plone/portal_factory/FormOnline/formonline.2016-08-16.2225161833>
+------
+2016-08-16T17:57:07 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormOnline at /Plone/portal_factory/FormOnline/formonline.2016-08-16.2225161833>
+------
+2016-08-16T17:57:14 INFO collective.fingerpointing user=test ip=127.0.0.1 action=create object=<FormOnline at /Plone/portal_factory/FormOnline/formonline.2016-08-16.2225161833>
+------
+2016-08-16T17:57:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormMailerAdapter at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/mailer>
+------
+2016-08-16T17:57:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:57:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGStringField at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/replyto>
+------
+2016-08-16T17:57:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:57:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGStringField at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/topic>
+------
+2016-08-16T17:57:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:57:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGTextField at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/comments>
+------
+2016-08-16T17:57:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:57:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormThanksPage at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/thank-you>
+------
+2016-08-16T17:57:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:57:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:57:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormMailerAdapter at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/mailer>
+------
+2016-08-16T17:57:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:57:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGStringField at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/replyto>
+------
+2016-08-16T17:57:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:57:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGStringField at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/topic>
+------
+2016-08-16T17:57:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:57:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGTextField at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/comments>
+------
+2016-08-16T17:57:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:57:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormThanksPage at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/thank-you>
+------
+2016-08-16T17:57:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:57:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:57:48 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormMailerAdapter at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/mailer>
+------
+2016-08-16T17:57:48 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:57:48 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGStringField at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/replyto>
+------
+2016-08-16T17:57:48 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:57:48 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGStringField at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/topic>
+------
+2016-08-16T17:57:48 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:57:48 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGTextField at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/comments>
+------
+2016-08-16T17:57:48 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:57:48 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormThanksPage at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/thank-you>
+------
+2016-08-16T17:57:48 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:57:48 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:57:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormMailerAdapter at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/mailer>
+------
+2016-08-16T17:57:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:57:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGStringField at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/replyto>
+------
+2016-08-16T17:57:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:57:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGStringField at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/topic>
+------
+2016-08-16T17:57:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:57:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGTextField at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/comments>
+------
+2016-08-16T17:57:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:57:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormThanksPage at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/thank-you>
+------
+2016-08-16T17:57:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:57:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:58:12 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormMailerAdapter at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/mailer>
+------
+2016-08-16T17:58:12 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:58:12 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGStringField at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/replyto>
+------
+2016-08-16T17:58:12 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:58:12 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGStringField at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/topic>
+------
+2016-08-16T17:58:12 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:58:12 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGTextField at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/comments>
+------
+2016-08-16T17:58:12 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:58:12 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormThanksPage at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643/thank-you>
+------
+2016-08-16T17:58:12 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:58:12 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormFolder at /Plone/portal_factory/FormFolder/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:58:13 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormMailerAdapter at /Plone/formfolder.2016-08-16.2434386643/mailer>
+------
+2016-08-16T17:58:13 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:58:13 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGStringField at /Plone/formfolder.2016-08-16.2434386643/replyto>
+------
+2016-08-16T17:58:13 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:58:13 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGStringField at /Plone/formfolder.2016-08-16.2434386643/topic>
+------
+2016-08-16T17:58:13 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:58:13 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGTextField at /Plone/formfolder.2016-08-16.2434386643/comments>
+------
+2016-08-16T17:58:13 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:58:13 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormThanksPage at /Plone/formfolder.2016-08-16.2434386643/thank-you>
+------
+2016-08-16T17:58:13 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:58:13 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormFolder at /Plone/formfolder.2016-08-16.2434386643>
+------
+2016-08-16T17:58:13 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/formulario-da-cgtic>
+------
+2016-08-16T17:58:32 ERROR Zope.SiteErrorLog 1471370312.210.032733038187 http://127.0.0.1:8080/Plone/formulario-da-cgtic/fg_base_view_p3
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Products.CMFFormController.FSControllerPageTemplate, line 91, in __call__
+  Module Products.CMFFormController.BaseControllerPageTemplate, line 26, in _call
+  Module Products.CMFFormController.FormController, line 384, in validate
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Products.CMFFormController.FSControllerValidator, line 58, in __call__
+  Module Products.CMFFormController.Script, line 145, in __call__
+  Module Products.CMFCore.FSPythonScript, line 127, in __call__
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.PythonScripts.PythonScript, line 344, in _exec
+  Module script, line 41, in fgvalidate_base
+   - <FSControllerValidator at /Plone/fgvalidate_base used for /Plone/formulario-da-cgtic>
+   - Line 41
+  Module Products.PloneFormGen.content.form, line 587, in fgvalidate
+  Module Products.PloneFormGen.content.form, line 635, in fgProcessActionAdapters
+  Module Products.PloneFormGen.content.formMailerAdapter, line 524, in onSuccess
+  Module Products.PloneFormGen.content.formMailerAdapter, line 945, in send_form
+  Module Products.PloneFormGen.content.formMailerAdapter, line 635, in get_mail_text
+  Module Products.PloneFormGen.content.formMailerAdapter, line 898, in get_header_body_tuple
+AssertionError: 
+                    Unable to mail form input because no recipient address has been specified.
+                    Please check the recipient settings of the PloneFormGen "Mailer" within the
+                    current form folder.
+------
+2016-08-16T17:58:52 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGLinesField at /Plone/formulario-da-cgtic/portal_factory/FormLinesField/formlinesfield.2016-08-16.3328727118>
+------
+2016-08-16T17:59:00 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGLinesField at /Plone/formulario-da-cgtic/portal_factory/FormLinesField/formlinesfield.2016-08-16.3328727118>
+------
+2016-08-16T17:59:00 INFO collective.fingerpointing user=test ip=127.0.0.1 action=create object=<FGLinesField at /Plone/formulario-da-cgtic/portal_factory/FormLinesField/formlinesfield.2016-08-16.3328727118>
+------
+2016-08-16T17:59:19 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<FormMailerAdapter at /Plone/formulario-da-cgtic/mailer>
+------
+2016-08-16T17:59:19 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/formulario-da-cgtic>
+------
+2016-08-16T17:59:19 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<FGStringField at /Plone/formulario-da-cgtic/replyto>
+------
+2016-08-16T17:59:19 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/formulario-da-cgtic>
+------
+2016-08-16T17:59:19 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<FGStringField at /Plone/formulario-da-cgtic/topic>
+------
+2016-08-16T17:59:20 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/formulario-da-cgtic>
+------
+2016-08-16T17:59:20 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<FGTextField at /Plone/formulario-da-cgtic/comments>
+------
+2016-08-16T17:59:20 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/formulario-da-cgtic>
+------
+2016-08-16T17:59:20 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<FormThanksPage at /Plone/formulario-da-cgtic/thank-you>
+------
+2016-08-16T17:59:20 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/formulario-da-cgtic>
+------
+2016-08-16T17:59:54 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGLikertField at /Plone/formulario-da-cgtic/portal_factory/FormLikertField/formlikertfield.2016-08-16.3949442362>
+------
+2016-08-16T17:59:56 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGLikertField at /Plone/formulario-da-cgtic/portal_factory/FormLikertField/formlikertfield.2016-08-16.3949442362>
+------
+2016-08-16T18:00:24 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGLikertField at /Plone/formulario-da-cgtic/portal_factory/FormLikertField/formlikertfield.2016-08-16.3949442362>
+------
+2016-08-16T18:00:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGLikertField at /Plone/formulario-da-cgtic/portal_factory/FormLikertField/formlikertfield.2016-08-16.3949442362>
+------
+2016-08-16T18:00:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGLikertField at /Plone/formulario-da-cgtic/portal_factory/FormLikertField/formlikertfield.2016-08-16.3949442362>
+------
+2016-08-16T18:00:43 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGLikertField at /Plone/formulario-da-cgtic/portal_factory/FormLikertField/formlikertfield.2016-08-16.3949442362>
+------
+2016-08-16T18:00:43 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGLikertField at /Plone/formulario-da-cgtic/formlikertfield.2016-08-16.3949442362>
+------
+2016-08-16T18:00:43 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/formulario-da-cgtic>
+------
+2016-08-16T18:00:43 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/formulario-da-cgtic>
+------
+2016-08-16T18:00:43 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FGLikertField at /Plone/formulario-da-cgtic/avalie-o-nivel-de-felicidade>
+------
+2016-08-16T18:03:07 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FGLikertField at /Plone/formulario-da-cgtic/avalie-o-nivel-de-felicidade>
+------
+2016-08-16T18:03:25 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGMultiSelectField at /Plone/formulario-da-cgtic/portal_factory/FormMultiSelectionField/formmultiselectionfield.2016-08-16.6056795508>
+------
+2016-08-16T18:03:40 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGMultiSelectField at /Plone/formulario-da-cgtic/portal_factory/FormMultiSelectionField/formmultiselectionfield.2016-08-16.6056795508>
+------
+2016-08-16T18:03:50 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGMultiSelectField at /Plone/formulario-da-cgtic/portal_factory/FormMultiSelectionField/formmultiselectionfield.2016-08-16.6056795508>
+------
+2016-08-16T18:04:14 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGMultiSelectField at /Plone/formulario-da-cgtic/portal_factory/FormMultiSelectionField/formmultiselectionfield.2016-08-16.6056795508>
+------
+2016-08-16T18:04:14 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGMultiSelectField at /Plone/formulario-da-cgtic/formmultiselectionfield.2016-08-16.6056795508>
+------
+2016-08-16T18:04:14 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/formulario-da-cgtic>
+------
+2016-08-16T18:04:14 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/formulario-da-cgtic>
+------
+2016-08-16T18:04:14 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FGMultiSelectField at /Plone/formulario-da-cgtic/como-voce-avalia-o-seu-nivel-de-conhecimento>
+------
+2016-08-16T18:04:45 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FGMultiSelectField at /Plone/formulario-da-cgtic/como-voce-avalia-o-seu-nivel-de-conhecimento>
+------
+2016-08-16T18:05:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGDateField at /Plone/formulario-da-cgtic/portal_factory/FormDateField/formdatefield.2016-08-16.7164835597>
+------
+2016-08-16T18:05:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGDateField at /Plone/formulario-da-cgtic/portal_factory/FormDateField/formdatefield.2016-08-16.7164835597>
+------
+2016-08-16T18:05:38 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGDateField at /Plone/formulario-da-cgtic/portal_factory/FormDateField/formdatefield.2016-08-16.7164835597>
+------
+2016-08-16T18:05:41 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGDateField at /Plone/formulario-da-cgtic/portal_factory/FormDateField/formdatefield.2016-08-16.7164835597>
+------
+2016-08-16T18:05:49 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGDateField at /Plone/formulario-da-cgtic/portal_factory/FormDateField/formdatefield.2016-08-16.7164835597>
+------
+2016-08-16T18:05:49 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGDateField at /Plone/formulario-da-cgtic/portal_factory/FormDateField/formdatefield.2016-08-16.7164835597>
+------
+2016-08-16T18:05:49 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FGDateField at /Plone/formulario-da-cgtic/formdatefield.2016-08-16.7164835597>
+------
+2016-08-16T18:05:49 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/formulario-da-cgtic>
+------
+2016-08-16T18:05:49 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/formulario-da-cgtic>
+------
+2016-08-16T18:05:49 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FGDateField at /Plone/formulario-da-cgtic/ano-de-nascimento>
+------
+2016-08-16T18:06:12 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FGDateField at /Plone/formulario-da-cgtic/ano-de-nascimento>
+------
+2016-08-16T18:06:47 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormThanksPage at /Plone/formulario-da-cgtic/portal_factory/FormThanksPage/formthankspage.2016-08-16.8079313438>
+------
+2016-08-16T18:06:54 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormThanksPage at /Plone/formulario-da-cgtic/portal_factory/FormThanksPage/formthankspage.2016-08-16.8079313438>
+------
+2016-08-16T18:07:12 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormThanksPage at /Plone/formulario-da-cgtic/portal_factory/FormThanksPage/formthankspage.2016-08-16.8079313438>
+------
+2016-08-16T18:07:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormThanksPage at /Plone/formulario-da-cgtic/portal_factory/FormThanksPage/formthankspage.2016-08-16.8079313438>
+------
+2016-08-16T18:07:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<FormThanksPage at /Plone/formulario-da-cgtic/formthankspage.2016-08-16.8079313438>
+------
+2016-08-16T18:07:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/formulario-da-cgtic>
+------
+2016-08-16T18:07:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/formulario-da-cgtic>
+------
+2016-08-16T18:07:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormThanksPage at /Plone/formulario-da-cgtic/obrigado>
+------
+2016-08-16T18:08:10 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<FormFolder at /Plone/formulario-da-cgtic>
+------
+2016-08-16T18:11:26 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-16T18:11:26 INFO Z2 Shutting down
+------
+2016-08-16T18:13:13 INFO ZServer HTTP server started at Tue Aug 16 18:13:13 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-16T18:13:16 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-16T18:13:16 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-16T18:13:16 WARNING ZODB.blob (5813) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-16T18:13:20 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-16T18:13:21 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-16T18:13:22 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-16T18:13:22 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-16T18:13:25 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-16T18:13:25 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-16T18:13:25 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-16T18:13:25 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-16T18:13:25 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-16T18:13:25 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-16T18:13:25 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-16T18:13:25 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-16T18:13:25 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-16T18:13:25 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-16T18:13:25 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-16T18:13:26 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-16T18:13:26 INFO Zope Ready to handle requests
+------
+2016-08-16T18:14:32 INFO CMFQuickInstallerTool Multiple extension profiles found for product sc.social.like. Used profile: sc.social.like:default
+------
+2016-08-16T18:14:32 INFO Products.GenericSetup.tool Importing profile profile-sc.social.like:default with dependency strategy upgrade.
+------
+2016-08-16T18:14:32 INFO Products.GenericSetup.tool Applying main profile profile-sc.social.like:default
+------
+2016-08-16T18:14:34 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2016-08-16T18:14:34 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2016-08-16T18:14:34 INFO GenericSetup.controlpanel Control panel imported.
+------
+2016-08-16T18:14:34 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-16T18:14:34 INFO GenericSetup.browserlayer Browser layers imported
+------
+2016-08-16T18:14:34 INFO GenericSetup.plone.app.viewletmanager Imported.
+------
+2016-08-16T18:14:34 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-16T18:16:48 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-16T18:16:48 INFO Z2 Shutting down
+------
+2016-08-16T18:17:53 INFO ZServer HTTP server started at Tue Aug 16 18:17:53 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-16T18:17:56 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-16T18:17:57 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-16T18:17:57 WARNING ZODB.blob (5834) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-16T18:18:01 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-16T18:18:03 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-16T18:18:03 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-16T18:18:03 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-16T18:18:06 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-16T18:18:06 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-16T18:18:06 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-16T18:18:06 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-16T18:18:06 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-16T18:18:06 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-16T18:18:06 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-16T18:18:06 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-16T18:18:06 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-16T18:18:07 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-16T18:18:07 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-16T18:18:07 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-16T18:18:07 INFO Zope Ready to handle requests
+------
+2016-08-16T18:18:23 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-16T18:18:23 INFO Z2 Shutting down
+------
+2016-08-16T18:20:45 INFO ZServer HTTP server started at Tue Aug 16 18:20:45 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-16T18:20:47 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-16T18:20:47 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-16T18:20:48 WARNING ZODB.blob (5860) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-16T18:20:52 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-16T18:20:53 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-16T18:20:54 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-16T18:20:54 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-16T18:20:57 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-16T18:20:57 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-16T18:20:57 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-16T18:20:57 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-16T18:20:57 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-16T18:20:57 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-16T18:20:57 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-16T18:20:57 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-16T18:20:57 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-16T18:20:57 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-16T18:20:58 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-16T18:20:58 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-16T18:20:58 INFO Zope Ready to handle requests
+------
+2016-08-16T18:26:32 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-16T18:26:32 INFO Z2 Shutting down
