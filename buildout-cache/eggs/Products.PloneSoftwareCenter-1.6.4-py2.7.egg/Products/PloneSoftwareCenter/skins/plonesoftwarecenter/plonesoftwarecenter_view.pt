@@ -92,15 +92,15 @@
     <div tal:repeat="category view/categories">
         <dl class="portlet portletThirdWidth">
             <dt class="portletHeader">
-               <tal:syndicate condition="context/portal_syndication/isSiteSyndicationAllowed">
-                    <a class="feedButton" href="" tal:attributes="href category/rss_url">
-                       <img i18n:attributes="title title_rss_feed_this_category; alt label_rss_feed;"
+               <tal:syndicate condition="context/@@syndication-util/search_rss_enabled">
+                    <a class="link-feed" href="" tal:attributes="href category/rss_url">
+                       <img i18n:translate="title_rss_feed"
                             tal:attributes="src string:$portal_url/rss.gif"
                             src="rss.gif"
                             alt="RSS Feed"
                             title="RSS feed for the latest releases in this category" />
                     </a>
-                 </tal:syndicate>
+                </tal:syndicate>
                  <a href=""
                     tal:content="category/name"
                     tal:attributes="href string:${context/absolute_url}/by-category/${category/id}"
@@ -120,7 +120,7 @@
                        tal:attributes="href release/parent_url;
                                        title release/description;
                                        class string:state-${release/review_state}">
-                        <img tal:replace="structure context/product_icon.gif" />
+                        
                         <span tal:replace="release/title">Project</span>
                         <span class="portletItemDetails"
                               tal:content="python:context.toLocalizedTime(release['date'])"><tal:comment replace="nothing">May 5</tal:comment></span>

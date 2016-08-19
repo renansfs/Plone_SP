@@ -8521,3 +8521,2101 @@ AttributeError: portal_syndication
 2016-08-19T17:29:58 INFO SignalHandler Caught signal SIGINT
 ------
 2016-08-19T17:29:58 INFO Z2 Shutting down
+------
+2016-08-19T17:43:08 INFO ZServer HTTP server started at Fri Aug 19 17:43:08 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-19T17:43:11 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-19T17:43:11 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-19T17:43:12 WARNING ZODB.blob (9183) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-19T17:43:17 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-19T17:43:18 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-19T17:43:19 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-19T17:43:19 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-19T17:43:22 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-19T17:43:22 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T17:43:22 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T17:43:22 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T17:43:22 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T17:43:22 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T17:43:22 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T17:43:22 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T17:43:22 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T17:43:23 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-19T17:43:23 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-19T17:43:23 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-19T17:43:23 INFO Zope Ready to handle requests
+------
+2016-08-19T17:44:10 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<Collection at /Plone/teste-1>
+------
+2016-08-19T17:44:10 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PSCReleaseFolder at /Plone/1234/1234/releases>
+------
+2016-08-19T17:44:10 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PSCProject at /Plone/1234/1234>
+------
+2016-08-19T17:44:10 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PSCReleaseFolder at /Plone/1234/sadgsadg/releases>
+------
+2016-08-19T17:44:10 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PSCProject at /Plone/1234/sadgsadg>
+------
+2016-08-19T17:44:10 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PloneSoftwareCenter at /Plone/1234>
+------
+2016-08-19T17:45:04 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/portal_factory/PloneSoftwareCenter/plonesoftwarecenter.2016-08-19.7040645147>
+------
+2016-08-19T17:45:19 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/portal_factory/PloneSoftwareCenter/plonesoftwarecenter.2016-08-19.7040645147>
+------
+2016-08-19T17:45:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/portal_factory/PloneSoftwareCenter/plonesoftwarecenter.2016-08-19.7040645147>
+------
+2016-08-19T17:46:38 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/portal_factory/PloneSoftwareCenter/plonesoftwarecenter.2016-08-19.7040645147>
+------
+2016-08-19T17:46:56 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/portal_factory/PloneSoftwareCenter/plonesoftwarecenter.2016-08-19.7040645147>
+------
+2016-08-19T17:46:57 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/plonesoftwarecenter.2016-08-19.7040645147>
+------
+2016-08-19T17:46:57 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneSoftwareCenter at /Plone/plone-development>
+------
+2016-08-19T17:47:50 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569/releases>
+------
+2016-08-19T17:47:50 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:47:50 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:47:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569/releases>
+------
+2016-08-19T17:47:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:47:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:48:00 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569/releases>
+------
+2016-08-19T17:48:00 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:48:00 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:48:08 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569/releases>
+------
+2016-08-19T17:48:08 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:48:08 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:48:36 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569/releases>
+------
+2016-08-19T17:48:36 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:48:36 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:48:57 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569/releases>
+------
+2016-08-19T17:48:57 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:48:57 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:49:15 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569/releases>
+------
+2016-08-19T17:49:15 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:49:15 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:49:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569/releases>
+------
+2016-08-19T17:49:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:49:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:49:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569/releases>
+------
+2016-08-19T17:49:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:49:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:49:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569/releases>
+------
+2016-08-19T17:49:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:49:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:49:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569/releases>
+------
+2016-08-19T17:49:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:49:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:49:39 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569/releases>
+------
+2016-08-19T17:49:39 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:49:39 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:49:39 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569/releases>
+------
+2016-08-19T17:49:39 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:49:39 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:50:03 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569/releases>
+------
+2016-08-19T17:50:03 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:50:03 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:50:11 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569/releases>
+------
+2016-08-19T17:50:11 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:50:11 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:50:11 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569/releases>
+------
+2016-08-19T17:50:11 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:50:11 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:51:07 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569/releases>
+------
+2016-08-19T17:51:07 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:51:07 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:51:07 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569/releases>
+------
+2016-08-19T17:51:07 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:51:07 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:51:15 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569/releases>
+------
+2016-08-19T17:51:15 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:51:15 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:51:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569/releases>
+------
+2016-08-19T17:51:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:51:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:51:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569/releases>
+------
+2016-08-19T17:51:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:51:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:51:33 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569/releases>
+------
+2016-08-19T17:51:33 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:51:33 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:51:33 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569/releases>
+------
+2016-08-19T17:51:33 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:51:33 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:51:33 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/pscproject.2016-08-19.8706462569/releases>
+------
+2016-08-19T17:51:33 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:51:33 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/pscproject.2016-08-19.8706462569>
+------
+2016-08-19T17:51:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneSoftwareCenter at /Plone/plone-development>
+------
+2016-08-19T17:51:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneSoftwareCenter at /Plone/plone-development>
+------
+2016-08-19T17:51:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/plone-1.0>
+------
+2016-08-19T17:51:49 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/portal_factory/PSCDocumentationFolder/pscdocumentationfolder.2016-08-19.1097136007>
+------
+2016-08-19T17:52:02 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/portal_factory/PSCDocumentationFolder/pscdocumentationfolder.2016-08-19.1097136007>
+------
+2016-08-19T17:52:13 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/portal_factory/PSCDocumentationFolder/pscdocumentationfolder.2016-08-19.1097136007>
+------
+2016-08-19T17:52:13 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/pscdocumentationfolder.2016-08-19.1097136007>
+------
+2016-08-19T17:52:13 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/plone-1.0>
+------
+2016-08-19T17:52:13 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/plone-1.0>
+------
+2016-08-19T17:52:13 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/documentation>
+------
+2016-08-19T17:52:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/portal_factory/PSCDocumentationFolder/pscdocumentationfolder.2016-08-19.1097136007>
+------
+2016-08-19T17:52:24 INFO collective.fingerpointing user=test ip=127.0.0.1 action=create object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/portal_factory/PSCDocumentationFolder/pscdocumentationfolder.2016-08-19.1097136007>
+------
+2016-08-19T17:54:10 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/portal_factory/PSCDocumentationFolder/pscdocumentationfolder.2016-08-19.2502474168>
+------
+2016-08-19T17:54:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/portal_factory/PSCDocumentationFolder/pscdocumentationfolder.2016-08-19.2502474168>
+------
+2016-08-19T17:54:25 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/portal_factory/PSCDocumentationFolder/pscdocumentationfolder.2016-08-19.2502474168>
+------
+2016-08-19T17:54:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/portal_factory/PSCDocumentationFolder/pscdocumentationfolder.2016-08-19.2502474168>
+------
+2016-08-19T17:54:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/pscdocumentationfolder.2016-08-19.2502474168>
+------
+2016-08-19T17:54:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/plone-1.0>
+------
+2016-08-19T17:54:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/pscdocumentationfolder.2016-08-19.2502474168>
+------
+2016-08-19T17:55:24 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/documentation>
+------
+2016-08-19T17:55:24 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/plone-1.0>
+------
+2016-08-19T17:55:24 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/pscdocumentationfolder.2016-08-19.2502474168>
+------
+2016-08-19T17:55:24 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/plone-1.0>
+------
+2016-08-19T17:56:00 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/plone-1.0/portal_factory/PSCReleaseFolder/pscreleasefolder.2016-08-19.3604304464>
+------
+2016-08-19T17:56:06 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/plone-1.0/portal_factory/PSCReleaseFolder/pscreleasefolder.2016-08-19.3604304464>
+------
+2016-08-19T17:56:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/plone-1.0/portal_factory/PSCReleaseFolder/pscreleasefolder.2016-08-19.3604304464>
+------
+2016-08-19T17:56:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/plone-1.0/portal_factory/PSCReleaseFolder/pscreleasefolder.2016-08-19.3604304464>
+------
+2016-08-19T17:56:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/plone-1.0/pscreleasefolder.2016-08-19.3604304464>
+------
+2016-08-19T17:56:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/plone-1.0>
+------
+2016-08-19T17:56:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCReleaseFolder at /Plone/plone-development/plone-1.0/pscreleasefolder.2016-08-19.3604304464>
+------
+2016-08-19T17:58:06 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCImprovementProposalFolder at /Plone/plone-development/plone-1.0/portal_factory/PSCImprovementProposalFolder/pscimprovementproposalfolder.2016-08-19.4860436156>
+------
+2016-08-19T17:58:15 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCImprovementProposalFolder at /Plone/plone-development/plone-1.0/portal_factory/PSCImprovementProposalFolder/pscimprovementproposalfolder.2016-08-19.4860436156>
+------
+2016-08-19T17:58:18 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCImprovementProposalFolder at /Plone/plone-development/plone-1.0/portal_factory/PSCImprovementProposalFolder/pscimprovementproposalfolder.2016-08-19.4860436156>
+------
+2016-08-19T17:58:18 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCImprovementProposalFolder at /Plone/plone-development/plone-1.0/pscimprovementproposalfolder.2016-08-19.4860436156>
+------
+2016-08-19T17:58:18 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/plone-1.0>
+------
+2016-08-19T17:58:18 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/plone-1.0>
+------
+2016-08-19T17:58:18 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCImprovementProposalFolder at /Plone/plone-development/plone-1.0/roadmap>
+------
+2016-08-19T17:59:10 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCReleaseFolder at /Plone/plone-development/plone-1.0/releases>
+------
+2016-08-19T17:59:27 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T17:59:32 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T17:59:50 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T17:59:54 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:00:29 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:00:41 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:00:43 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:00:44 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:00:47 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:00:56 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:00:56 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:00:56 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/1.0>
+------
+2016-08-19T18:00:56 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCReleaseFolder at /Plone/plone-development/plone-1.0/releases>
+------
+2016-08-19T18:00:56 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/1.0>
+------
+2016-08-19T18:01:28 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCFile at /Plone/plone-development/plone-1.0/releases/1.0/portal_factory/PSCFile/pscfile.2016-08-19.6888407053>
+------
+2016-08-19T18:01:32 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCFile at /Plone/plone-development/plone-1.0/releases/1.0/portal_factory/PSCFile/pscfile.2016-08-19.6888407053>
+------
+2016-08-19T18:01:59 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCFile at /Plone/plone-development/plone-1.0/releases/1.0/portal_factory/PSCFile/pscfile.2016-08-19.6888407053>
+------
+2016-08-19T18:02:00 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCFile at /Plone/plone-development/plone-1.0/releases/1.0/portal_factory/PSCFile/pscfile.2016-08-19.6888407053>
+------
+2016-08-19T18:02:00 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCFile at /Plone/plone-development/plone-1.0/releases/1.0/pscfile.2016-08-19.6888407053>
+------
+2016-08-19T18:02:00 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/1.0>
+------
+2016-08-19T18:02:00 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/1.0>
+------
+2016-08-19T18:02:00 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCFile at /Plone/plone-development/plone-1.0/releases/1.0/Plone1.0.rar>
+------
+2016-08-19T18:02:00 ERROR Zope.SiteErrorLog 1471629720.640.130727194226 http://127.0.0.1:8080/Plone/plone-development/plone-1.0/releases/1.0/Plone1.0.rar/psc_file_view
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.CMFCore.FSPageTemplate, line 237, in _exec
+  Module Products.CMFCore.FSPageTemplate, line 177, in pt_render
+  Module Products.PageTemplates.PageTemplate, line 87, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 132, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 240, in __call__
+  Module zope.tal.talinterpreter, line 271, in __call__
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 888, in do_useMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 946, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 531, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 742, in do_insertStructure_tal
+  Module Products.PageTemplates.Expressions, line 218, in evaluateStructure
+  Module zope.tales.tales, line 696, in evaluate
+   - URL: file:/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.3-py2.7.egg/Products/PloneSoftwareCenter/skins/plonesoftwarecenter/psc_file_view.pt
+   - Line 37, Column 12
+   - Expression: <PathExpr standard:u'here/product_icon.gif'>
+   - Names:
+      {'container': <PloneSite at /Plone>,
+       'context': <PSCFile at /Plone/plone-development/plone-1.0/releases/1.0/Plone1.0.rar>,
+       'default': <object object at 0xb7571a08>,
+       'here': <PSCFile at /Plone/plone-development/plone-1.0/releases/1.0/Plone1.0.rar>,
+       'loop': {},
+       'nothing': None,
+       'options': {'args': ()},
+       'repeat': <Products.PageTemplates.Expressions.SafeMapping object at 0xb0b93d4c>,
+       'request': <HTTPRequest, URL=http://127.0.0.1:8080/Plone/plone-development/plone-1.0/releases/1.0/Plone1.0.rar/psc_file_view>,
+       'root': <Application at >,
+       'template': <FSPageTemplate at /Plone/psc_file_view used for /Plone/plone-development/plone-1.0/releases/1.0/Plone1.0.rar>,
+       'traverse_subpath': [],
+       'user': <PropertiedUser 'admin'>}
+  Module zope.tales.expressions, line 217, in __call__
+  Module Products.PageTemplates.Expressions, line 147, in _eval
+  Module zope.tales.expressions, line 124, in _eval
+  Module Products.PageTemplates.Expressions, line 74, in boboAwareZopeTraverse
+  Module OFS.Traversable, line 317, in restrictedTraverse
+  Module OFS.Traversable, line 285, in unrestrictedTraverse
+   - __traceback_info__: ([], 'product_icon.gif')
+AttributeError: product_icon.gif
+------
+2016-08-19T18:02:18 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCFile at /Plone/plone-development/plone-1.0/releases/1.0/portal_factory/PSCFile/pscfile.2016-08-19.6888407053>
+------
+2016-08-19T18:03:05 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCFile at /Plone/plone-development/plone-1.0/releases/1.0/portal_factory/PSCFile/pscfile.2016-08-19.6888407053>
+------
+2016-08-19T18:03:14 ERROR Zope.SiteErrorLog 1471629794.990.592660220631 http://127.0.0.1:8080/Plone/plone-development/plone-1.0/releases/1.0/Plone1.0.rar/psc_file_view
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.CMFCore.FSPageTemplate, line 237, in _exec
+  Module Products.CMFCore.FSPageTemplate, line 177, in pt_render
+  Module Products.PageTemplates.PageTemplate, line 87, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 132, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 240, in __call__
+  Module zope.tal.talinterpreter, line 271, in __call__
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 888, in do_useMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 946, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 531, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 742, in do_insertStructure_tal
+  Module Products.PageTemplates.Expressions, line 218, in evaluateStructure
+  Module zope.tales.tales, line 696, in evaluate
+   - URL: file:/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.3-py2.7.egg/Products/PloneSoftwareCenter/skins/plonesoftwarecenter/psc_file_view.pt
+   - Line 37, Column 12
+   - Expression: <PathExpr standard:u'here/product_icon.gif'>
+   - Names:
+      {'container': <PloneSite at /Plone>,
+       'context': <PSCFile at /Plone/plone-development/plone-1.0/releases/1.0/Plone1.0.rar>,
+       'default': <object object at 0xb7571a08>,
+       'here': <PSCFile at /Plone/plone-development/plone-1.0/releases/1.0/Plone1.0.rar>,
+       'loop': {},
+       'nothing': None,
+       'options': {'args': ()},
+       'repeat': <Products.PageTemplates.Expressions.SafeMapping object at 0xb0bb3914>,
+       'request': <HTTPRequest, URL=http://127.0.0.1:8080/Plone/plone-development/plone-1.0/releases/1.0/Plone1.0.rar/psc_file_view>,
+       'root': <Application at >,
+       'template': <FSPageTemplate at /Plone/psc_file_view used for /Plone/plone-development/plone-1.0/releases/1.0/Plone1.0.rar>,
+       'traverse_subpath': [],
+       'user': <PropertiedUser 'admin'>}
+  Module zope.tales.expressions, line 217, in __call__
+  Module Products.PageTemplates.Expressions, line 147, in _eval
+  Module zope.tales.expressions, line 124, in _eval
+  Module Products.PageTemplates.Expressions, line 74, in boboAwareZopeTraverse
+  Module OFS.Traversable, line 317, in restrictedTraverse
+  Module OFS.Traversable, line 285, in unrestrictedTraverse
+   - __traceback_info__: ([], 'product_icon.gif')
+AttributeError: product_icon.gif
+------
+2016-08-19T18:03:15 INFO collective.fingerpointing user=test ip=127.0.0.1 action=create object=<PSCFile at /Plone/plone-development/plone-1.0/releases/1.0/portal_factory/PSCFile/pscfile.2016-08-19.6888407053>
+------
+2016-08-19T18:07:21 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-19T18:07:21 INFO Z2 Shutting down
+------
+2016-08-19T18:13:40 INFO ZServer HTTP server started at Fri Aug 19 18:13:40 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-19T18:13:43 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-19T18:13:44 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-19T18:13:44 WARNING ZODB.blob (9402) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-19T18:13:48 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-19T18:13:50 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-19T18:13:50 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-19T18:13:51 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-19T18:13:53 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-19T18:13:53 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T18:13:53 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T18:13:53 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T18:13:53 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T18:13:53 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T18:13:53 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T18:13:53 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T18:13:53 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T18:13:54 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-19T18:13:54 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-19T18:13:54 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-19T18:13:54 INFO Zope Ready to handle requests
+------
+2016-08-19T18:15:50 ERROR Zope.SiteErrorLog 1471630550.760.575381330503 http://127.0.0.1:8080/Plone/plone-development/plonesoftwarecenter_view
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.CMFCore.FSPageTemplate, line 237, in _exec
+  Module Products.CMFCore.FSPageTemplate, line 177, in pt_render
+  Module Products.PageTemplates.PageTemplate, line 87, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 132, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 240, in __call__
+  Module zope.tal.talinterpreter, line 271, in __call__
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 888, in do_useMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 946, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 852, in do_condition
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 531, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 742, in do_insertStructure_tal
+  Module Products.PageTemplates.Expressions, line 218, in evaluateStructure
+  Module zope.tales.tales, line 696, in evaluate
+   - URL: file:/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.3-py2.7.egg/Products/PloneSoftwareCenter/skins/plonesoftwarecenter/plonesoftwarecenter_view.pt
+   - Line 123, Column 24
+   - Expression: <PathExpr standard:u'context/product_icon.gif'>
+   - Names:
+      {'container': <PloneSite at /Plone>,
+       'context': <PloneSoftwareCenter at /Plone/plone-development>,
+       'default': <object object at 0xb74eda08>,
+       'here': <PloneSoftwareCenter at /Plone/plone-development>,
+       'loop': {u'category': <Products.PageTemplates.Expressions.PathIterator object at 0xb149b22c>,
+                u'release': <Products.PageTemplates.Expressions.PathIterator object at 0xb157142c>},
+       'nothing': None,
+       'options': {'args': ()},
+       'repeat': <Products.PageTemplates.Expressions.SafeMapping object at 0xb14c3e8c>,
+       'request': <HTTPRequest, URL=http://127.0.0.1:8080/Plone/plone-development/plonesoftwarecenter_view>,
+       'root': <Application at >,
+       'template': <FSPageTemplate at /Plone/plonesoftwarecenter_view used for /Plone/plone-development>,
+       'traverse_subpath': [],
+       'user': <PropertiedUser 'admin'>}
+  Module zope.tales.expressions, line 217, in __call__
+  Module Products.PageTemplates.Expressions, line 147, in _eval
+  Module zope.tales.expressions, line 124, in _eval
+  Module Products.PageTemplates.Expressions, line 74, in boboAwareZopeTraverse
+  Module OFS.Traversable, line 317, in restrictedTraverse
+  Module OFS.Traversable, line 285, in unrestrictedTraverse
+   - __traceback_info__: ([], 'product_icon.gif')
+AttributeError: product_icon.gif
+------
+2016-08-19T18:16:00 ERROR Zope.SiteErrorLog 1471630560.90.432057863273 http://127.0.0.1:8080/Plone/plone-development/plonesoftwarecenter_view
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.CMFCore.FSPageTemplate, line 237, in _exec
+  Module Products.CMFCore.FSPageTemplate, line 177, in pt_render
+  Module Products.PageTemplates.PageTemplate, line 87, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 132, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 240, in __call__
+  Module zope.tal.talinterpreter, line 271, in __call__
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 888, in do_useMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 946, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 852, in do_condition
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 531, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 742, in do_insertStructure_tal
+  Module Products.PageTemplates.Expressions, line 218, in evaluateStructure
+  Module zope.tales.tales, line 696, in evaluate
+   - URL: file:/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.3-py2.7.egg/Products/PloneSoftwareCenter/skins/plonesoftwarecenter/plonesoftwarecenter_view.pt
+   - Line 123, Column 24
+   - Expression: <PathExpr standard:u'context/product_icon.gif'>
+   - Names:
+      {'container': <PloneSite at /Plone>,
+       'context': <PloneSoftwareCenter at /Plone/plone-development>,
+       'default': <object object at 0xb74eda08>,
+       'here': <PloneSoftwareCenter at /Plone/plone-development>,
+       'loop': {u'category': <Products.PageTemplates.Expressions.PathIterator object at 0xb151cc2c>,
+                u'release': <Products.PageTemplates.Expressions.PathIterator object at 0xb144e28c>},
+       'nothing': None,
+       'options': {'args': ()},
+       'repeat': <Products.PageTemplates.Expressions.SafeMapping object at 0xb145c4b4>,
+       'request': <HTTPRequest, URL=http://127.0.0.1:8080/Plone/plone-development/plonesoftwarecenter_view>,
+       'root': <Application at >,
+       'template': <FSPageTemplate at /Plone/plonesoftwarecenter_view used for /Plone/plone-development>,
+       'traverse_subpath': [],
+       'user': <PropertiedUser 'admin'>}
+  Module zope.tales.expressions, line 217, in __call__
+  Module Products.PageTemplates.Expressions, line 147, in _eval
+  Module zope.tales.expressions, line 124, in _eval
+  Module Products.PageTemplates.Expressions, line 74, in boboAwareZopeTraverse
+  Module OFS.Traversable, line 317, in restrictedTraverse
+  Module OFS.Traversable, line 285, in unrestrictedTraverse
+   - __traceback_info__: ([], 'product_icon.gif')
+AttributeError: product_icon.gif
+------
+2016-08-19T18:16:17 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-19T18:16:17 INFO Z2 Shutting down
+------
+2016-08-19T18:20:06 INFO ZServer HTTP server started at Fri Aug 19 18:20:06 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-19T18:20:09 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-19T18:20:09 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-19T18:20:13 WARNING ZODB.blob (9443) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-19T18:20:17 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-19T18:20:18 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-19T18:20:19 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-19T18:20:19 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-19T18:20:22 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-19T18:20:22 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T18:20:22 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T18:20:22 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T18:20:22 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T18:20:22 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T18:20:22 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T18:20:22 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T18:20:22 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T18:20:23 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-19T18:20:23 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-19T18:20:23 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-19T18:20:23 INFO Zope Ready to handle requests
+------
+2016-08-19T18:20:36 ERROR Zope.SiteErrorLog 1471630836.560.278661132825 http://127.0.0.1:8080/Plone/plone-development/plonesoftwarecenter_view
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.CMFCore.FSPageTemplate, line 237, in _exec
+  Module Products.CMFCore.FSPageTemplate, line 177, in pt_render
+  Module Products.PageTemplates.PageTemplate, line 87, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 132, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 240, in __call__
+  Module zope.tal.talinterpreter, line 271, in __call__
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 888, in do_useMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 946, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 852, in do_condition
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 531, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 742, in do_insertStructure_tal
+  Module Products.PageTemplates.Expressions, line 218, in evaluateStructure
+  Module zope.tales.tales, line 696, in evaluate
+   - URL: file:/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.3-py2.7.egg/Products/PloneSoftwareCenter/skins/plonesoftwarecenter/plonesoftwarecenter_view.pt
+   - Line 123, Column 24
+   - Expression: <PathExpr standard:u'context/product_icon.gif'>
+   - Names:
+      {'container': <PloneSite at /Plone>,
+       'context': <PloneSoftwareCenter at /Plone/plone-development>,
+       'default': <object object at 0xb748da08>,
+       'here': <PloneSoftwareCenter at /Plone/plone-development>,
+       'loop': {u'category': <Products.PageTemplates.Expressions.PathIterator object at 0xb16cf8cc>,
+                u'release': <Products.PageTemplates.Expressions.PathIterator object at 0xb182558c>},
+       'nothing': None,
+       'options': {'args': ()},
+       'repeat': <Products.PageTemplates.Expressions.SafeMapping object at 0xb3e29f2c>,
+       'request': <HTTPRequest, URL=http://127.0.0.1:8080/Plone/plone-development/plonesoftwarecenter_view>,
+       'root': <Application at >,
+       'template': <FSPageTemplate at /Plone/plonesoftwarecenter_view used for /Plone/plone-development>,
+       'traverse_subpath': [],
+       'user': <PropertiedUser 'admin'>}
+  Module zope.tales.expressions, line 217, in __call__
+  Module Products.PageTemplates.Expressions, line 147, in _eval
+  Module zope.tales.expressions, line 124, in _eval
+  Module Products.PageTemplates.Expressions, line 74, in boboAwareZopeTraverse
+  Module OFS.Traversable, line 317, in restrictedTraverse
+  Module OFS.Traversable, line 285, in unrestrictedTraverse
+   - __traceback_info__: ([], 'product_icon.gif')
+AttributeError: product_icon.gif
+------
+2016-08-19T18:21:19 ERROR Zope.SiteErrorLog 1471630879.110.957671609216 http://127.0.0.1:8080/Plone/plone-development/plonesoftwarecenter_view
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.CMFCore.FSPageTemplate, line 237, in _exec
+  Module Products.CMFCore.FSPageTemplate, line 177, in pt_render
+  Module Products.PageTemplates.PageTemplate, line 87, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 132, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 240, in __call__
+  Module zope.tal.talinterpreter, line 271, in __call__
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 888, in do_useMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 946, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 852, in do_condition
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 531, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 742, in do_insertStructure_tal
+  Module Products.PageTemplates.Expressions, line 218, in evaluateStructure
+  Module zope.tales.tales, line 696, in evaluate
+   - URL: file:/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.3-py2.7.egg/Products/PloneSoftwareCenter/skins/plonesoftwarecenter/plonesoftwarecenter_view.pt
+   - Line 123, Column 24
+   - Expression: <PathExpr standard:u'context/product_icon.gif'>
+   - Names:
+      {'container': <PloneSite at /Plone>,
+       'context': <PloneSoftwareCenter at /Plone/plone-development>,
+       'default': <object object at 0xb748da08>,
+       'here': <PloneSoftwareCenter at /Plone/plone-development>,
+       'loop': {u'category': <Products.PageTemplates.Expressions.PathIterator object at 0xb156e9ac>,
+                u'release': <Products.PageTemplates.Expressions.PathIterator object at 0xb157040c>},
+       'nothing': None,
+       'options': {'args': ()},
+       'repeat': <Products.PageTemplates.Expressions.SafeMapping object at 0xb13e27d4>,
+       'request': <HTTPRequest, URL=http://127.0.0.1:8080/Plone/plone-development/plonesoftwarecenter_view>,
+       'root': <Application at >,
+       'template': <FSPageTemplate at /Plone/plonesoftwarecenter_view used for /Plone/plone-development>,
+       'traverse_subpath': [],
+       'user': <PropertiedUser 'admin'>}
+  Module zope.tales.expressions, line 217, in __call__
+  Module Products.PageTemplates.Expressions, line 147, in _eval
+  Module zope.tales.expressions, line 124, in _eval
+  Module Products.PageTemplates.Expressions, line 74, in boboAwareZopeTraverse
+  Module OFS.Traversable, line 317, in restrictedTraverse
+  Module OFS.Traversable, line 285, in unrestrictedTraverse
+   - __traceback_info__: ([], 'product_icon.gif')
+AttributeError: product_icon.gif
+------
+2016-08-19T18:21:46 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/portal_factory/PloneSoftwareCenter/plonesoftwarecenter.2016-08-19.9062285715>
+------
+2016-08-19T18:21:53 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/portal_factory/PloneSoftwareCenter/plonesoftwarecenter.2016-08-19.9062285715>
+------
+2016-08-19T18:21:53 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/portal_factory/PloneSoftwareCenter/plonesoftwarecenter.2016-08-19.9062285715>
+------
+2016-08-19T18:21:53 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/plonesoftwarecenter.2016-08-19.9062285715>
+------
+2016-08-19T18:21:54 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneSoftwareCenter at /Plone/sgsd>
+------
+2016-08-19T18:21:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9182661285/releases>
+------
+2016-08-19T18:21:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9182661285>
+------
+2016-08-19T18:21:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9182661285>
+------
+2016-08-19T18:22:02 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9182661285/releases>
+------
+2016-08-19T18:22:02 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9182661285>
+------
+2016-08-19T18:22:02 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9182661285>
+------
+2016-08-19T18:22:03 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9182661285/releases>
+------
+2016-08-19T18:22:03 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9182661285>
+------
+2016-08-19T18:22:03 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9182661285>
+------
+2016-08-19T18:22:08 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9182661285/releases>
+------
+2016-08-19T18:22:08 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9182661285>
+------
+2016-08-19T18:22:08 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9182661285>
+------
+2016-08-19T18:22:08 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9182661285/releases>
+------
+2016-08-19T18:22:08 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9182661285>
+------
+2016-08-19T18:22:08 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9182661285>
+------
+2016-08-19T18:22:14 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9182661285/releases>
+------
+2016-08-19T18:22:14 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9182661285>
+------
+2016-08-19T18:22:14 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9182661285>
+------
+2016-08-19T18:22:15 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9182661285/releases>
+------
+2016-08-19T18:22:15 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9182661285>
+------
+2016-08-19T18:22:15 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9182661285>
+------
+2016-08-19T18:22:15 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/sgsd/pscproject.2016-08-19.9182661285/releases>
+------
+2016-08-19T18:22:15 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/sgsd/pscproject.2016-08-19.9182661285>
+------
+2016-08-19T18:22:15 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/sgsd/pscproject.2016-08-19.9182661285>
+------
+2016-08-19T18:22:15 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneSoftwareCenter at /Plone/sgsd>
+------
+2016-08-19T18:22:15 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneSoftwareCenter at /Plone/sgsd>
+------
+2016-08-19T18:22:15 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/sgsd/ddfh>
+------
+2016-08-19T18:22:25 ERROR Zope.SiteErrorLog 1471630945.130.0585451117505 http://127.0.0.1:8080/Plone/plone-development/plonesoftwarecenter_view
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.CMFCore.FSPageTemplate, line 237, in _exec
+  Module Products.CMFCore.FSPageTemplate, line 177, in pt_render
+  Module Products.PageTemplates.PageTemplate, line 87, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 132, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 240, in __call__
+  Module zope.tal.talinterpreter, line 271, in __call__
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 888, in do_useMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 946, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 852, in do_condition
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 531, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 742, in do_insertStructure_tal
+  Module Products.PageTemplates.Expressions, line 218, in evaluateStructure
+  Module zope.tales.tales, line 696, in evaluate
+   - URL: file:/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.3-py2.7.egg/Products/PloneSoftwareCenter/skins/plonesoftwarecenter/plonesoftwarecenter_view.pt
+   - Line 123, Column 24
+   - Expression: <PathExpr standard:u'context/product_icon.gif'>
+   - Names:
+      {'container': <PloneSite at /Plone>,
+       'context': <PloneSoftwareCenter at /Plone/plone-development>,
+       'default': <object object at 0xb748da08>,
+       'here': <PloneSoftwareCenter at /Plone/plone-development>,
+       'loop': {u'category': <Products.PageTemplates.Expressions.PathIterator object at 0xb09267cc>,
+                u'release': <Products.PageTemplates.Expressions.PathIterator object at 0xb09229ec>},
+       'nothing': None,
+       'options': {'args': ()},
+       'repeat': <Products.PageTemplates.Expressions.SafeMapping object at 0xb093f7d4>,
+       'request': <HTTPRequest, URL=http://127.0.0.1:8080/Plone/plone-development/plonesoftwarecenter_view>,
+       'root': <Application at >,
+       'template': <FSPageTemplate at /Plone/plonesoftwarecenter_view used for /Plone/plone-development>,
+       'traverse_subpath': [],
+       'user': <PropertiedUser 'admin'>}
+  Module zope.tales.expressions, line 217, in __call__
+  Module Products.PageTemplates.Expressions, line 147, in _eval
+  Module zope.tales.expressions, line 124, in _eval
+  Module Products.PageTemplates.Expressions, line 74, in boboAwareZopeTraverse
+  Module OFS.Traversable, line 317, in restrictedTraverse
+  Module OFS.Traversable, line 285, in unrestrictedTraverse
+   - __traceback_info__: ([], 'product_icon.gif')
+AttributeError: product_icon.gif
+------
+2016-08-19T18:22:32 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9523557871/releases>
+------
+2016-08-19T18:22:32 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9523557871>
+------
+2016-08-19T18:22:32 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9523557871>
+------
+2016-08-19T18:22:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9523557871/releases>
+------
+2016-08-19T18:22:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9523557871>
+------
+2016-08-19T18:22:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/sgsd/portal_factory/PSCProject/pscproject.2016-08-19.9523557871>
+------
+2016-08-19T18:22:41 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/sgsd/ddfh/portal_factory/PSCReleaseFolder/pscreleasefolder.2016-08-19.9611951782>
+------
+2016-08-19T18:22:44 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/sgsd/ddfh/portal_factory/PSCReleaseFolder/pscreleasefolder.2016-08-19.9611951782>
+------
+2016-08-19T18:22:44 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/sgsd/ddfh/portal_factory/PSCReleaseFolder/pscreleasefolder.2016-08-19.9611951782>
+------
+2016-08-19T18:22:44 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/sgsd/ddfh/pscreleasefolder.2016-08-19.9611951782>
+------
+2016-08-19T18:22:44 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/sgsd/ddfh>
+------
+2016-08-19T18:22:44 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCReleaseFolder at /Plone/sgsd/ddfh/pscreleasefolder.2016-08-19.9611951782>
+------
+2016-08-19T18:22:50 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/sgsd/ddfh/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:22:56 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/sgsd/ddfh/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:22:57 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/sgsd/ddfh/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:22:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/sgsd/ddfh/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:22:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/sgsd/ddfh/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:23:00 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/sgsd/ddfh/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:23:00 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/sgsd/ddfh/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:23:06 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/sgsd/ddfh/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:23:06 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/sgsd/ddfh/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:23:06 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/sgsd/ddfh/releases/1.0>
+------
+2016-08-19T18:23:06 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCReleaseFolder at /Plone/sgsd/ddfh/releases>
+------
+2016-08-19T18:23:06 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCRelease at /Plone/sgsd/ddfh/releases/1.0>
+------
+2016-08-19T18:23:11 ERROR Zope.SiteErrorLog 1471630991.670.966419286792 http://127.0.0.1:8080/Plone/plone-development/plonesoftwarecenter_view
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.CMFCore.FSPageTemplate, line 237, in _exec
+  Module Products.CMFCore.FSPageTemplate, line 177, in pt_render
+  Module Products.PageTemplates.PageTemplate, line 87, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 132, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 240, in __call__
+  Module zope.tal.talinterpreter, line 271, in __call__
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 888, in do_useMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 946, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 852, in do_condition
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 531, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 742, in do_insertStructure_tal
+  Module Products.PageTemplates.Expressions, line 218, in evaluateStructure
+  Module zope.tales.tales, line 696, in evaluate
+   - URL: file:/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.3-py2.7.egg/Products/PloneSoftwareCenter/skins/plonesoftwarecenter/plonesoftwarecenter_view.pt
+   - Line 123, Column 24
+   - Expression: <PathExpr standard:u'context/product_icon.gif'>
+   - Names:
+      {'container': <PloneSite at /Plone>,
+       'context': <PloneSoftwareCenter at /Plone/plone-development>,
+       'default': <object object at 0xb748da08>,
+       'here': <PloneSoftwareCenter at /Plone/plone-development>,
+       'loop': {u'category': <Products.PageTemplates.Expressions.PathIterator object at 0xb0783d6c>,
+                u'release': <Products.PageTemplates.Expressions.PathIterator object at 0xb07be14c>},
+       'nothing': None,
+       'options': {'args': ()},
+       'repeat': <Products.PageTemplates.Expressions.SafeMapping object at 0xb07bf694>,
+       'request': <HTTPRequest, URL=http://127.0.0.1:8080/Plone/plone-development/plonesoftwarecenter_view>,
+       'root': <Application at >,
+       'template': <FSPageTemplate at /Plone/plonesoftwarecenter_view used for /Plone/plone-development>,
+       'traverse_subpath': [],
+       'user': <PropertiedUser 'admin'>}
+  Module zope.tales.expressions, line 217, in __call__
+  Module Products.PageTemplates.Expressions, line 147, in _eval
+  Module zope.tales.expressions, line 124, in _eval
+  Module Products.PageTemplates.Expressions, line 74, in boboAwareZopeTraverse
+  Module OFS.Traversable, line 317, in restrictedTraverse
+  Module OFS.Traversable, line 285, in unrestrictedTraverse
+   - __traceback_info__: ([], 'product_icon.gif')
+AttributeError: product_icon.gif
+------
+2016-08-19T18:23:14 ERROR Zope.SiteErrorLog 1471630994.610.589665075886 http://127.0.0.1:8080/Plone/sgsd/plonesoftwarecenter_view
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.CMFCore.FSPageTemplate, line 237, in _exec
+  Module Products.CMFCore.FSPageTemplate, line 177, in pt_render
+  Module Products.PageTemplates.PageTemplate, line 87, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 132, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 240, in __call__
+  Module zope.tal.talinterpreter, line 271, in __call__
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 888, in do_useMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 946, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 852, in do_condition
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 531, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 742, in do_insertStructure_tal
+  Module Products.PageTemplates.Expressions, line 218, in evaluateStructure
+  Module zope.tales.tales, line 696, in evaluate
+   - URL: file:/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.3-py2.7.egg/Products/PloneSoftwareCenter/skins/plonesoftwarecenter/plonesoftwarecenter_view.pt
+   - Line 123, Column 24
+   - Expression: <PathExpr standard:u'context/product_icon.gif'>
+   - Names:
+      {'container': <PloneSite at /Plone>,
+       'context': <PloneSoftwareCenter at /Plone/sgsd>,
+       'default': <object object at 0xb748da08>,
+       'here': <PloneSoftwareCenter at /Plone/sgsd>,
+       'loop': {u'category': <Products.PageTemplates.Expressions.PathIterator object at 0xb092aa4c>,
+                u'release': <Products.PageTemplates.Expressions.PathIterator object at 0xb092a82c>},
+       'nothing': None,
+       'options': {'args': ()},
+       'repeat': <Products.PageTemplates.Expressions.SafeMapping object at 0xb07b4a04>,
+       'request': <HTTPRequest, URL=http://127.0.0.1:8080/Plone/sgsd/plonesoftwarecenter_view>,
+       'root': <Application at >,
+       'template': <FSPageTemplate at /Plone/plonesoftwarecenter_view used for /Plone/sgsd>,
+       'traverse_subpath': [],
+       'user': <PropertiedUser 'admin'>}
+  Module zope.tales.expressions, line 217, in __call__
+  Module Products.PageTemplates.Expressions, line 147, in _eval
+  Module zope.tales.expressions, line 124, in _eval
+  Module Products.PageTemplates.Expressions, line 74, in boboAwareZopeTraverse
+  Module OFS.Traversable, line 317, in restrictedTraverse
+  Module OFS.Traversable, line 285, in unrestrictedTraverse
+   - __traceback_info__: ([], 'product_icon.gif')
+AttributeError: product_icon.gif
+------
+2016-08-19T18:23:17 ERROR Zope.SiteErrorLog 1471630997.670.624076153254 http://127.0.0.1:8080/Plone/plone-development/plonesoftwarecenter_view
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.CMFCore.FSPageTemplate, line 237, in _exec
+  Module Products.CMFCore.FSPageTemplate, line 177, in pt_render
+  Module Products.PageTemplates.PageTemplate, line 87, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 132, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 240, in __call__
+  Module zope.tal.talinterpreter, line 271, in __call__
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 888, in do_useMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 946, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 852, in do_condition
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 531, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 742, in do_insertStructure_tal
+  Module Products.PageTemplates.Expressions, line 218, in evaluateStructure
+  Module zope.tales.tales, line 696, in evaluate
+   - URL: file:/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.3-py2.7.egg/Products/PloneSoftwareCenter/skins/plonesoftwarecenter/plonesoftwarecenter_view.pt
+   - Line 123, Column 24
+   - Expression: <PathExpr standard:u'context/product_icon.gif'>
+   - Names:
+      {'container': <PloneSite at /Plone>,
+       'context': <PloneSoftwareCenter at /Plone/plone-development>,
+       'default': <object object at 0xb748da08>,
+       'here': <PloneSoftwareCenter at /Plone/plone-development>,
+       'loop': {u'category': <Products.PageTemplates.Expressions.PathIterator object at 0xb07bbfcc>,
+                u'release': <Products.PageTemplates.Expressions.PathIterator object at 0xb07e186c>},
+       'nothing': None,
+       'options': {'args': ()},
+       'repeat': <Products.PageTemplates.Expressions.SafeMapping object at 0xb07b4504>,
+       'request': <HTTPRequest, URL=http://127.0.0.1:8080/Plone/plone-development/plonesoftwarecenter_view>,
+       'root': <Application at >,
+       'template': <FSPageTemplate at /Plone/plonesoftwarecenter_view used for /Plone/plone-development>,
+       'traverse_subpath': [],
+       'user': <PropertiedUser 'admin'>}
+  Module zope.tales.expressions, line 217, in __call__
+  Module Products.PageTemplates.Expressions, line 147, in _eval
+  Module zope.tales.expressions, line 124, in _eval
+  Module Products.PageTemplates.Expressions, line 74, in boboAwareZopeTraverse
+  Module OFS.Traversable, line 317, in restrictedTraverse
+  Module OFS.Traversable, line 285, in unrestrictedTraverse
+   - __traceback_info__: ([], 'product_icon.gif')
+AttributeError: product_icon.gif
+------
+2016-08-19T18:23:19 ERROR Zope.SiteErrorLog 1471630999.840.553869699955 http://127.0.0.1:8080/Plone/sgsd/plonesoftwarecenter_view
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.CMFCore.FSPageTemplate, line 237, in _exec
+  Module Products.CMFCore.FSPageTemplate, line 177, in pt_render
+  Module Products.PageTemplates.PageTemplate, line 87, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 132, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 240, in __call__
+  Module zope.tal.talinterpreter, line 271, in __call__
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 888, in do_useMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 946, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 852, in do_condition
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 531, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 742, in do_insertStructure_tal
+  Module Products.PageTemplates.Expressions, line 218, in evaluateStructure
+  Module zope.tales.tales, line 696, in evaluate
+   - URL: file:/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.3-py2.7.egg/Products/PloneSoftwareCenter/skins/plonesoftwarecenter/plonesoftwarecenter_view.pt
+   - Line 123, Column 24
+   - Expression: <PathExpr standard:u'context/product_icon.gif'>
+   - Names:
+      {'container': <PloneSite at /Plone>,
+       'context': <PloneSoftwareCenter at /Plone/sgsd>,
+       'default': <object object at 0xb748da08>,
+       'here': <PloneSoftwareCenter at /Plone/sgsd>,
+       'loop': {u'category': <Products.PageTemplates.Expressions.PathIterator object at 0xb07c04ac>,
+                u'release': <Products.PageTemplates.Expressions.PathIterator object at 0xb072e70c>},
+       'nothing': None,
+       'options': {'args': ()},
+       'repeat': <Products.PageTemplates.Expressions.SafeMapping object at 0xb070602c>,
+       'request': <HTTPRequest, URL=http://127.0.0.1:8080/Plone/sgsd/plonesoftwarecenter_view>,
+       'root': <Application at >,
+       'template': <FSPageTemplate at /Plone/plonesoftwarecenter_view used for /Plone/sgsd>,
+       'traverse_subpath': [],
+       'user': <PropertiedUser 'admin'>}
+  Module zope.tales.expressions, line 217, in __call__
+  Module Products.PageTemplates.Expressions, line 147, in _eval
+  Module zope.tales.expressions, line 124, in _eval
+  Module Products.PageTemplates.Expressions, line 74, in boboAwareZopeTraverse
+  Module OFS.Traversable, line 317, in restrictedTraverse
+  Module OFS.Traversable, line 285, in unrestrictedTraverse
+   - __traceback_info__: ([], 'product_icon.gif')
+AttributeError: product_icon.gif
+------
+2016-08-19T18:24:20 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-19T18:24:20 INFO Z2 Shutting down
+------
+2016-08-19T18:25:52 INFO ZServer HTTP server started at Fri Aug 19 18:25:52 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-19T18:25:55 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-19T18:25:55 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-19T18:25:56 WARNING ZODB.blob (9468) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-19T18:26:00 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-19T18:26:01 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-19T18:26:02 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-19T18:26:03 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-19T18:26:05 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-19T18:26:05 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T18:26:05 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T18:26:05 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T18:26:05 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T18:26:06 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T18:26:06 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T18:26:06 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T18:26:06 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T18:26:06 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-19T18:26:06 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-19T18:26:07 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-19T18:26:07 INFO Zope Ready to handle requests
+------
+2016-08-19T18:26:37 ERROR Zope.SiteErrorLog 1471631197.080.474051345075 http://127.0.0.1:8080/Plone/plone-development/plonesoftwarecenter_view
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.CMFCore.FSPageTemplate, line 237, in _exec
+  Module Products.CMFCore.FSPageTemplate, line 177, in pt_render
+  Module Products.PageTemplates.PageTemplate, line 87, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 132, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 240, in __call__
+  Module zope.tal.talinterpreter, line 271, in __call__
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 888, in do_useMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 946, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 851, in do_condition
+  Module Products.PageTemplates.Expressions, line 205, in evaluateBoolean
+  Module zope.tales.tales, line 696, in evaluate
+   - URL: file:/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.4-py2.7.egg/Products/PloneSoftwareCenter/skins/plonesoftwarecenter/plonesoftwarecenter_view.pt
+   - Line 95, Column 15
+   - Expression: <PathExpr standard:u'context/portal_syndication/isSiteSyndicationAllowed'>
+   - Names:
+      {'container': <PloneSite at /Plone>,
+       'context': <PloneSoftwareCenter at /Plone/plone-development>,
+       'default': <object object at 0xb7534a08>,
+       'here': <PloneSoftwareCenter at /Plone/plone-development>,
+       'loop': {u'category': <Products.PageTemplates.Expressions.PathIterator object at 0xb14e6bac>},
+       'nothing': None,
+       'options': {'args': ()},
+       'repeat': <Products.PageTemplates.Expressions.SafeMapping object at 0xb14e239c>,
+       'request': <HTTPRequest, URL=http://127.0.0.1:8080/Plone/plone-development/plonesoftwarecenter_view>,
+       'root': <Application at >,
+       'template': <FSPageTemplate at /Plone/plonesoftwarecenter_view used for /Plone/plone-development>,
+       'traverse_subpath': [],
+       'user': <PropertiedUser 'admin'>}
+  Module zope.tales.expressions, line 217, in __call__
+  Module Products.PageTemplates.Expressions, line 147, in _eval
+  Module zope.tales.expressions, line 124, in _eval
+  Module Products.PageTemplates.Expressions, line 74, in boboAwareZopeTraverse
+  Module OFS.Traversable, line 317, in restrictedTraverse
+  Module OFS.Traversable, line 285, in unrestrictedTraverse
+   - __traceback_info__: ([], 'portal_syndication')
+AttributeError: portal_syndication
+------
+2016-08-19T18:26:43 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-19T18:26:43 INFO Z2 Shutting down
+------
+2016-08-19T18:32:09 INFO ZServer HTTP server started at Fri Aug 19 18:32:09 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-19T18:32:11 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-19T18:32:11 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-19T18:32:14 WARNING ZODB.blob (9692) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-19T18:32:18 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-19T18:32:19 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-19T18:32:20 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-19T18:32:20 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-19T18:32:23 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-19T18:32:23 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T18:32:23 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T18:32:23 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T18:32:23 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T18:32:23 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T18:32:23 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T18:32:23 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T18:32:23 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T18:32:23 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-19T18:32:23 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-19T18:32:24 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-19T18:32:24 INFO Zope Ready to handle requests
+------
+2016-08-19T18:32:51 ERROR Zope.SiteErrorLog 1471631571.790.256623369895 http://127.0.0.1:8080/Plone/plone-development/plonesoftwarecenter_view
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.CMFCore.FSPageTemplate, line 237, in _exec
+  Module Products.CMFCore.FSPageTemplate, line 177, in pt_render
+  Module Products.PageTemplates.PageTemplate, line 87, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 132, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 240, in __call__
+  Module zope.tal.talinterpreter, line 271, in __call__
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 888, in do_useMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 946, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 852, in do_condition
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 531, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 742, in do_insertStructure_tal
+  Module Products.PageTemplates.Expressions, line 218, in evaluateStructure
+  Module zope.tales.tales, line 696, in evaluate
+   - URL: file:/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.4-py2.7.egg/Products/PloneSoftwareCenter/skins/plonesoftwarecenter/plonesoftwarecenter_view.pt
+   - Line 123, Column 24
+   - Expression: <PathExpr standard:u'context/product_icon.gif'>
+   - Names:
+      {'container': <PloneSite at /Plone>,
+       'context': <PloneSoftwareCenter at /Plone/plone-development>,
+       'default': <object object at 0xb7580a08>,
+       'here': <PloneSoftwareCenter at /Plone/plone-development>,
+       'loop': {u'category': <Products.PageTemplates.Expressions.PathIterator object at 0xb155cdac>,
+                u'release': <Products.PageTemplates.Expressions.PathIterator object at 0xb1503eac>},
+       'nothing': None,
+       'options': {'args': ()},
+       'repeat': <Products.PageTemplates.Expressions.SafeMapping object at 0xb15689b4>,
+       'request': <HTTPRequest, URL=http://127.0.0.1:8080/Plone/plone-development/plonesoftwarecenter_view>,
+       'root': <Application at >,
+       'template': <FSPageTemplate at /Plone/plonesoftwarecenter_view used for /Plone/plone-development>,
+       'traverse_subpath': [],
+       'user': <PropertiedUser 'admin'>}
+  Module zope.tales.expressions, line 217, in __call__
+  Module Products.PageTemplates.Expressions, line 147, in _eval
+  Module zope.tales.expressions, line 124, in _eval
+  Module Products.PageTemplates.Expressions, line 74, in boboAwareZopeTraverse
+  Module OFS.Traversable, line 317, in restrictedTraverse
+  Module OFS.Traversable, line 285, in unrestrictedTraverse
+   - __traceback_info__: ([], 'product_icon.gif')
+AttributeError: product_icon.gif
+------
+2016-08-19T18:32:54 ERROR Zope.SiteErrorLog 1471631574.860.205247171986 http://127.0.0.1:8080/Plone/sgsd/plonesoftwarecenter_view
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.CMFCore.FSPageTemplate, line 237, in _exec
+  Module Products.CMFCore.FSPageTemplate, line 177, in pt_render
+  Module Products.PageTemplates.PageTemplate, line 87, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 132, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 240, in __call__
+  Module zope.tal.talinterpreter, line 271, in __call__
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 888, in do_useMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 946, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 852, in do_condition
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 531, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 742, in do_insertStructure_tal
+  Module Products.PageTemplates.Expressions, line 218, in evaluateStructure
+  Module zope.tales.tales, line 696, in evaluate
+   - URL: file:/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.4-py2.7.egg/Products/PloneSoftwareCenter/skins/plonesoftwarecenter/plonesoftwarecenter_view.pt
+   - Line 123, Column 24
+   - Expression: <PathExpr standard:u'context/product_icon.gif'>
+   - Names:
+      {'container': <PloneSite at /Plone>,
+       'context': <PloneSoftwareCenter at /Plone/sgsd>,
+       'default': <object object at 0xb7580a08>,
+       'here': <PloneSoftwareCenter at /Plone/sgsd>,
+       'loop': {u'category': <Products.PageTemplates.Expressions.PathIterator object at 0xb13f990c>,
+                u'release': <Products.PageTemplates.Expressions.PathIterator object at 0xb13f9b8c>},
+       'nothing': None,
+       'options': {'args': ()},
+       'repeat': <Products.PageTemplates.Expressions.SafeMapping object at 0xb13cfd24>,
+       'request': <HTTPRequest, URL=http://127.0.0.1:8080/Plone/sgsd/plonesoftwarecenter_view>,
+       'root': <Application at >,
+       'template': <FSPageTemplate at /Plone/plonesoftwarecenter_view used for /Plone/sgsd>,
+       'traverse_subpath': [],
+       'user': <PropertiedUser 'admin'>}
+  Module zope.tales.expressions, line 217, in __call__
+  Module Products.PageTemplates.Expressions, line 147, in _eval
+  Module zope.tales.expressions, line 124, in _eval
+  Module Products.PageTemplates.Expressions, line 74, in boboAwareZopeTraverse
+  Module OFS.Traversable, line 317, in restrictedTraverse
+  Module OFS.Traversable, line 285, in unrestrictedTraverse
+   - __traceback_info__: ([], 'product_icon.gif')
+AttributeError: product_icon.gif
+------
+2016-08-19T18:33:37 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-19T18:33:37 INFO Z2 Shutting down
+------
+2016-08-19T18:38:07 INFO ZServer HTTP server started at Fri Aug 19 18:38:07 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-19T18:38:10 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-19T18:38:10 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-19T18:38:17 WARNING ZODB.blob (10246) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-19T18:38:21 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-19T18:38:23 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-19T18:38:23 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-19T18:38:24 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-19T18:38:28 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-19T18:38:28 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T18:38:28 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T18:38:28 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T18:38:28 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T18:38:28 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T18:38:28 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T18:38:28 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T18:38:28 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T18:38:28 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-19T18:38:28 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-19T18:38:29 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-19T18:38:29 INFO Zope Ready to handle requests
+------
+2016-08-19T18:42:09 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/portal_factory/PSCRelease/1.1>
+------
+2016-08-19T18:42:13 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/portal_factory/PSCRelease/1.1>
+------
+2016-08-19T18:42:21 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/portal_factory/PSCRelease/1.1>
+------
+2016-08-19T18:42:28 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/portal_factory/PSCRelease/1.1>
+------
+2016-08-19T18:42:36 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/portal_factory/PSCRelease/1.1>
+------
+2016-08-19T18:42:37 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/portal_factory/PSCRelease/1.1>
+------
+2016-08-19T18:42:38 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/portal_factory/PSCRelease/1.1>
+------
+2016-08-19T18:42:42 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/portal_factory/PSCRelease/1.1>
+------
+2016-08-19T18:42:42 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/portal_factory/PSCRelease/1.1>
+------
+2016-08-19T18:42:42 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/1.1>
+------
+2016-08-19T18:42:42 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCReleaseFolder at /Plone/plone-development/plone-1.0/releases>
+------
+2016-08-19T18:42:42 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCRelease at /Plone/plone-development/plone-1.0/releases/1.1>
+------
+2016-08-19T18:43:14 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PSCRelease at /Plone/sgsd/ddfh/releases/1.0>
+------
+2016-08-19T18:43:14 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PSCReleaseFolder at /Plone/sgsd/ddfh/releases>
+------
+2016-08-19T18:43:14 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PSCReleaseFolder at /Plone/sgsd/ddfh/pscreleasefolder.2016-08-19.9611951782>
+------
+2016-08-19T18:43:14 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PSCProject at /Plone/sgsd/ddfh>
+------
+2016-08-19T18:43:14 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PloneSoftwareCenter at /Plone/sgsd>
+------
+2016-08-19T18:43:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.2020255144/releases>
+------
+2016-08-19T18:43:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.2020255144>
+------
+2016-08-19T18:43:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.2020255144>
+------
+2016-08-19T18:43:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.2020255144/releases>
+------
+2016-08-19T18:43:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.2020255144>
+------
+2016-08-19T18:43:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.2020255144>
+------
+2016-08-19T18:43:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.2020255144/releases>
+------
+2016-08-19T18:43:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.2020255144>
+------
+2016-08-19T18:43:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.2020255144>
+------
+2016-08-19T18:43:37 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.2020255144/releases>
+------
+2016-08-19T18:43:37 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.2020255144>
+------
+2016-08-19T18:43:37 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.2020255144>
+------
+2016-08-19T18:44:09 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.2020255144/releases>
+------
+2016-08-19T18:44:09 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.2020255144>
+------
+2016-08-19T18:44:09 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.2020255144>
+------
+2016-08-19T18:44:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.2020255144/releases>
+------
+2016-08-19T18:44:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.2020255144>
+------
+2016-08-19T18:44:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-19.2020255144>
+------
+2016-08-19T18:44:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/pscproject.2016-08-19.2020255144/releases>
+------
+2016-08-19T18:44:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/pscproject.2016-08-19.2020255144>
+------
+2016-08-19T18:44:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/pscproject.2016-08-19.2020255144>
+------
+2016-08-19T18:44:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneSoftwareCenter at /Plone/plone-development>
+------
+2016-08-19T18:44:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneSoftwareCenter at /Plone/plone-development>
+------
+2016-08-19T18:44:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/prefeitura-ao-vivo>
+------
+2016-08-19T18:44:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCDocumentationFolder at /Plone/plone-development/prefeitura-ao-vivo/portal_factory/PSCDocumentationFolder/pscdocumentationfolder.2016-08-19.2749250221>
+------
+2016-08-19T18:44:38 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCDocumentationFolder at /Plone/plone-development/prefeitura-ao-vivo/portal_factory/PSCDocumentationFolder/pscdocumentationfolder.2016-08-19.2749250221>
+------
+2016-08-19T18:44:38 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCDocumentationFolder at /Plone/plone-development/prefeitura-ao-vivo/portal_factory/PSCDocumentationFolder/pscdocumentationfolder.2016-08-19.2749250221>
+------
+2016-08-19T18:44:38 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCDocumentationFolder at /Plone/plone-development/prefeitura-ao-vivo/pscdocumentationfolder.2016-08-19.2749250221>
+------
+2016-08-19T18:44:38 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/prefeitura-ao-vivo>
+------
+2016-08-19T18:44:38 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/prefeitura-ao-vivo>
+------
+2016-08-19T18:44:38 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCDocumentationFolder at /Plone/plone-development/prefeitura-ao-vivo/documentation>
+------
+2016-08-19T18:44:48 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCDocumentationFolder at /Plone/plone-development/prefeitura-ao-vivo/portal_factory/PSCDocumentationFolder/pscdocumentationfolder.2016-08-19.2749250221>
+------
+2016-08-19T18:44:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCDocumentationFolder at /Plone/plone-development/prefeitura-ao-vivo/portal_factory/PSCDocumentationFolder/pscdocumentationfolder.2016-08-19.2749250221>
+------
+2016-08-19T18:44:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCDocumentationFolder at /Plone/plone-development/prefeitura-ao-vivo/pscdocumentationfolder.2016-08-19.2749250221>
+------
+2016-08-19T18:44:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/prefeitura-ao-vivo>
+------
+2016-08-19T18:44:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCDocumentationFolder at /Plone/plone-development/prefeitura-ao-vivo/pscdocumentationfolder.2016-08-19.2749250221>
+------
+2016-08-19T18:45:11 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/prefeitura-ao-vivo/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:45:15 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/prefeitura-ao-vivo/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:45:39 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/prefeitura-ao-vivo/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:45:42 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/prefeitura-ao-vivo/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:46:09 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/prefeitura-ao-vivo/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:46:10 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/prefeitura-ao-vivo/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:46:10 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/prefeitura-ao-vivo/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:46:19 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/prefeitura-ao-vivo/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:46:19 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/prefeitura-ao-vivo/releases/portal_factory/PSCRelease/1.0>
+------
+2016-08-19T18:46:19 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCRelease at /Plone/plone-development/prefeitura-ao-vivo/releases/1.0>
+------
+2016-08-19T18:46:19 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCReleaseFolder at /Plone/plone-development/prefeitura-ao-vivo/releases>
+------
+2016-08-19T18:46:19 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCRelease at /Plone/plone-development/prefeitura-ao-vivo/releases/1.0>
+------
+2016-08-19T18:46:26 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCFile at /Plone/plone-development/prefeitura-ao-vivo/releases/1.0/portal_factory/PSCFile/pscfile.2016-08-19.3865695840>
+------
+2016-08-19T18:46:29 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCFile at /Plone/plone-development/prefeitura-ao-vivo/releases/1.0/portal_factory/PSCFile/pscfile.2016-08-19.3865695840>
+------
+2016-08-19T18:46:42 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCFile at /Plone/plone-development/prefeitura-ao-vivo/releases/1.0/portal_factory/PSCFile/pscfile.2016-08-19.3865695840>
+------
+2016-08-19T18:46:45 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCFile at /Plone/plone-development/prefeitura-ao-vivo/releases/1.0/portal_factory/PSCFile/pscfile.2016-08-19.3865695840>
+------
+2016-08-19T18:46:45 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCFile at /Plone/plone-development/prefeitura-ao-vivo/releases/1.0/pscfile.2016-08-19.3865695840>
+------
+2016-08-19T18:46:45 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCRelease at /Plone/plone-development/prefeitura-ao-vivo/releases/1.0>
+------
+2016-08-19T18:46:45 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCRelease at /Plone/plone-development/prefeitura-ao-vivo/releases/1.0>
+------
+2016-08-19T18:46:45 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCFile at /Plone/plone-development/prefeitura-ao-vivo/releases/1.0/1470337140326.rar>
+------
+2016-08-19T18:46:45 ERROR Zope.SiteErrorLog 1471632405.50.648403658685 http://127.0.0.1:8080/Plone/plone-development/prefeitura-ao-vivo/releases/1.0/1470337140326.rar/psc_file_view
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.CMFCore.FSPageTemplate, line 237, in _exec
+  Module Products.CMFCore.FSPageTemplate, line 177, in pt_render
+  Module Products.PageTemplates.PageTemplate, line 87, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 132, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 240, in __call__
+  Module zope.tal.talinterpreter, line 271, in __call__
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 888, in do_useMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 946, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 531, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 742, in do_insertStructure_tal
+  Module Products.PageTemplates.Expressions, line 218, in evaluateStructure
+  Module zope.tales.tales, line 696, in evaluate
+   - URL: file:/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.4-py2.7.egg/Products/PloneSoftwareCenter/skins/plonesoftwarecenter/psc_file_view.pt
+   - Line 37, Column 12
+   - Expression: <PathExpr standard:u'here/product_icon.gif'>
+   - Names:
+      {'container': <PloneSite at /Plone>,
+       'context': <PSCFile at /Plone/plone-development/prefeitura-ao-vivo/releases/1.0/1470337140326.rar>,
+       'default': <object object at 0xb7556a08>,
+       'here': <PSCFile at /Plone/plone-development/prefeitura-ao-vivo/releases/1.0/1470337140326.rar>,
+       'loop': {},
+       'nothing': None,
+       'options': {'args': ()},
+       'repeat': <Products.PageTemplates.Expressions.SafeMapping object at 0xb06e1054>,
+       'request': <HTTPRequest, URL=http://127.0.0.1:8080/Plone/plone-development/prefeitura-ao-vivo/releases/1.0/1470337140326.rar/psc_file_view>,
+       'root': <Application at >,
+       'template': <FSPageTemplate at /Plone/psc_file_view used for /Plone/plone-development/prefeitura-ao-vivo/releases/1.0/1470337140326.rar>,
+       'traverse_subpath': [],
+       'user': <PropertiedUser 'admin'>}
+  Module zope.tales.expressions, line 217, in __call__
+  Module Products.PageTemplates.Expressions, line 147, in _eval
+  Module zope.tales.expressions, line 124, in _eval
+  Module Products.PageTemplates.Expressions, line 74, in boboAwareZopeTraverse
+  Module OFS.Traversable, line 317, in restrictedTraverse
+  Module OFS.Traversable, line 285, in unrestrictedTraverse
+   - __traceback_info__: ([], 'product_icon.gif')
+AttributeError: product_icon.gif
+------
+2016-08-19T18:50:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PSCDocumentationFolder at /Plone/plone-development/prefeitura-ao-vivo/documentation>
+------
+2016-08-19T18:50:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/prefeitura-ao-vivo>
+------
+2016-08-19T18:50:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PSCDocumentationFolder at /Plone/plone-development/prefeitura-ao-vivo/pscdocumentationfolder.2016-08-19.2749250221>
+------
+2016-08-19T18:50:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/prefeitura-ao-vivo>
+------
+2016-08-19T18:54:27 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PoiPscTracker at /Plone/plone-development/plone-1.0/portal_factory/PoiPscTracker/poipsctracker.2016-08-19.8676977038>
+------
+2016-08-19T18:54:36 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PoiPscTracker at /Plone/plone-development/plone-1.0/portal_factory/PoiPscTracker/poipsctracker.2016-08-19.8676977038>
+------
+2016-08-19T18:54:36 INFO collective.fingerpointing user=test ip=127.0.0.1 action=create object=<PoiPscTracker at /Plone/plone-development/plone-1.0/portal_factory/PoiPscTracker/poipsctracker.2016-08-19.8676977038>
+------
+2016-08-19T18:57:44 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-19T18:57:44 INFO Z2 Shutting down
+------
+2016-08-19T19:03:48 INFO ZServer HTTP server started at Fri Aug 19 19:03:48 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-19T19:03:52 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-19T19:03:52 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-19T19:03:52 WARNING ZODB.blob (10448) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-19T19:03:58 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-19T19:04:00 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-19T19:04:00 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-19T19:04:01 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-19T19:04:03 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-19T19:04:03 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T19:04:03 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T19:04:03 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T19:04:03 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T19:04:03 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T19:04:03 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T19:04:03 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T19:04:03 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T19:04:04 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-19T19:04:04 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-19T19:04:04 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-19T19:04:04 INFO Zope Ready to handle requests
+------
+2016-08-19T19:07:47 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-19T19:07:47 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-19T19:08:27 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-19T19:08:27 INFO Z2 Shutting down
