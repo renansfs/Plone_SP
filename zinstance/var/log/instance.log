@@ -7145,3 +7145,1379 @@ AssertionError:
 2016-08-16T18:26:32 INFO SignalHandler Caught signal SIGINT
 ------
 2016-08-16T18:26:32 INFO Z2 Shutting down
+------
+2016-08-18T18:31:54 INFO ZServer HTTP server started at Thu Aug 18 18:31:54 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-18T18:32:01 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-18T18:32:01 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-18T18:32:03 INFO ZODB.blob (2333) Blob temporary directory '/home/vagrant/Plone_SP/zinstance/var/blobstorage/tmp' does not exist. Created new directory.
+------
+2016-08-18T18:32:03 WARNING ZODB.blob (2333) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-18T18:32:10 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-18T18:32:13 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-18T18:32:15 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-18T18:32:15 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-18T18:32:19 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-18T18:32:19 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T18:32:19 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T18:32:19 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T18:32:19 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T18:32:19 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T18:32:19 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T18:32:19 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T18:32:19 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T18:32:20 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-18T18:32:20 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-18T18:32:20 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-18T18:32:21 INFO Zope Ready to handle requests
+------
+2016-08-18T18:32:51 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=logout 
+------
+2016-08-18T18:32:56 INFO PluggableAuthService openid consumer discovery error for identity http://facebook-openid.appspot.com/facebook/login?continue=http%3A%2F%2Ffacebook-openid.appspot.com%2F&code=AQBVBxvL2HFdEzeCT7-7E7mtF89zwUlwQFLAGFLE0vtVucS_xArqf1Vb4QSmlkayqvWiHf-eG0kHac8zOUzUc3Q1Un3C4wnWIsI75ghIEjF8G7bHZ8aJYHaUUri_bj7msj8AYBng3aS7oll19yso0xm5J-4xtzTtA9WxEjVQnEJpytAQR1dbRlgJJTWZ17eCHbyZVHrxbrID_wNZnznCn3eKmmMu1BxgYuY45JjY4-PprrycU0mi_VcY3mooC-s6eDAeXk5DxSLtmrA0Ec04hOzt2zrArV3cgM3TfevQsOf8We0q9cvgEpM2BWMSUGzlIlw#_=_: HTTP Response status from identity URL host is not 200. Got status 500
+------
+2016-08-18T18:55:59 INFO plone.protect auto rotating keyring _system
+------
+2016-08-18T18:55:59 INFO plone.protect auto rotating keyring _forms
+------
+2016-08-18T18:55:59 INFO plone.protect auto rotating keyring _anon
+------
+2016-08-18T18:55:59 INFO plone.protect auto rotating keyring _system
+------
+2016-08-18T18:55:59 INFO plone.protect auto rotating keyring _forms
+------
+2016-08-18T18:55:59 INFO plone.protect auto rotating keyring _anon
+------
+2016-08-18T18:55:59 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=login 
+------
+2016-08-18T18:56:14 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/portal_factory/PloneSoftwareCenter/plonesoftwarecenter.2016-08-18.5740869999>
+------
+2016-08-18T18:56:20 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/portal_factory/PloneSoftwareCenter/plonesoftwarecenter.2016-08-18.5740869999>
+------
+2016-08-18T18:56:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/portal_factory/PloneSoftwareCenter/plonesoftwarecenter.2016-08-18.5740869999>
+------
+2016-08-18T18:56:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/portal_factory/PloneSoftwareCenter/plonesoftwarecenter.2016-08-18.5740869999>
+------
+2016-08-18T18:56:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/plonesoftwarecenter.2016-08-18.5740869999>
+------
+2016-08-18T18:56:23 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneSoftwareCenter at /Plone/1234>
+------
+2016-08-18T18:56:48 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.6085078395/releases>
+------
+2016-08-18T18:56:48 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.6085078395>
+------
+2016-08-18T18:56:48 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.6085078395>
+------
+2016-08-18T18:56:52 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.6085078395/releases>
+------
+2016-08-18T18:56:52 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.6085078395>
+------
+2016-08-18T18:56:52 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.6085078395>
+------
+2016-08-18T18:56:53 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.6085078395/releases>
+------
+2016-08-18T18:56:53 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.6085078395>
+------
+2016-08-18T18:56:53 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.6085078395>
+------
+2016-08-18T18:56:54 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.6085078395/releases>
+------
+2016-08-18T18:56:54 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.6085078395>
+------
+2016-08-18T18:56:54 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.6085078395>
+------
+2016-08-18T18:56:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.6085078395/releases>
+------
+2016-08-18T18:56:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.6085078395>
+------
+2016-08-18T18:56:58 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.6085078395>
+------
+2016-08-18T18:56:59 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.6085078395/releases>
+------
+2016-08-18T18:56:59 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.6085078395>
+------
+2016-08-18T18:56:59 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.6085078395>
+------
+2016-08-18T18:56:59 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/1234/pscproject.2016-08-18.6085078395/releases>
+------
+2016-08-18T18:56:59 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/1234/pscproject.2016-08-18.6085078395>
+------
+2016-08-18T18:56:59 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/1234/pscproject.2016-08-18.6085078395>
+------
+2016-08-18T18:56:59 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneSoftwareCenter at /Plone/1234>
+------
+2016-08-18T18:56:59 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneSoftwareCenter at /Plone/1234>
+------
+2016-08-18T18:56:59 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/1234/new-software>
+------
+2016-08-18T18:57:16 ERROR Zope.SiteErrorLog 1471546636.050.605601213507 http://127.0.0.1:8080/Plone/1234/plonesoftwarecenter_view
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.CMFCore.FSPageTemplate, line 237, in _exec
+  Module Products.CMFCore.FSPageTemplate, line 177, in pt_render
+  Module Products.PageTemplates.PageTemplate, line 87, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 132, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 240, in __call__
+  Module zope.tal.talinterpreter, line 271, in __call__
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 888, in do_useMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 946, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 851, in do_condition
+  Module Products.PageTemplates.Expressions, line 205, in evaluateBoolean
+  Module zope.tales.tales, line 696, in evaluate
+   - URL: file:/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.4-py2.7.egg/Products/PloneSoftwareCenter/skins/plonesoftwarecenter/plonesoftwarecenter_view.pt
+   - Line 95, Column 15
+   - Expression: <PathExpr standard:u'context/portal_syndication/isSiteSyndicationAllowed'>
+   - Names:
+      {'container': <PloneSite at /Plone>,
+       'context': <PloneSoftwareCenter at /Plone/1234>,
+       'default': <object object at 0xb74f3a10>,
+       'here': <PloneSoftwareCenter at /Plone/1234>,
+       'loop': {u'category': <Products.PageTemplates.Expressions.PathIterator object at 0xb0a617ac>},
+       'nothing': None,
+       'options': {'args': ()},
+       'repeat': <Products.PageTemplates.Expressions.SafeMapping object at 0xb09906bc>,
+       'request': <HTTPRequest, URL=http://127.0.0.1:8080/Plone/1234/plonesoftwarecenter_view>,
+       'root': <Application at >,
+       'template': <FSPageTemplate at /Plone/plonesoftwarecenter_view used for /Plone/1234>,
+       'traverse_subpath': [],
+       'user': <PropertiedUser 'admin'>}
+  Module zope.tales.expressions, line 217, in __call__
+  Module Products.PageTemplates.Expressions, line 147, in _eval
+  Module zope.tales.expressions, line 124, in _eval
+  Module Products.PageTemplates.Expressions, line 74, in boboAwareZopeTraverse
+  Module OFS.Traversable, line 317, in restrictedTraverse
+  Module OFS.Traversable, line 285, in unrestrictedTraverse
+   - __traceback_info__: ([], 'portal_syndication')
+AttributeError: portal_syndication
+------
+2016-08-18T19:00:07 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Folder at folder.2016-08-18.8073133196>
+------
+2016-08-18T19:00:16 INFO collective.fingerpointing user=test ip=127.0.0.1 action=create object=<Folder at folder.2016-08-18.8073133196>
+------
+2016-08-18T19:00:28 INFO collective.fingerpointing user=test ip=127.0.0.1 action=create object=<Folder at folder.2016-08-18.8073133196>
+------
+2016-08-18T19:00:29 INFO collective.fingerpointing user=test ip=127.0.0.1 action=create object=<Folder at folder.2016-08-18.8073133196>
+------
+2016-08-18T19:00:37 INFO collective.fingerpointing user=test ip=127.0.0.1 action=create object=<Folder at folder.2016-08-18.8073133196>
+------
+2016-08-18T19:00:40 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Folder at folder.2016-08-18.8073133196>
+------
+2016-08-18T19:00:40 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Folder at /Plone/portal_factory/Folder/folder.2016-08-18.8073133196>
+------
+2016-08-18T19:00:40 ERROR Zope.SiteErrorLog 1471546840.920.198440275427 http://127.0.0.1:8080/Plone/portal_factory/Folder/folder.2016-08-18.8073133196/@@edit
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 146, in publish
+  Module Zope2.App.startup, line 301, in commit
+  Module transaction._manager, line 89, in commit
+  Module transaction._transaction, line 329, in commit
+  Module transaction._transaction, line 443, in _commitResources
+  Module ZODB.Connection, line 567, in commit
+  Module ZODB.Connection, line 623, in _commit
+  Module ZODB.Connection, line 658, in _store_objects
+  Module ZODB.serialize, line 422, in serialize
+TypeError: Can't pickle objects in acquisition wrappers.
+------
+2016-08-18T19:01:48 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<FGLikertField at /Plone/formulario-da-cgtic/avalie-o-nivel-de-felicidade>
+------
+2016-08-18T19:01:48 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<FGMultiSelectField at /Plone/formulario-da-cgtic/como-voce-avalia-o-seu-nivel-de-conhecimento>
+------
+2016-08-18T19:01:48 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<FGDateField at /Plone/formulario-da-cgtic/ano-de-nascimento>
+------
+2016-08-18T19:01:48 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<FormThanksPage at /Plone/formulario-da-cgtic/obrigado>
+------
+2016-08-18T19:01:48 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<FormFolder at /Plone/formulario-da-cgtic>
+------
+2016-08-18T19:01:48 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PSCReleaseFolder at /Plone/1234/new-software/releases>
+------
+2016-08-18T19:01:48 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PSCProject at /Plone/1234/new-software>
+------
+2016-08-18T19:01:48 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PloneSoftwareCenter at /Plone/1234>
+------
+2016-08-18T19:02:44 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<plone.app.contenttypes.content.Folder object at 0xb0c80e6c>
+------
+2016-08-18T19:04:20 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/portal_factory/PloneSoftwareCenter/plonesoftwarecenter.2016-08-18.0608409361>
+------
+2016-08-18T19:04:24 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/portal_factory/PloneSoftwareCenter/plonesoftwarecenter.2016-08-18.0608409361>
+------
+2016-08-18T19:04:30 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/portal_factory/PloneSoftwareCenter/plonesoftwarecenter.2016-08-18.0608409361>
+------
+2016-08-18T19:04:30 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/portal_factory/PloneSoftwareCenter/plonesoftwarecenter.2016-08-18.0608409361>
+------
+2016-08-18T19:04:30 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/plonesoftwarecenter.2016-08-18.0608409361>
+------
+2016-08-18T19:04:30 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneSoftwareCenter at /Plone/teste>
+------
+2016-08-18T19:08:42 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-18T19:08:42 INFO Z2 Shutting down
+------
+2016-08-18T19:12:16 INFO ZServer HTTP server started at Thu Aug 18 19:12:16 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-18T19:12:19 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-18T19:12:19 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-18T19:12:19 WARNING ZODB.blob (2523) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-18T19:12:24 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-18T19:12:25 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-18T19:12:25 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-18T19:12:26 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-18T19:12:28 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-18T19:12:28 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T19:12:28 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T19:12:28 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T19:12:28 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T19:12:28 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T19:12:28 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T19:12:28 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T19:12:28 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T19:12:29 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-18T19:12:29 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-18T19:12:29 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-18T19:12:29 INFO Zope Ready to handle requests
+------
+2016-08-18T19:17:51 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-18T19:17:51 INFO Z2 Shutting down
+------
+2016-08-18T19:19:57 INFO ZServer HTTP server started at Thu Aug 18 19:19:57 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-18T19:20:01 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-18T19:20:01 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-18T19:20:02 WARNING ZODB.blob (2570) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-18T19:20:06 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-18T19:20:07 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-18T19:20:08 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-18T19:20:08 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-18T19:21:57 INFO ZServer HTTP server started at Thu Aug 18 19:21:57 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-18T19:22:00 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-18T19:22:00 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-18T19:22:08 WARNING ZODB.blob (2582) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-18T19:22:12 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-18T19:22:13 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-18T19:22:13 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-18T19:22:14 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-18T19:23:02 INFO ZServer HTTP server started at Thu Aug 18 19:23:02 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-18T19:23:04 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-18T19:23:05 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-18T19:23:05 WARNING ZODB.blob (2591) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-18T19:23:09 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-18T19:23:10 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-18T19:23:11 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-18T19:23:11 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-18T19:24:49 INFO ZServer HTTP server started at Thu Aug 18 19:24:49 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-18T19:24:52 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-18T19:24:52 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-18T19:24:53 WARNING ZODB.blob (2723) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-18T19:24:57 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-18T19:24:58 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-18T19:24:58 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-18T19:24:59 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-18T19:25:01 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-18T19:25:01 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T19:25:01 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T19:25:01 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T19:25:01 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T19:25:01 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T19:25:01 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T19:25:01 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T19:25:01 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T19:25:02 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-18T19:25:02 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-18T19:25:02 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-18T19:25:03 INFO Zope Ready to handle requests
+------
+2016-08-18T19:31:30 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-18T19:31:30 INFO Z2 Shutting down
+------
+2016-08-18T19:33:15 INFO ZServer HTTP server started at Thu Aug 18 19:33:15 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-18T19:33:17 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-18T19:33:18 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-18T19:33:18 WARNING ZODB.blob (2753) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-18T19:33:22 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-18T19:33:23 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-18T19:33:24 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-18T19:33:24 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-18T19:33:27 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-18T19:33:27 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T19:33:27 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T19:33:27 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T19:33:27 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T19:33:27 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T19:33:27 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T19:33:27 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T19:33:27 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T19:33:27 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-18T19:33:27 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-18T19:33:28 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-18T19:33:28 INFO Zope Ready to handle requests
+------
+2016-08-18T19:33:49 INFO CMFQuickInstallerTool Multiple extension profiles found for product collective.siterss. Used profile: collective.siterss:default
+------
+2016-08-18T19:33:49 INFO Products.GenericSetup.tool Importing profile profile-collective.siterss:default with dependency strategy upgrade.
+------
+2016-08-18T19:33:49 INFO Products.GenericSetup.tool Applying main profile profile-collective.siterss:default
+------
+2016-08-18T19:33:50 WARNING Plone Deprecation Warning 
+An icon for the 'controlpanel/PloneAppSiteRSS' action is being added to the action icons tool. The action icons tool has been deprecated and will be removed in Plone 5. You should register action icons directly on the action now, using the 'icon_expr' setting.
+------
+2016-08-18T19:33:50 INFO GenericSetup.action-icons Action icons tool settings imported.
+------
+2016-08-18T19:33:50 INFO GenericSetup.controlpanel Control panel imported.
+------
+2016-08-18T19:33:50 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-18T19:33:50 INFO GenericSetup.browserlayer Browser layers imported
+------
+2016-08-18T19:33:50 INFO GenericSetup.propertiestool Properties tool imported.
+------
+2016-08-18T19:33:50 INFO GenericSetup.plone.app.viewletmanager Imported.
+------
+2016-08-18T19:33:50 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-18T19:34:11 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T19:34:18 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Collection at >
+------
+2016-08-18T19:34:19 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T19:34:19 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T19:34:22 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T19:34:36 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T19:34:41 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T19:34:41 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T19:34:44 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T19:34:56 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T19:34:56 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T19:34:59 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T19:34:59 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T19:35:54 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-18T19:35:54 INFO Z2 Shutting down
+------
+2016-08-18T19:36:25 INFO ZServer HTTP server started at Thu Aug 18 19:36:25 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-18T19:36:28 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-18T19:36:28 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-18T19:36:29 WARNING ZODB.blob (2767) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-18T19:36:33 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-18T19:36:34 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-18T19:36:35 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-18T19:36:35 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-18T19:36:38 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-18T19:36:38 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T19:36:38 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T19:36:38 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T19:36:38 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T19:36:38 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T19:36:38 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T19:36:38 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T19:36:38 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T19:36:38 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-18T19:36:38 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-18T19:36:39 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-18T19:36:39 INFO Zope Ready to handle requests
+------
+2016-08-18T19:37:20 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-18T19:37:20 INFO Z2 Shutting down
+------
+2016-08-18T19:39:40 INFO ZServer HTTP server started at Thu Aug 18 19:39:40 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-18T19:39:43 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-18T19:39:43 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-18T19:39:43 ERROR Application Could not import Products.PloneSoftwareCenter
+Traceback (most recent call last):
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Zope2-2.13.24-py2.7.egg/OFS/Application.py", line 606, in import_product
+    product=__import__(pname, global_dict, global_dict, silly)
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.5-py2.7.egg/Products/PloneSoftwareCenter/__init__.py", line 15, in <module>
+    from Products.PloneSoftwareCenter.content import validators
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.5-py2.7.egg/Products/PloneSoftwareCenter/content/__init__.py", line 7, in <module>
+    import root
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.5-py2.7.egg/Products/PloneSoftwareCenter/content/root.py", line 22, in <module>
+    from Products.ArchAddOn.Fields import SimpleDataGridField
+ImportError: No module named ArchAddOn.Fields
+------
+2016-08-18T19:44:20 INFO ZServer HTTP server started at Thu Aug 18 19:44:20 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-18T19:44:22 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-18T19:44:22 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-18T19:44:23 WARNING ZODB.blob (2949) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-18T19:44:27 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-18T19:44:29 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-18T19:44:29 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-18T19:44:30 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-18T19:44:32 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-18T19:44:32 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T19:44:32 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T19:44:32 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T19:44:32 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T19:44:32 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T19:44:32 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T19:44:32 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T19:44:32 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T19:44:33 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-18T19:44:33 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-18T19:44:33 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-18T19:44:33 INFO Zope Ready to handle requests
+------
+2016-08-18T19:46:23 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-18T19:46:23 INFO Z2 Shutting down
+------
+2016-08-18T19:47:29 INFO ZServer HTTP server started at Thu Aug 18 19:47:29 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-18T19:47:32 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-18T19:47:32 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-18T19:47:33 WARNING ZODB.blob (2964) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-18T19:47:37 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-18T19:47:38 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-18T19:47:39 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-18T19:47:40 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-18T19:47:42 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-18T19:47:42 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T19:47:42 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T19:47:42 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T19:47:42 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T19:47:42 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T19:47:42 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T19:47:42 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T19:47:42 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T19:47:43 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-18T19:47:43 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-18T19:47:43 INFO Zope Ready to handle requests
+------
+2016-08-18T19:48:04 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T19:48:04 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T19:48:15 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T19:49:19 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneSoftwareCenter at /Plone/teste>
+------
+2016-08-18T19:49:47 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/teste/portal_factory/PSCProject/pscproject.2016-08-18.7874013616/releases>
+------
+2016-08-18T19:49:47 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/teste/portal_factory/PSCProject/pscproject.2016-08-18.7874013616>
+------
+2016-08-18T19:49:47 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/teste/portal_factory/PSCProject/pscproject.2016-08-18.7874013616>
+------
+2016-08-18T19:49:52 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/teste/portal_factory/PSCProject/pscproject.2016-08-18.7874013616/releases>
+------
+2016-08-18T19:49:52 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/teste/portal_factory/PSCProject/pscproject.2016-08-18.7874013616>
+------
+2016-08-18T19:49:52 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/teste/portal_factory/PSCProject/pscproject.2016-08-18.7874013616>
+------
+2016-08-18T19:49:53 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/teste/portal_factory/PSCProject/pscproject.2016-08-18.7874013616/releases>
+------
+2016-08-18T19:49:53 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/teste/portal_factory/PSCProject/pscproject.2016-08-18.7874013616>
+------
+2016-08-18T19:49:53 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/teste/portal_factory/PSCProject/pscproject.2016-08-18.7874013616>
+------
+2016-08-18T19:49:54 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/teste/portal_factory/PSCProject/pscproject.2016-08-18.7874013616/releases>
+------
+2016-08-18T19:49:54 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/teste/portal_factory/PSCProject/pscproject.2016-08-18.7874013616>
+------
+2016-08-18T19:49:54 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/teste/portal_factory/PSCProject/pscproject.2016-08-18.7874013616>
+------
+2016-08-18T19:50:00 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/teste/portal_factory/PSCProject/pscproject.2016-08-18.7874013616/releases>
+------
+2016-08-18T19:50:00 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/teste/portal_factory/PSCProject/pscproject.2016-08-18.7874013616>
+------
+2016-08-18T19:50:00 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/teste/portal_factory/PSCProject/pscproject.2016-08-18.7874013616>
+------
+2016-08-18T19:50:03 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/teste/portal_factory/PSCProject/pscproject.2016-08-18.7874013616/releases>
+------
+2016-08-18T19:50:03 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/teste/portal_factory/PSCProject/pscproject.2016-08-18.7874013616>
+------
+2016-08-18T19:50:03 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/teste/portal_factory/PSCProject/pscproject.2016-08-18.7874013616>
+------
+2016-08-18T19:50:05 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/teste/portal_factory/PSCProject/pscproject.2016-08-18.7874013616/releases>
+------
+2016-08-18T19:50:05 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/teste/portal_factory/PSCProject/pscproject.2016-08-18.7874013616>
+------
+2016-08-18T19:50:05 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/teste/portal_factory/PSCProject/pscproject.2016-08-18.7874013616>
+------
+2016-08-18T19:50:06 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/teste/portal_factory/PSCProject/pscproject.2016-08-18.7874013616/releases>
+------
+2016-08-18T19:50:06 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/teste/portal_factory/PSCProject/pscproject.2016-08-18.7874013616>
+------
+2016-08-18T19:50:06 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/teste/portal_factory/PSCProject/pscproject.2016-08-18.7874013616>
+------
+2016-08-18T19:50:07 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/teste/pscproject.2016-08-18.7874013616/releases>
+------
+2016-08-18T19:50:07 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/teste/pscproject.2016-08-18.7874013616>
+------
+2016-08-18T19:50:07 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/teste/pscproject.2016-08-18.7874013616>
+------
+2016-08-18T19:50:07 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneSoftwareCenter at /Plone/teste>
+------
+2016-08-18T19:50:07 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneSoftwareCenter at /Plone/teste>
+------
+2016-08-18T19:50:07 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/teste/tudo>
+------
+2016-08-18T19:50:46 ERROR Zope.SiteErrorLog 1471549846.330.257329932419 http://127.0.0.1:8080/Plone/teste/plonesoftwarecenter_view
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.CMFCore.FSPageTemplate, line 237, in _exec
+  Module Products.CMFCore.FSPageTemplate, line 177, in pt_render
+  Module Products.PageTemplates.PageTemplate, line 87, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 132, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 240, in __call__
+  Module zope.tal.talinterpreter, line 271, in __call__
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 888, in do_useMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 946, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 851, in do_condition
+  Module Products.PageTemplates.Expressions, line 205, in evaluateBoolean
+  Module zope.tales.tales, line 696, in evaluate
+   - URL: file:/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.3-py2.7.egg/Products/PloneSoftwareCenter/skins/plonesoftwarecenter/plonesoftwarecenter_view.pt
+   - Line 95, Column 15
+   - Expression: <PathExpr standard:u'context/portal_syndication/isSiteSyndicationAllowed'>
+   - Names:
+      {'container': <PloneSite at /Plone>,
+       'context': <PloneSoftwareCenter at /Plone/teste>,
+       'default': <object object at 0xb74a9a08>,
+       'here': <PloneSoftwareCenter at /Plone/teste>,
+       'loop': {u'category': <Products.PageTemplates.Expressions.PathIterator object at 0xb0a380ec>},
+       'nothing': None,
+       'options': {'args': ()},
+       'repeat': <Products.PageTemplates.Expressions.SafeMapping object at 0xb08a2e8c>,
+       'request': <HTTPRequest, URL=http://127.0.0.1:8080/Plone/teste/plonesoftwarecenter_view>,
+       'root': <Application at >,
+       'template': <FSPageTemplate at /Plone/plonesoftwarecenter_view used for /Plone/teste>,
+       'traverse_subpath': [],
+       'user': <PropertiedUser 'admin'>}
+  Module zope.tales.expressions, line 217, in __call__
+  Module Products.PageTemplates.Expressions, line 147, in _eval
+  Module zope.tales.expressions, line 124, in _eval
+  Module Products.PageTemplates.Expressions, line 74, in boboAwareZopeTraverse
+  Module OFS.Traversable, line 317, in restrictedTraverse
+  Module OFS.Traversable, line 285, in unrestrictedTraverse
+   - __traceback_info__: ([], 'portal_syndication')
+AttributeError: portal_syndication
+------
+2016-08-18T19:51:12 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T19:51:12 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T19:51:18 ERROR Zope.SiteErrorLog 1471549878.380.198582715855 http://127.0.0.1:8080/Plone/teste/plonesoftwarecenter_view
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.CMFCore.FSPageTemplate, line 237, in _exec
+  Module Products.CMFCore.FSPageTemplate, line 177, in pt_render
+  Module Products.PageTemplates.PageTemplate, line 87, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 132, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 240, in __call__
+  Module zope.tal.talinterpreter, line 271, in __call__
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 888, in do_useMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 946, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 851, in do_condition
+  Module Products.PageTemplates.Expressions, line 205, in evaluateBoolean
+  Module zope.tales.tales, line 696, in evaluate
+   - URL: file:/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.3-py2.7.egg/Products/PloneSoftwareCenter/skins/plonesoftwarecenter/plonesoftwarecenter_view.pt
+   - Line 95, Column 15
+   - Expression: <PathExpr standard:u'context/portal_syndication/isSiteSyndicationAllowed'>
+   - Names:
+      {'container': <PloneSite at /Plone>,
+       'context': <PloneSoftwareCenter at /Plone/teste>,
+       'default': <object object at 0xb74a9a08>,
+       'here': <PloneSoftwareCenter at /Plone/teste>,
+       'loop': {u'category': <Products.PageTemplates.Expressions.PathIterator object at 0xb0a57e0c>},
+       'nothing': None,
+       'options': {'args': ()},
+       'repeat': <Products.PageTemplates.Expressions.SafeMapping object at 0xb0877fa4>,
+       'request': <HTTPRequest, URL=http://127.0.0.1:8080/Plone/teste/plonesoftwarecenter_view>,
+       'root': <Application at >,
+       'template': <FSPageTemplate at /Plone/plonesoftwarecenter_view used for /Plone/teste>,
+       'traverse_subpath': [],
+       'user': <PropertiedUser 'admin'>}
+  Module zope.tales.expressions, line 217, in __call__
+  Module Products.PageTemplates.Expressions, line 147, in _eval
+  Module zope.tales.expressions, line 124, in _eval
+  Module Products.PageTemplates.Expressions, line 74, in boboAwareZopeTraverse
+  Module OFS.Traversable, line 317, in restrictedTraverse
+  Module OFS.Traversable, line 285, in unrestrictedTraverse
+   - __traceback_info__: ([], 'portal_syndication')
+AttributeError: portal_syndication
+------
+2016-08-18T19:51:33 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PSCReleaseFolder at /Plone/teste/tudo/releases>
+------
+2016-08-18T19:51:33 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PSCProject at /Plone/teste/tudo>
+------
+2016-08-18T19:51:33 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PloneSoftwareCenter at /Plone/teste>
+------
+2016-08-18T19:51:41 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/portal_factory/PloneSoftwareCenter/plonesoftwarecenter.2016-08-18.9011521968>
+------
+2016-08-18T19:51:47 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/portal_factory/PloneSoftwareCenter/plonesoftwarecenter.2016-08-18.9011521968>
+------
+2016-08-18T19:51:49 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/portal_factory/PloneSoftwareCenter/plonesoftwarecenter.2016-08-18.9011521968>
+------
+2016-08-18T19:51:49 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/plonesoftwarecenter.2016-08-18.9011521968>
+------
+2016-08-18T19:51:50 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneSoftwareCenter at /Plone/1234-syndication-rss>
+------
+2016-08-18T19:57:00 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-18T19:57:00 INFO Z2 Shutting down
+------
+2016-08-18T20:01:42 INFO ZServer HTTP server started at Thu Aug 18 20:01:42 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-18T20:01:45 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-18T20:01:45 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-18T20:01:46 WARNING ZODB.blob (3110) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-18T20:01:50 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-18T20:01:51 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-18T20:01:52 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-18T20:01:52 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-18T20:01:55 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-18T20:01:55 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T20:01:55 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T20:01:55 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T20:01:55 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T20:01:55 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T20:01:55 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T20:01:55 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-18T20:01:55 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-18T20:01:55 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-18T20:01:56 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-18T20:01:56 INFO Zope Ready to handle requests
+------
+2016-08-18T20:02:25 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T20:03:09 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Collection at >
+------
+2016-08-18T20:03:09 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T20:03:09 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T20:03:33 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T20:03:33 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T20:05:10 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T20:05:10 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T20:05:42 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PloneSoftwareCenter at /Plone/1234-syndication-rss>
+------
+2016-08-18T20:05:46 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T20:05:46 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T20:06:45 ERROR Zope.SiteErrorLog 1471550805.250.188378156653 http://127.0.0.1:8080/manage_addProduct/ATContentTypes/manage_addContent
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 72, in mapply
+  Module ZPublisher.Publish, line 53, in missing_name
+  Module ZPublisher.HTTPResponse, line 741, in badRequestError
+BadRequest:   <h2>Site Error</h2>
+  <p>An error was encountered while publishing this resource.
+  </p>
+  <p><strong>Invalid request</strong></p>
+
+  The parameter, <em>type</em>, was omitted from the request.<p>Make sure to specify all required parameters, and try the request again.</p>
+  <hr noshade="noshade"/>
+
+  <p>Troubleshooting Suggestions</p>
+
+  <ul>
+  <li>The URL may be incorrect.</li>
+  <li>The parameters passed to this resource may be incorrect.</li>
+  <li>A resource that this resource relies on may be
+      encountering an error.</li>
+  </ul>
+
+  <p>For more detailed information about the error, please
+  refer to the error log.
+  </p>
+
+  <p>If the error persists please contact the site maintainer.
+  Thank you for your patience.
+  </p>
+------
+2016-08-18T20:06:57 ERROR Zope.SiteErrorLog 1471550817.330.250231580158 http://127.0.0.1:8080/manage_main
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module App.special_dtml, line 185, in _exec
+  Module DocumentTemplate.DT_Let, line 77, in render
+  Module DocumentTemplate.DT_In, line 707, in renderwob
+  Module Products.CMFCore.DynamicType, line 109, in icon
+  Module Products.CMFCore.utils, line 10, in check_getToolByName
+  Module Products.CMFCore.utils, line 120, in getToolByName
+AttributeError: portal_url
+------
+2016-08-18T20:07:00 ERROR Zope.SiteErrorLog 1471550820.690.647894483891 http://127.0.0.1:8080/manage_main
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module App.special_dtml, line 185, in _exec
+  Module DocumentTemplate.DT_Let, line 77, in render
+  Module DocumentTemplate.DT_In, line 707, in renderwob
+  Module Products.CMFCore.DynamicType, line 109, in icon
+  Module Products.CMFCore.utils, line 10, in check_getToolByName
+  Module Products.CMFCore.utils, line 120, in getToolByName
+AttributeError: portal_url
+------
+2016-08-18T20:07:06 ERROR Zope.SiteErrorLog 1471550826.910.935070950731 http://127.0.0.1:8080/manage_main
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module App.special_dtml, line 185, in _exec
+  Module DocumentTemplate.DT_Let, line 77, in render
+  Module DocumentTemplate.DT_In, line 707, in renderwob
+  Module Products.CMFCore.DynamicType, line 109, in icon
+  Module Products.CMFCore.utils, line 10, in check_getToolByName
+  Module Products.CMFCore.utils, line 120, in getToolByName
+AttributeError: portal_url
+------
+2016-08-18T20:07:11 ERROR Zope.SiteErrorLog 1471550831.580.0493111846975 http://127.0.0.1:8080/manage_main
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module App.special_dtml, line 185, in _exec
+  Module DocumentTemplate.DT_Let, line 77, in render
+  Module DocumentTemplate.DT_In, line 707, in renderwob
+  Module Products.CMFCore.DynamicType, line 109, in icon
+  Module Products.CMFCore.utils, line 10, in check_getToolByName
+  Module Products.CMFCore.utils, line 120, in getToolByName
+AttributeError: portal_url
+------
+2016-08-18T20:07:15 ERROR Zope.SiteErrorLog 1471550835.520.670203679478 http://127.0.0.1:8080/manage_main
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module App.special_dtml, line 185, in _exec
+  Module DocumentTemplate.DT_Let, line 77, in render
+  Module DocumentTemplate.DT_In, line 707, in renderwob
+  Module Products.CMFCore.DynamicType, line 109, in icon
+  Module Products.CMFCore.utils, line 10, in check_getToolByName
+  Module Products.CMFCore.utils, line 120, in getToolByName
+AttributeError: portal_url
+------
+2016-08-18T20:07:25 ERROR Zope.SiteErrorLog 1471550845.250.771552328632 http://127.0.0.1:8080/manage_main
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module App.special_dtml, line 185, in _exec
+  Module DocumentTemplate.DT_Let, line 77, in render
+  Module DocumentTemplate.DT_In, line 707, in renderwob
+  Module Products.CMFCore.DynamicType, line 109, in icon
+  Module Products.CMFCore.utils, line 10, in check_getToolByName
+  Module Products.CMFCore.utils, line 120, in getToolByName
+AttributeError: portal_url
+------
+2016-08-18T20:07:30 INFO GenericSetup.componentregistry Adapters exported.
+------
+2016-08-18T20:07:30 INFO GenericSetup.componentregistry Subscribers exported.
+------
+2016-08-18T20:07:30 INFO GenericSetup.componentregistry Utilities exported.
+------
+2016-08-18T20:08:39 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T20:08:39 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T20:09:59 ERROR Zope.SiteErrorLog 1471550999.380.166489486774 http://127.0.0.1:8080/manage_main
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module App.special_dtml, line 185, in _exec
+  Module DocumentTemplate.DT_Let, line 77, in render
+  Module DocumentTemplate.DT_In, line 707, in renderwob
+  Module Products.CMFCore.DynamicType, line 109, in icon
+  Module Products.CMFCore.utils, line 10, in check_getToolByName
+  Module Products.CMFCore.utils, line 120, in getToolByName
+AttributeError: portal_url
+------
+2016-08-18T20:10:11 ERROR Zope.SiteErrorLog 1471551011.580.401250536418 http://127.0.0.1:8080/manage_main
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module App.special_dtml, line 185, in _exec
+  Module DocumentTemplate.DT_Let, line 77, in render
+  Module DocumentTemplate.DT_In, line 707, in renderwob
+  Module Products.CMFCore.DynamicType, line 109, in icon
+  Module Products.CMFCore.utils, line 10, in check_getToolByName
+  Module Products.CMFCore.utils, line 120, in getToolByName
+AttributeError: portal_url
+------
+2016-08-18T20:10:18 ERROR Zope.SiteErrorLog 1471551018.850.213232955302 http://127.0.0.1:8080/manage_main
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module App.special_dtml, line 185, in _exec
+  Module DocumentTemplate.DT_Let, line 77, in render
+  Module DocumentTemplate.DT_In, line 707, in renderwob
+  Module Products.CMFCore.DynamicType, line 109, in icon
+  Module Products.CMFCore.utils, line 10, in check_getToolByName
+  Module Products.CMFCore.utils, line 120, in getToolByName
+AttributeError: portal_url
+------
+2016-08-18T20:12:55 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T20:12:55 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T20:13:29 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T20:13:29 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T20:14:55 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T20:14:55 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T20:15:03 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T20:15:03 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T20:17:43 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T20:17:43 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T20:17:45 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T20:17:55 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/portal_factory/PloneSoftwareCenter/plonesoftwarecenter.2016-08-18.4756086011>
+------
+2016-08-18T20:18:01 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/portal_factory/PloneSoftwareCenter/plonesoftwarecenter.2016-08-18.4756086011>
+------
+2016-08-18T20:18:01 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/portal_factory/PloneSoftwareCenter/plonesoftwarecenter.2016-08-18.4756086011>
+------
+2016-08-18T20:18:01 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneSoftwareCenter at /Plone/plonesoftwarecenter.2016-08-18.4756086011>
+------
+2016-08-18T20:18:02 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneSoftwareCenter at /Plone/1234>
+------
+2016-08-18T20:18:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.4962038631/releases>
+------
+2016-08-18T20:18:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.4962038631>
+------
+2016-08-18T20:18:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.4962038631>
+------
+2016-08-18T20:18:19 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.4962038631/releases>
+------
+2016-08-18T20:18:19 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.4962038631>
+------
+2016-08-18T20:18:19 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.4962038631>
+------
+2016-08-18T20:18:20 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.4962038631/releases>
+------
+2016-08-18T20:18:20 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.4962038631>
+------
+2016-08-18T20:18:20 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.4962038631>
+------
+2016-08-18T20:18:21 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.4962038631/releases>
+------
+2016-08-18T20:18:21 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.4962038631>
+------
+2016-08-18T20:18:21 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.4962038631>
+------
+2016-08-18T20:18:25 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.4962038631/releases>
+------
+2016-08-18T20:18:25 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.4962038631>
+------
+2016-08-18T20:18:25 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.4962038631>
+------
+2016-08-18T20:18:25 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.4962038631/releases>
+------
+2016-08-18T20:18:25 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.4962038631>
+------
+2016-08-18T20:18:25 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-18.4962038631>
+------
+2016-08-18T20:18:25 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/1234/pscproject.2016-08-18.4962038631/releases>
+------
+2016-08-18T20:18:25 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/1234/pscproject.2016-08-18.4962038631>
+------
+2016-08-18T20:18:25 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/1234/pscproject.2016-08-18.4962038631>
+------
+2016-08-18T20:18:25 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneSoftwareCenter at /Plone/1234>
+------
+2016-08-18T20:18:26 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneSoftwareCenter at /Plone/1234>
+------
+2016-08-18T20:18:26 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/1234/sadgsadg>
+------
+2016-08-18T20:18:32 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T20:18:32 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-18T20:18:33 ERROR Zope.SiteErrorLog 1471551513.780.78090889945 http://127.0.0.1:8080/Plone/1234/plonesoftwarecenter_view
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module Products.CMFCore.FSPageTemplate, line 237, in _exec
+  Module Products.CMFCore.FSPageTemplate, line 177, in pt_render
+  Module Products.PageTemplates.PageTemplate, line 87, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 132, in pt_render
+  Module zope.pagetemplate.pagetemplate, line 240, in __call__
+  Module zope.tal.talinterpreter, line 271, in __call__
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 888, in do_useMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 858, in do_defineMacro
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 954, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 533, in do_optTag_tal
+  Module zope.tal.talinterpreter, line 518, in do_optTag
+  Module zope.tal.talinterpreter, line 513, in no_tag
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 946, in do_defineSlot
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 821, in do_loop_tal
+  Module zope.tal.talinterpreter, line 343, in interpret
+  Module zope.tal.talinterpreter, line 851, in do_condition
+  Module Products.PageTemplates.Expressions, line 205, in evaluateBoolean
+  Module zope.tales.tales, line 696, in evaluate
+   - URL: file:/home/vagrant/Plone_SP/buildout-cache/eggs/Products.PloneSoftwareCenter-1.6.3-py2.7.egg/Products/PloneSoftwareCenter/skins/plonesoftwarecenter/plonesoftwarecenter_view.pt
+   - Line 95, Column 15
+   - Expression: <PathExpr standard:u'context/portal_syndication/isSiteSyndicationAllowed'>
+   - Names:
+      {'container': <PloneSite at /Plone>,
+       'context': <PloneSoftwareCenter at /Plone/1234>,
+       'default': <object object at 0xb7484a08>,
+       'here': <PloneSoftwareCenter at /Plone/1234>,
+       'loop': {u'category': <Products.PageTemplates.Expressions.PathIterator object at 0xb010b98c>},
+       'nothing': None,
+       'options': {'args': ()},
+       'repeat': <Products.PageTemplates.Expressions.SafeMapping object at 0xb02b91e4>,
+       'request': <HTTPRequest, URL=http://127.0.0.1:8080/Plone/1234/plonesoftwarecenter_view>,
+       'root': <Application at >,
+       'template': <FSPageTemplate at /Plone/plonesoftwarecenter_view used for /Plone/1234>,
+       'traverse_subpath': [],
+       'user': <PropertiedUser 'admin'>}
+  Module zope.tales.expressions, line 217, in __call__
+  Module Products.PageTemplates.Expressions, line 147, in _eval
+  Module zope.tales.expressions, line 124, in _eval
+  Module Products.PageTemplates.Expressions, line 74, in boboAwareZopeTraverse
+  Module OFS.Traversable, line 317, in restrictedTraverse
+  Module OFS.Traversable, line 285, in unrestrictedTraverse
+   - __traceback_info__: ([], 'portal_syndication')
+AttributeError: portal_syndication
+------
+2016-08-19T16:14:23 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-19T16:14:23 INFO Z2 Shutting down
+------
+2016-08-19T16:22:18 INFO ZServer HTTP server started at Fri Aug 19 16:22:18 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-19T16:22:24 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-19T16:22:25 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-19T16:22:26 WARNING ZODB.blob (8688) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-19T16:22:34 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-19T16:22:36 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-19T16:22:37 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-19T16:22:38 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-19T16:22:42 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-19T16:22:42 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T16:22:42 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T16:22:42 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T16:22:42 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T16:22:42 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T16:22:42 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T16:22:42 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-19T16:22:42 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-19T16:22:43 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-19T16:22:43 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-19T16:22:44 INFO Zope Ready to handle requests
+------
+2016-08-19T16:23:28 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-19.8079968480/releases>
+------
+2016-08-19T16:23:28 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-19.8079968480>
+------
+2016-08-19T16:23:28 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-19.8079968480>
+------
+2016-08-19T16:23:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-19.8079968480/releases>
+------
+2016-08-19T16:23:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-19.8079968480>
+------
+2016-08-19T16:23:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-19.8079968480>
+------
+2016-08-19T16:23:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-19.8079968480/releases>
+------
+2016-08-19T16:23:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-19.8079968480>
+------
+2016-08-19T16:23:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-19.8079968480>
+------
+2016-08-19T16:23:36 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-19.8079968480/releases>
+------
+2016-08-19T16:23:36 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-19.8079968480>
+------
+2016-08-19T16:23:36 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-19.8079968480>
+------
+2016-08-19T16:23:42 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-19.8079968480/releases>
+------
+2016-08-19T16:23:42 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-19.8079968480>
+------
+2016-08-19T16:23:42 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-19.8079968480>
+------
+2016-08-19T16:23:43 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-19.8079968480/releases>
+------
+2016-08-19T16:23:43 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-19.8079968480>
+------
+2016-08-19T16:23:43 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/1234/portal_factory/PSCProject/pscproject.2016-08-19.8079968480>
+------
+2016-08-19T16:23:44 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/1234/pscproject.2016-08-19.8079968480/releases>
+------
+2016-08-19T16:23:44 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/1234/pscproject.2016-08-19.8079968480>
+------
+2016-08-19T16:23:44 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/1234/pscproject.2016-08-19.8079968480>
+------
+2016-08-19T16:23:44 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneSoftwareCenter at /Plone/1234>
+------
+2016-08-19T16:23:44 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneSoftwareCenter at /Plone/1234>
+------
+2016-08-19T16:23:44 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/1234/1234>
+------
+2016-08-19T16:23:47 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-19T16:23:47 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-19T17:29:58 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-19T17:29:58 INFO Z2 Shutting down
