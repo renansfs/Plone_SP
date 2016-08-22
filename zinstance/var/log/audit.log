@@ -82,3 +82,54 @@
 2016-08-22 17:36:58,971 - INFO - user=test ip=127.0.0.1 action=create object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/portal_factory/PSCDocumentationFolder/pscdocumentationfolder.2016-08-22.2675519142>
 2016-08-22 18:26:04,841 - INFO - user=admin ip=10.0.2.2 action=create object=<Event at >
 2016-08-22 18:26:05,067 - INFO - user=admin ip=10.0.2.2 action=modify object=<Folder at /Plone/events>
+2016-08-22 18:36:02,604 - INFO - user=admin ip=10.0.2.2 action=modify object=<Record collective.js.jqueryui.controlpanel.IJQueryUIPlugins.ui_core> value=True
+2016-08-22 18:36:02,629 - INFO - user=admin ip=10.0.2.2 action=modify object=<Record collective.js.jqueryui.controlpanel.IJQueryUIPlugins.ui_widget> value=True
+2016-08-22 18:36:02,659 - INFO - user=admin ip=10.0.2.2 action=modify object=<Record collective.js.jqueryui.controlpanel.IJQueryUIPlugins.ui_draggable> value=True
+2016-08-22 18:36:02,688 - INFO - user=admin ip=10.0.2.2 action=modify object=<Record collective.js.jqueryui.controlpanel.IJQueryUIPlugins.ui_droppable> value=True
+2016-08-22 18:36:02,713 - INFO - user=admin ip=10.0.2.2 action=modify object=<Record collective.js.jqueryui.controlpanel.IJQueryUIPlugins.ui_dialog> value=True
+2016-08-22 18:36:02,717 - INFO - user=admin ip=10.0.2.2 action=modify object=<Record collective.js.jqueryui.controlpanel.IJQueryUICSS.css> value=True
+2016-08-22 18:36:02,719 - INFO - user=admin ip=10.0.2.2 action=modify object=<Record collective.js.jqueryui.controlpanel.IJQueryUICSS.patch> value=True
+2016-08-22 18:41:18,210 - INFO - user=admin ip=10.0.2.2 action=create object=<Event at >
+2016-08-22 18:41:18,424 - INFO - user=admin ip=10.0.2.2 action=modify object=<Folder at /Plone/events>
+2016-08-22 18:44:19,502 - INFO - user=rferreira ip=10.0.2.2 action=logout 
+2016-08-22 18:44:37,380 - INFO - user=admin ip=10.0.2.2 action=logout 
+2016-08-22 18:45:39,719 - INFO - user=admin ip=10.0.2.2 action=login 
+2016-08-22 18:57:17,164 - INFO - user=admin ip=10.0.2.2 action=create object=<Event at >
+2016-08-22 18:58:16,129 - INFO - user=admin ip=10.0.2.2 action=create object=<Collection at >
+2016-08-22 18:58:53,571 - INFO - user=admin ip=10.0.2.2 action=remove object=<Event at /Plone/1234>
+2016-08-22 18:58:53,607 - INFO - user=admin ip=10.0.2.2 action=remove object=<Collection at /Plone/asgs>
+2016-08-22 19:00:44,956 - INFO - user=admin ip=10.0.2.2 action=logout 
+2016-08-22 19:01:47,977 - INFO - user=admin ip=10.0.2.2 action=login 
+2016-08-22 19:02:27,644 - INFO - user=admin ip=10.0.2.2 action=logout 
+2016-08-22 19:02:47,973 - INFO - user=admin ip=10.0.2.2 action=login 
+2016-08-22 19:03:42,268 - INFO - user=admin ip=10.0.2.2 action=logout 
+2016-08-22 19:03:54,866 - INFO - user=admin ip=10.0.2.2 action=login 
+2016-08-22 19:26:02,791 - INFO - user=admin ip=10.0.2.2 action=logout 
+2016-08-22 19:26:22,171 - INFO - user=rferreira ip=10.0.2.2 action=login 
+2016-08-22 19:53:33,765 - INFO - user=rferreira ip=10.0.2.2 action=create object=<Person at >
+2016-08-22 19:59:21,681 - INFO - user=rferreira ip=10.0.2.2 action=modify object=<Person at /Plone/renan-ferreira>
+2016-08-22 20:00:48,113 - INFO - user=rferreira ip=10.0.2.2 action=create object=<Person at >
+2016-08-22 20:09:22,618 - INFO - user=rferreira ip=10.0.2.2 action=remove object=<Person at /Plone/renan-ferreira>
+2016-08-22 20:09:22,662 - INFO - user=rferreira ip=10.0.2.2 action=remove object=<Person at /Plone/vitor-cabral>
+2016-08-22 20:18:58,832 - INFO - user=rferreira ip=10.0.2.2 action=create principal=jmarcelo
+2016-08-22 20:19:21,065 - INFO - user=rferreira ip=10.0.2.2 action=logout 
+2016-08-22 20:19:29,225 - INFO - user=jmarcelo ip=10.0.2.2 action=login 
+2016-08-22 20:20:40,203 - INFO - user=jmarcelo ip=10.0.2.2 action=login 
+2016-08-22 20:21:03,879 - INFO - user=jmarcelo ip=10.0.2.2 action=logout 
+2016-08-22 20:21:06,671 - INFO - user=admin ip=10.0.2.2 action=login 
+2016-08-22 20:21:17,179 - INFO - user=admin ip=10.0.2.2 action=modify object=<Record plone.app.theming.interfaces.IThemeSettings.currentTheme> value=None
+2016-08-22 20:21:17,181 - INFO - user=admin ip=10.0.2.2 action=modify object=<Record plone.app.theming.interfaces.IThemeSettings.rules> value=None
+2016-08-22 20:21:17,183 - INFO - user=admin ip=10.0.2.2 action=modify object=<Record plone.app.theming.interfaces.IThemeSettings.absolutePrefix> value=None
+2016-08-22 20:21:17,196 - INFO - user=admin ip=10.0.2.2 action=modify object=<Record plone.app.theming.interfaces.IThemeSettings.parameterExpressions> value={}
+2016-08-22 20:21:17,198 - INFO - user=admin ip=10.0.2.2 action=modify object=<Record plone.app.theming.interfaces.IThemeSettings.doctype> value=
+2016-08-22 20:21:17,200 - INFO - user=admin ip=10.0.2.2 action=modify object=<Record plone.app.theming.interfaces.IThemeSettings.enabled> value=False
+2016-08-22 20:22:34,640 - INFO - user=jmarcelo ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-22.3545725261/releases>
+2016-08-22 20:22:34,708 - INFO - user=jmarcelo ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-22.3545725261>
+2016-08-22 20:22:34,712 - INFO - user=jmarcelo ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-22.3545725261>
+2016-08-22 20:22:38,492 - INFO - user=jmarcelo ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-22.3545725261/releases>
+2016-08-22 20:22:38,499 - INFO - user=jmarcelo ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-22.3545725261>
+2016-08-22 20:22:38,503 - INFO - user=jmarcelo ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-22.3545725261>
+2016-08-22 20:23:02,906 - INFO - user=jmarcelo ip=10.0.2.2 action=create object=<File at >
+2016-08-22 20:25:29,865 - INFO - user=admin ip=10.0.2.2 action=create object=<Person at >
+2016-08-22 20:29:21,391 - INFO - user=admin ip=10.0.2.2 action=remove object=<File at /Plone/firefox.exe>
+2016-08-22 20:29:21,425 - INFO - user=admin ip=10.0.2.2 action=remove object=<Person at /Plone/renan-ferreira>
