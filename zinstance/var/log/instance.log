@@ -10619,3 +10619,346 @@ AttributeError: product_icon.gif
 2016-08-19T19:08:27 INFO SignalHandler Caught signal SIGINT
 ------
 2016-08-19T19:08:27 INFO Z2 Shutting down
+------
+2016-08-22T17:03:17 INFO ZServer HTTP server started at Mon Aug 22 17:03:17 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-22T17:03:25 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-22T17:03:25 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-22T17:03:26 WARNING ZODB.blob (2042) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-22T17:03:36 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-22T17:03:38 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-22T17:03:39 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-22T17:03:40 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-22T17:03:45 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-22T17:03:45 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-22T17:03:45 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-22T17:03:45 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-22T17:03:45 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-22T17:03:45 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-22T17:03:45 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-22T17:03:45 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-22T17:03:45 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-22T17:03:46 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-22T17:03:46 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-22T17:03:46 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-22T17:03:47 INFO Zope Ready to handle requests
+------
+2016-08-22T17:07:50 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create principal=vcabral
+------
+2016-08-22T17:08:20 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create principal=igalvao
+------
+2016-08-22T17:08:43 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create principal=rferreira
+------
+2016-08-22T17:10:05 INFO plone.protect auto rotating keyring _forms
+------
+2016-08-22T17:10:05 INFO plone.protect auto rotating keyring _anon
+------
+2016-08-22T17:10:05 INFO plone.protect auto rotating keyring _forms
+------
+2016-08-22T17:10:06 INFO plone.protect auto rotating keyring _anon
+------
+2016-08-22T17:10:06 INFO collective.fingerpointing user=rferreira ip=10.0.2.2 action=login 
+------
+2016-08-22T17:10:44 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.theming.interfaces.IThemeSettings.currentTheme> value=example
+------
+2016-08-22T17:10:44 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.theming.interfaces.IThemeSettings.rules> value=/++theme++example/rules.xml
+------
+2016-08-22T17:10:44 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.theming.interfaces.IThemeSettings.absolutePrefix> value=/++theme++example
+------
+2016-08-22T17:10:44 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.theming.interfaces.IThemeSettings.parameterExpressions> value={}
+------
+2016-08-22T17:10:44 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.theming.interfaces.IThemeSettings.doctype> value=<!DOCTYPE html>
+------
+2016-08-22T17:10:44 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.theming.interfaces.IThemeSettings.enabled> value=True
+------
+2016-08-22T17:12:46 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Ploneboard at /Plone/portal_factory/Ploneboard/ploneboard.2016-08-22.9665868494>
+------
+2016-08-22T17:13:03 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Ploneboard at /Plone/portal_factory/Ploneboard/ploneboard.2016-08-22.9665868494>
+------
+2016-08-22T17:13:43 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Ploneboard at /Plone/portal_factory/Ploneboard/ploneboard.2016-08-22.9665868494>
+------
+2016-08-22T17:15:04 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Ploneboard at /Plone/portal_factory/Ploneboard/ploneboard.2016-08-22.9665868494>
+------
+2016-08-22T17:15:05 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Ploneboard at /Plone/ploneboard.2016-08-22.9665868494>
+------
+2016-08-22T17:15:05 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Ploneboard at /Plone/plone-development-forum>
+------
+2016-08-22T17:15:43 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Ploneboard at /Plone/plone-development-forum>
+------
+2016-08-22T17:15:50 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneboardForum at /Plone/plone-development-forum/portal_factory/PloneboardForum/ploneboardforum.2016-08-22.1500005667>
+------
+2016-08-22T17:15:50 WARNING Plone Deprecation Warning 
+Products.Ploneboard.content.PloneboardForum.PloneboardForum.getNumberOfConversations is deprecated in favor of Products.Ploneboard.browser.forum.ForumView.getNumberOfConversations
+------
+2016-08-22T17:15:50 WARNING Plone Deprecation Warning 
+Products.Ploneboard.content.PloneboardForum.PloneboardForum.getNumberOfConversations is deprecated in favor of Products.Ploneboard.browser.forum.ForumView.getNumberOfConversations
+------
+2016-08-22T17:15:50 WARNING Plone Deprecation Warning 
+Products.Ploneboard.content.PloneboardForum.PloneboardForum.getNumberOfConversations is deprecated in favor of Products.Ploneboard.browser.forum.ForumView.getNumberOfConversations
+------
+2016-08-22T17:15:50 WARNING Plone Deprecation Warning 
+Products.Ploneboard.content.PloneboardForum.PloneboardForum.getNumberOfConversations is deprecated in favor of Products.Ploneboard.browser.forum.ForumView.getNumberOfConversations
+------
+2016-08-22T17:16:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneboardForum at /Plone/plone-development-forum/portal_factory/PloneboardForum/ploneboardforum.2016-08-22.1500005667>
+------
+2016-08-22T17:16:59 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneboardForum at /Plone/plone-development-forum/portal_factory/PloneboardForum/ploneboardforum.2016-08-22.1500005667>
+------
+2016-08-22T17:18:09 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneboardForum at /Plone/plone-development-forum/portal_factory/PloneboardForum/ploneboardforum.2016-08-22.1500005667>
+------
+2016-08-22T17:18:10 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneboardForum at /Plone/plone-development-forum/portal_factory/PloneboardForum/ploneboardforum.2016-08-22.1500005667>
+------
+2016-08-22T17:18:15 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneboardForum at /Plone/plone-development-forum/portal_factory/PloneboardForum/ploneboardforum.2016-08-22.1500005667>
+------
+2016-08-22T17:18:15 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneboardForum at /Plone/plone-development-forum/ploneboardforum.2016-08-22.1500005667>
+------
+2016-08-22T17:18:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Ploneboard at /Plone/plone-development-forum>
+------
+2016-08-22T17:18:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Ploneboard at /Plone/plone-development-forum>
+------
+2016-08-22T17:18:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneboardForum at /Plone/plone-development-forum/problemas-com-o-desenvolvimento-de-aplicativo-para-a-fila-do-sus-da-regiao-norte>
+------
+2016-08-22T17:18:33 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PloneboardForum at /Plone/plone-development-forum/problemas-com-o-desenvolvimento-de-aplicativo-para-a-fila-do-sus-da-regiao-norte>
+------
+2016-08-22T17:18:33 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Ploneboard at /Plone/plone-development-forum>
+------
+2016-08-22T17:18:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PloneboardForum at /Plone/plone-development-forum/problemas-com-o-desenvolvimento-de-aplicativo-para-a-fila-do-sus-da-regiao-norte>
+------
+2016-08-22T17:18:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Ploneboard at /Plone/plone-development-forum>
+------
+2016-08-22T17:18:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PloneboardForum at /Plone/plone-development-forum/problemas-com-o-desenvolvimento-de-aplicativo-para-a-fila-do-sus-da-regiao-norte>
+------
+2016-08-22T17:18:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Ploneboard at /Plone/plone-development-forum>
+------
+2016-08-22T17:18:38 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneboardForum at /Plone/plone-development-forum/portal_factory/PloneboardForum/ploneboardforum.2016-08-22.3179851727>
+------
+2016-08-22T17:18:38 WARNING Plone Deprecation Warning 
+Products.Ploneboard.content.PloneboardForum.PloneboardForum.getNumberOfConversations is deprecated in favor of Products.Ploneboard.browser.forum.ForumView.getNumberOfConversations
+------
+2016-08-22T17:18:38 WARNING Plone Deprecation Warning 
+Products.Ploneboard.content.PloneboardForum.PloneboardForum.getNumberOfConversations is deprecated in favor of Products.Ploneboard.browser.forum.ForumView.getNumberOfConversations
+------
+2016-08-22T17:18:38 WARNING Plone Deprecation Warning 
+Products.Ploneboard.content.PloneboardForum.PloneboardForum.getNumberOfConversations is deprecated in favor of Products.Ploneboard.browser.forum.ForumView.getNumberOfConversations
+------
+2016-08-22T17:18:38 WARNING Plone Deprecation Warning 
+Products.Ploneboard.content.PloneboardForum.PloneboardForum.getNumberOfConversations is deprecated in favor of Products.Ploneboard.browser.forum.ForumView.getNumberOfConversations
+------
+2016-08-22T17:18:53 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneboardForum at /Plone/plone-development-forum/portal_factory/PloneboardForum/ploneboardforum.2016-08-22.3179851727>
+------
+2016-08-22T17:19:27 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneboardForum at /Plone/plone-development-forum/portal_factory/PloneboardForum/ploneboardforum.2016-08-22.3179851727>
+------
+2016-08-22T17:19:33 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneboardForum at /Plone/plone-development-forum/portal_factory/PloneboardForum/ploneboardforum.2016-08-22.3179851727>
+------
+2016-08-22T17:19:33 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneboardForum at /Plone/plone-development-forum/portal_factory/PloneboardForum/ploneboardforum.2016-08-22.3179851727>
+------
+2016-08-22T17:19:33 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneboardForum at /Plone/plone-development-forum/ploneboardforum.2016-08-22.3179851727>
+------
+2016-08-22T17:19:33 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Ploneboard at /Plone/plone-development-forum>
+------
+2016-08-22T17:19:33 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Ploneboard at /Plone/plone-development-forum>
+------
+2016-08-22T17:19:33 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneboardForum at /Plone/plone-development-forum/automatizacao-de-processos>
+------
+2016-08-22T17:19:51 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneboardConversation at /Plone/plone-development-forum/automatizacao-de-processos/530039801>
+------
+2016-08-22T17:19:51 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneboardForum at /Plone/plone-development-forum/automatizacao-de-processos>
+------
+2016-08-22T17:19:51 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneboardConversation at /Plone/plone-development-forum/automatizacao-de-processos/530039801>
+------
+2016-08-22T17:19:51 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneboardComment: title='';>
+------
+2016-08-22T17:19:51 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneboardConversation at /Plone/plone-development-forum/automatizacao-de-processos/530039801>
+------
+2016-08-22T17:19:51 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneboardComment: title='Problemas com o desenvolvimento de aplicativo para a fila do SUS da regi\xc3\xa3o Norte';>
+------
+2016-08-22T17:20:28 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Ploneboard at /Plone/plone-development-forum>
+------
+2016-08-22T17:22:04 INFO collective.fingerpointing user=rferreira ip=10.0.2.2 action=create object=<PloneboardComment: title='';>
+------
+2016-08-22T17:22:04 INFO collective.fingerpointing user=rferreira ip=10.0.2.2 action=modify object=<PloneboardConversation at /Plone/plone-development-forum/automatizacao-de-processos/530039801>
+------
+2016-08-22T17:22:04 INFO collective.fingerpointing user=rferreira ip=10.0.2.2 action=modify object=<PloneboardComment: title='Re: Problemas com o desenvolvimento de aplicativo para a fila do SUS da regi\xc3\xa3o Norte';>
+------
+2016-08-22T17:24:20 WARNING plone.app.querystring Using empty query because there are no valid indexes used.
+------
+2016-08-22T17:25:25 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Event at >
+------
+2016-08-22T17:25:25 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Folder at /Plone/events>
+------
+2016-08-22T17:27:01 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-22.8214346872/releases>
+------
+2016-08-22T17:27:01 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-22.8214346872>
+------
+2016-08-22T17:27:01 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-22.8214346872>
+------
+2016-08-22T17:27:08 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-22.8214346872/releases>
+------
+2016-08-22T17:27:08 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-22.8214346872>
+------
+2016-08-22T17:27:08 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-22.8214346872>
+------
+2016-08-22T17:27:32 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-22.8214346872/releases>
+------
+2016-08-22T17:27:32 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-22.8214346872>
+------
+2016-08-22T17:27:32 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-22.8214346872>
+------
+2016-08-22T17:27:33 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCReleaseFolder at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-22.8214346872/releases>
+------
+2016-08-22T17:27:33 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-22.8214346872>
+------
+2016-08-22T17:27:33 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCProject at /Plone/plone-development/portal_factory/PSCProject/pscproject.2016-08-22.8214346872>
+------
+2016-08-22T17:29:43 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<plone.app.contenttypes.content.Folder object at 0xafeb046c>
+------
+2016-08-22T17:30:24 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<File at >
+------
+2016-08-22T17:30:24 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Folder at /Plone/docs>
+------
+2016-08-22T17:33:09 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<File at >
+------
+2016-08-22T17:33:09 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Folder at /Plone/docs>
+------
+2016-08-22T17:34:27 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/portal_factory/PSCDocumentationFolder/pscdocumentationfolder.2016-08-22.2675519142>
+------
+2016-08-22T17:34:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/portal_factory/PSCDocumentationFolder/pscdocumentationfolder.2016-08-22.2675519142>
+------
+2016-08-22T17:34:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/portal_factory/PSCDocumentationFolder/pscdocumentationfolder.2016-08-22.2675519142>
+------
+2016-08-22T17:34:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/pscdocumentationfolder.2016-08-22.2675519142>
+------
+2016-08-22T17:34:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/plone-1.0>
+------
+2016-08-22T17:34:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCProject at /Plone/plone-development/plone-1.0>
+------
+2016-08-22T17:34:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/documentation>
+------
+2016-08-22T17:34:42 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/portal_factory/PSCDocumentationFolder/pscdocumentationfolder.2016-08-22.2675519142>
+------
+2016-08-22T17:34:42 INFO collective.fingerpointing user=test ip=127.0.0.1 action=create object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/portal_factory/PSCDocumentationFolder/pscdocumentationfolder.2016-08-22.2675519142>
+------
+2016-08-22T17:35:08 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/portal_factory/PSCDocumentationFolder/pscdocumentationfolder.2016-08-22.2675519142>
+------
+2016-08-22T17:36:58 INFO collective.fingerpointing user=test ip=127.0.0.1 action=create object=<PSCDocumentationFolder at /Plone/plone-development/plone-1.0/portal_factory/PSCDocumentationFolder/pscdocumentationfolder.2016-08-22.2675519142>
+------
+2016-08-22T18:20:46 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-22T18:20:46 INFO Z2 Shutting down
+------
+2016-08-22T18:23:07 INFO ZServer HTTP server started at Mon Aug 22 18:23:07 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-22T18:23:10 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-22T18:23:10 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-22T18:23:11 WARNING ZODB.blob (2362) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-22T18:23:15 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-22T18:23:16 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-22T18:23:16 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-22T18:23:17 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-22T18:23:19 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-22T18:23:19 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-22T18:23:19 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-22T18:23:19 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-22T18:23:19 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-22T18:23:19 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-22T18:23:19 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-22T18:23:19 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-22T18:23:19 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-22T18:23:20 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-22T18:23:20 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-22T18:23:20 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-22T18:23:20 INFO Zope Ready to handle requests
+------
+2016-08-22T18:24:22 INFO Products.GenericSetup.tool Importing profile profile-webcouturier.dropdownmenu:default with dependency strategy upgrade.
+------
+2016-08-22T18:24:22 INFO Products.GenericSetup.tool Applying main profile profile-webcouturier.dropdownmenu:default
+------
+2016-08-22T18:24:23 WARNING Plone Deprecation Warning 
+An icon for the 'controlpanel/DropdownConfiguration' action is being added to the action icons tool. The action icons tool has been deprecated and will be removed in Plone 5. You should register action icons directly on the action now, using the 'icon_expr' setting.
+------
+2016-08-22T18:24:23 INFO GenericSetup.action-icons Action icons tool settings imported.
+------
+2016-08-22T18:24:23 INFO GenericSetup.skins Skins tool imported.
+------
+2016-08-22T18:24:24 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2016-08-22T18:24:24 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2016-08-22T18:24:24 INFO GenericSetup.controlpanel Control panel imported.
+------
+2016-08-22T18:24:24 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-22T18:24:24 INFO GenericSetup.browserlayer Browser layers imported
+------
+2016-08-22T18:24:24 INFO GenericSetup.propertiestool Properties tool imported.
+------
+2016-08-22T18:24:24 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-22T18:24:24 INFO CMFQuickInstallerTool Multiple extension profiles found for product collective.portlet.calendar. Used profile: collective.portlet.calendar:default
+------
+2016-08-22T18:24:24 INFO Products.GenericSetup.tool Importing profile profile-collective.portlet.calendar:default with dependency strategy upgrade.
+------
+2016-08-22T18:24:24 INFO Products.GenericSetup.tool Applying main profile profile-collective.portlet.calendar:default
+------
+2016-08-22T18:24:24 WARNING GenericSetup There are unresolved or circular dependencies. Graphviz diagram:: digraph dependencies {"caching_policy_mgr" -> "toolset"; "typeinfo" -> "toolset"; "tinymce_settings" -> "componentregistry"; "archetypes-various" -> "componentregistry"; "pleonformgen" -> "toolset"; "pleonformgen" -> "propertiestool"; "pleonformgen" -> "typeinfo"; "atcttool" -> "catalog"; "atcttool" -> "componentregistry"; "actions" -> "componentregistry"; "skins" -> "componentregistry"; "languagetool" -> "toolset"; "collective.z3cform.datetimewidget_various";"factorytool" -> "componentregistry"; "factorytool" -> "typeinfo"; "archetypetool" -> "archetypes-various"; "ploneboard-various" -> "archetypes-various"; "ploneboard-various" -> "typeinfo"; "ploneboard-various" -> "toolset"; "ploneboard-various" -> "workflow"; "placeful_workflow" -> "typeinfo"; "placeful_workflow" -> "workflow"; "portal-transforms-various" -> "componentregistry"; "import-intid-util" -> "toolset"; "poi_various" -> "catalog"; "controlpanel" -> "actions"; "controlpanel" -> "componentregistry"; "placeful_marker" -> "workflow"; "action-icons" -> "componentregistry"; "componentregistry" -> "toolset"; "content" -> "typeinfo"; "plonesoftwarecenter_various" -> "typeinfo"; "mimetypes-registry-various" -> "componentregistry"; "sharing" -> "rolemap"; "plone.app.event-catalog" -> "plone.app.registry"; "reference_catalog" -> "toolset"; "viewlets" -> "componentregistry"; "plone.app.registry" -> "componentregistry"; "plone.app.registry" -> "toolset"; "propertiestool" -> "componentregistry"; "various" -> "toolset"; "portlets" -> "componentregistry"; "portlets" -> "content"; "collective.portlet.calendar-upgrades" -> "plone_content"; "content_type_registry" -> "componentregistry"; "plone-final" -> "portlets"; "plone-final" -> "rolemap"; "plone-final" -> "tinymce_settings"; "plone-final" -> "cssregistry"; "plone-final" -> "jsregistry"; "plone-final" -> "viewlets"; "plone-final" -> "controlpanel"; "plone-final" -> "propertiestool"; "plone-final" -> "workflow"; "rolemap";"ploneopenid-various";"update-workflow-rolemap" -> "workflow"; "plone.app.caching";"collective.z3cform.datetimewidget";"uid_catalog" -> "toolset"; "workflow" -> "toolset"; "cssregistry" -> "skins"; "cssregistry" -> "toolset"; "cssregistry" -> "componentregistry"; "contentrules" -> "componentregistry"; "contentrules" -> "content"; "contentrules" -> "workflow"; "catalog" -> "toolset"; "simpleattachment" -> "typeinfo"; "cookie_authentication" -> "toolset"; "import-relations-utils" -> "toolset"; "cmfeditions_various" -> "toolset"; "cmfeditions_various" -> "typeinfo"; "difftool" -> "toolset"; "difftool" -> "componentregistry"; "plone-content" -> "plone-final"; "toolset";"properties";"plone.app.contenttypes" -> "typeinfo"; "plonepas" -> "componentregistry"; "plonepas" -> "controlpanel"; "plonepas" -> "memberdata-properties"; "plonepas" -> "rolemap"; "jquerytools-various" -> "cssregistry"; "tinymce_various" -> "componentregistry"; "browserlayer" -> "componentregistry"; "plone-difftool";"plone_outputfilters_various" -> "componentregistry"; "memberdata-properties" -> "componentregistry"; "plonetheme.sunburst-various" -> "actions"; "plone.app.versioningbehavior";"collective.js.jqueryui" -> "cssregistry"; "collective.js.jqueryui" -> "jsregistry"; "collective.js.jqueryui" -> "plone.app.registry"; "formonline-document-versioning" -> "typeinfo"; "mailhost" -> "componentregistry"; "repositorytool" -> "toolset"; "repositorytool" -> "typeinfo"; "repositorytool" -> "cmfeditions_various"; "Products.Ploneboard.uninstallVarious";"various-calendar" -> "toolset"; "plone.contentratings";"plone.app.blocks_default";"jsregistry" -> "skins"; "jsregistry" -> "toolset"; "jsregistry" -> "componentregistry"; "intid-register-content" -> "catalog"; "intid-register-content" -> "import-intid-util"; "plone.contentratings.uninstallVarious";"plone.app.theming" -> "toolset"; "collective.portlet.calendar-upgrades" [color=red,style=filled]; }
+------
+2016-08-22T18:24:24 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2016-08-22T18:24:24 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-22T18:24:24 INFO GenericSetup.browserlayer Browser layers imported
+------
+2016-08-22T18:24:24 INFO GenericSetup.portlets Portlets imported
+------
+2016-08-22T18:24:24 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-22T18:24:24 INFO collective.portlet.calendar Ran upgrade step Upgrade for collective.portlet.calendar for profile collective.portlet.calendar:default
+------
+2016-08-22T18:26:04 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Event at >
+------
+2016-08-22T18:26:05 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Folder at /Plone/events>
+------
+2016-08-22T18:26:50 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-22T18:26:50 INFO Z2 Shutting down
