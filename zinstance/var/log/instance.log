@@ -11434,3 +11434,1897 @@ ImportError: No module named testing
 2016-08-22T20:29:29 INFO SignalHandler Caught signal SIGINT
 ------
 2016-08-22T20:29:29 INFO Z2 Shutting down
+------
+2016-08-22T20:30:58 INFO ZServer HTTP server started at Mon Aug 22 20:30:58 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-22T20:31:01 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-22T20:31:02 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-22T20:31:02 WARNING ZODB.blob (3341) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-22T20:31:08 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-22T20:31:09 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-22T20:31:10 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-22T20:31:11 WARNING plone.behavior Specifying 'for' in behavior 'Name from user name' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-22T20:31:11 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-22T20:31:14 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-22T20:31:14 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-22T20:31:14 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-22T20:31:14 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-22T20:31:14 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-22T20:31:14 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-22T20:31:14 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-22T20:31:14 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-22T20:31:14 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-22T20:31:15 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-22T20:31:15 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-22T20:31:15 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-22T20:31:16 ERROR Application Couldn't install plone.app.referenceablebehavior
+Traceback (most recent call last):
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Zope2-2.13.24-py2.7.egg/OFS/Application.py", line 723, in install_package
+    init_func(newContext)
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/__init__.py", line 13, in initialize
+    import plone.app.referenceablebehavior.testing
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/testing.py", line 6, in <module>
+    from plone.app.testing import layers
+ImportError: No module named testing
+------
+2016-08-22T20:31:16 INFO Zope Ready to handle requests
+------
+2016-08-22T20:32:25 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<NewsItem at >
+------
+2016-08-22T20:32:26 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Folder at /Plone/news>
+------
+2016-08-22T20:35:07 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-22T20:35:07 INFO Z2 Shutting down
+------
+2016-08-23T16:49:34 INFO ZServer HTTP server started at Tue Aug 23 16:49:34 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-23T16:49:41 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-23T16:49:41 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-23T16:49:44 WARNING ZODB.blob (2043) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-23T16:49:57 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T16:49:59 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T16:50:00 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-23T16:50:02 WARNING plone.behavior Specifying 'for' in behavior 'Name from user name' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T16:50:03 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-23T16:50:08 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-23T16:50:08 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T16:50:08 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T16:50:08 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T16:50:08 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T16:50:08 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T16:50:08 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T16:50:08 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T16:50:08 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T16:50:09 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-23T16:50:10 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-23T16:50:10 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-23T16:50:10 ERROR Application Couldn't install plone.app.referenceablebehavior
+Traceback (most recent call last):
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Zope2-2.13.24-py2.7.egg/OFS/Application.py", line 723, in install_package
+    init_func(newContext)
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/__init__.py", line 13, in initialize
+    import plone.app.referenceablebehavior.testing
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/testing.py", line 6, in <module>
+    from plone.app.testing import layers
+ImportError: No module named testing
+------
+2016-08-23T16:50:10 INFO Zope Ready to handle requests
+------
+2016-08-23T16:50:21 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=login 
+------
+2016-08-23T17:21:59 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<Event at /Plone/events/workship-1.4>
+------
+2016-08-23T17:21:59 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Folder at /Plone/events>
+------
+2016-08-23T17:22:00 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<Event at /Plone/events/workship-1.4>
+------
+2016-08-23T17:22:00 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Folder at /Plone/events>
+------
+2016-08-23T17:22:00 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<Event at /Plone/events/workship-1.4>
+------
+2016-08-23T17:22:00 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Folder at /Plone/events>
+------
+2016-08-23T17:32:37 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-23T17:32:37 INFO Z2 Shutting down
+------
+2016-08-23T18:56:30 INFO ZServer HTTP server started at Tue Aug 23 18:56:30 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-23T18:56:32 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-23T18:56:32 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-23T18:56:33 WARNING ZODB.blob (3030) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-23T18:56:37 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T18:56:39 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T18:56:39 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-23T18:56:40 WARNING plone.behavior Specifying 'for' in behavior 'Name from user name' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T18:56:40 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-23T18:56:43 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-23T18:56:43 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T18:56:43 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T18:56:43 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T18:56:43 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T18:56:43 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T18:56:43 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T18:56:43 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T18:56:43 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T18:56:44 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-23T18:56:44 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-23T18:56:44 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-23T18:56:44 ERROR Application Couldn't install plone.app.referenceablebehavior
+Traceback (most recent call last):
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Zope2-2.13.24-py2.7.egg/OFS/Application.py", line 723, in install_package
+    init_func(newContext)
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/__init__.py", line 13, in initialize
+    import plone.app.referenceablebehavior.testing
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/testing.py", line 6, in <module>
+    from plone.app.testing import layers
+ImportError: No module named testing
+------
+2016-08-23T18:56:44 INFO Zope Ready to handle requests
+------
+2016-08-23T18:56:50 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=logout 
+------
+2016-08-23T18:57:31 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-23T18:57:31 INFO Z2 Shutting down
+------
+2016-08-23T19:00:04 INFO ZServer HTTP server started at Tue Aug 23 19:00:04 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-23T19:00:07 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-23T19:00:07 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-23T19:00:08 WARNING ZODB.blob (3050) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-23T19:00:12 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:00:13 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:00:14 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-23T19:00:15 WARNING plone.behavior Specifying 'for' in behavior 'Name from user name' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:00:16 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-23T19:00:18 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-23T19:00:18 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:00:18 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:00:18 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:00:18 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:00:18 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:00:18 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:00:18 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:00:18 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:00:19 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-23T19:00:19 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-23T19:00:20 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-23T19:00:20 ERROR Application Couldn't install plone.app.referenceablebehavior
+Traceback (most recent call last):
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Zope2-2.13.24-py2.7.egg/OFS/Application.py", line 723, in install_package
+    init_func(newContext)
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/__init__.py", line 13, in initialize
+    import plone.app.referenceablebehavior.testing
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/testing.py", line 6, in <module>
+    from plone.app.testing import layers
+ImportError: No module named testing
+------
+2016-08-23T19:00:20 INFO Zope Ready to handle requests
+------
+2016-08-23T19:00:53 INFO plone.protect auto rotating keyring _forms
+------
+2016-08-23T19:00:53 INFO plone.protect auto rotating keyring _anon
+------
+2016-08-23T19:00:53 INFO plone.protect auto rotating keyring _forms
+------
+2016-08-23T19:00:53 INFO plone.protect auto rotating keyring _anon
+------
+2016-08-23T19:00:53 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=login 
+------
+2016-08-23T19:01:36 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=logout 
+------
+2016-08-23T19:09:33 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-23T19:09:33 INFO Z2 Shutting down
+------
+2016-08-23T19:21:58 INFO ZServer HTTP server started at Tue Aug 23 19:21:58 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-23T19:22:00 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-23T19:22:01 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-23T19:22:01 WARNING ZODB.blob (3298) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-23T19:22:06 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:22:07 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:22:08 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-23T19:22:08 WARNING plone.behavior Specifying 'for' in behavior 'Name from user name' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:22:09 WARNING plone.behavior Specifying 'for' in behavior 'Section' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:22:09 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-23T19:22:12 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-23T19:22:12 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:22:12 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:22:12 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:22:12 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:22:12 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:22:12 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:22:12 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:22:12 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:22:13 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-23T19:22:13 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-23T19:22:13 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-23T19:22:13 ERROR Application Couldn't install plone.app.referenceablebehavior
+Traceback (most recent call last):
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Zope2-2.13.24-py2.7.egg/OFS/Application.py", line 723, in install_package
+    init_func(newContext)
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/__init__.py", line 13, in initialize
+    import plone.app.referenceablebehavior.testing
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/testing.py", line 6, in <module>
+    from plone.app.testing import layers
+ImportError: No module named testing
+------
+2016-08-23T19:22:13 INFO Zope Ready to handle requests
+------
+2016-08-23T19:26:51 WARNING OFS.Uninstalled Could not import class 'ISiteRSSSpecific' from module 'collective.siterss.interfaces'
+------
+2016-08-23T19:26:51 WARNING OFS.Uninstalled Could not import class 'ICalendarExLayer' from module 'collective.portlet.calendar.browser.interfaces'
+------
+2016-08-23T19:26:59 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=login 
+------
+2016-08-23T19:27:32 INFO CMFQuickInstallerTool Multiple extension profiles found for product collective.nitf. Used profile: collective.nitf:default
+------
+2016-08-23T19:27:32 INFO Products.GenericSetup.tool Importing profile profile-collective.nitf:default with dependency strategy upgrade.
+------
+2016-08-23T19:27:32 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.z3cform:default. Profile stays at version (u'2',).
+------
+2016-08-23T19:27:32 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.jquerytools:default. Profile stays at version (u'3',).
+------
+2016-08-23T19:27:32 INFO Products.GenericSetup.tool No upgrades available for profile profile-collective.z3cform.datetimewidget:default. Profile stays at version (u'1', u'0').
+------
+2016-08-23T19:27:32 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.dexterity:default. Profile stays at version (u'2003',).
+------
+2016-08-23T19:27:32 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.registry:default. Profile stays at version (u'1', u'0a1').
+------
+2016-08-23T19:27:32 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.intid:default. Profile stays at version (u'1',).
+------
+2016-08-23T19:27:32 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.formwidget.autocomplete:default. Profile stays at version (u'1',).
+------
+2016-08-23T19:27:32 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.formwidget.contenttree:default. Profile stays at version (u'1', u'0a6').
+------
+2016-08-23T19:27:32 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.relationfield:default. Profile stays at version (u'1',).
+------
+2016-08-23T19:27:32 INFO Products.GenericSetup.tool No upgrades available for profile profile-collective.js.jqueryui:default. Profile stays at version (u'2200',).
+------
+2016-08-23T19:27:32 INFO Products.GenericSetup.tool No upgrades available for profile profile-collective.js.cycle2:default. Profile stays at version (u'1001',).
+------
+2016-08-23T19:27:32 INFO Products.GenericSetup.tool Applying main profile profile-collective.nitf:default
+------
+2016-08-23T19:27:32 WARNING GenericSetup There are unresolved or circular dependencies. Graphviz diagram:: digraph dependencies {"collective.portlet.calendar-upgrades" -> "plone_content"; "caching_policy_mgr" -> "toolset"; "typeinfo" -> "toolset"; "tinymce_settings" -> "componentregistry"; "archetypes-various" -> "componentregistry"; "pleonformgen" -> "toolset"; "pleonformgen" -> "propertiestool"; "pleonformgen" -> "typeinfo"; "atcttool" -> "catalog"; "atcttool" -> "componentregistry"; "actions" -> "componentregistry"; "skins" -> "componentregistry"; "cssregistry" -> "skins"; "cssregistry" -> "toolset"; "cssregistry" -> "componentregistry"; "collective.z3cform.datetimewidget_various";"factorytool" -> "componentregistry"; "factorytool" -> "typeinfo"; "archetypetool" -> "archetypes-various"; "ploneboard-various" -> "archetypes-various"; "ploneboard-various" -> "typeinfo"; "ploneboard-various" -> "toolset"; "ploneboard-various" -> "workflow"; "placeful_workflow" -> "typeinfo"; "placeful_workflow" -> "workflow"; "portal-transforms-various" -> "componentregistry"; "import-intid-util" -> "toolset"; "poi_various" -> "catalog"; "controlpanel" -> "actions"; "controlpanel" -> "componentregistry"; "placeful_marker" -> "workflow"; "action-icons" -> "componentregistry"; "componentregistry" -> "toolset"; "content" -> "typeinfo"; "plonesoftwarecenter_various" -> "typeinfo"; "mimetypes-registry-various" -> "componentregistry"; "solgemacontextualcontentmenu";"sharing" -> "rolemap"; "plone.app.event-catalog" -> "plone.app.registry"; "referenceablebehavior-various" -> "toolset"; "reference_catalog" -> "toolset"; "viewlets" -> "componentregistry"; "plone.app.registry" -> "componentregistry"; "plone.app.registry" -> "toolset"; "solgemafullcalendarinstall";"propertiestool" -> "componentregistry"; "various" -> "toolset"; "portlets" -> "componentregistry"; "portlets" -> "content"; "collective.nitf";"content_type_registry" -> "componentregistry"; "plone-final" -> "portlets"; "plone-final" -> "rolemap"; "plone-final" -> "tinymce_settings"; "plone-final" -> "cssregistry"; "plone-final" -> "jsregistry"; "plone-final" -> "viewlets"; "plone-final" -> "controlpanel"; "plone-final" -> "propertiestool"; "plone-final" -> "workflow"; "rolemap";"ploneopenid-various";"update-workflow-rolemap" -> "workflow"; "plone.app.caching";"collective.z3cform.datetimewidget";"uid_catalog" -> "toolset"; "workflow" -> "toolset"; "jquerytools-various" -> "cssregistry"; "s17.person-demo-steps";"contentrules" -> "componentregistry"; "contentrules" -> "content"; "contentrules" -> "workflow"; "catalog" -> "toolset"; "simpleattachment" -> "typeinfo"; "cookie_authentication" -> "toolset"; "import-relations-utils" -> "toolset"; "cmfeditions_various" -> "toolset"; "cmfeditions_various" -> "typeinfo"; "difftool" -> "toolset"; "difftool" -> "componentregistry"; "plone-content" -> "plone-final"; "toolset";"s17.person-upgrades";"properties";"plone.app.contenttypes" -> "typeinfo"; "plonepas" -> "componentregistry"; "plonepas" -> "controlpanel"; "plonepas" -> "memberdata-properties"; "plonepas" -> "rolemap"; "plone.app.theming" -> "toolset"; "tinymce_various" -> "componentregistry"; "browserlayer" -> "componentregistry"; "plone-difftool";"languagetool" -> "toolset"; "plone_outputfilters_various" -> "componentregistry"; "memberdata-properties" -> "componentregistry"; "plonetheme.sunburst-various" -> "actions"; "plone.app.versioningbehavior";"collective.js.jqueryui" -> "cssregistry"; "collective.js.jqueryui" -> "jsregistry"; "collective.js.jqueryui" -> "plone.app.registry"; "formonline-document-versioning" -> "typeinfo"; "mailhost" -> "componentregistry"; "repositorytool" -> "toolset"; "repositorytool" -> "typeinfo"; "repositorytool" -> "cmfeditions_various"; "Products.Ploneboard.uninstallVarious";"various-calendar" -> "toolset"; "plone.contentratings";"plone.app.blocks_default";"jsregistry" -> "skins"; "jsregistry" -> "toolset"; "jsregistry" -> "componentregistry"; "intid-register-content" -> "catalog"; "intid-register-content" -> "import-intid-util"; "plone.contentratings.uninstallVarious";"s17.person" -> "toolset"; "collective.portlet.calendar-upgrades" [color=red,style=filled]; }
+------
+2016-08-23T19:27:33 INFO GenericSetup.catalog Catalog imported.
+------
+2016-08-23T19:27:33 INFO GenericSetup.workflow Workflow tool imported.
+------
+2016-08-23T19:27:34 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2016-08-23T19:27:34 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2016-08-23T19:27:34 INFO GenericSetup.controlpanel Control panel imported.
+------
+2016-08-23T19:27:34 INFO GenericSetup. ATCTTool settings imported.
+------
+2016-08-23T19:27:34 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-23T19:27:34 INFO GenericSetup.browserlayer Browser layers imported
+------
+2016-08-23T19:27:34 INFO GenericSetup.propertiestool Properties tool imported.
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.title> value=Genre
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.description> value=An NITF genre field
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.enabled> value=True
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.sortable> value=True
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.operations> value=['plone.app.querystring.operation.selection.is']
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.vocabulary> value=collective.nitf.AvailableGenres
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.group> value=NITF
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.title> value=Section
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.description> value=An NITF section field
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.enabled> value=True
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.sortable> value=True
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.operations> value=['plone.app.querystring.operation.selection.is']
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.vocabulary> value=collective.nitf.AvailableSections
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.group> value=NITF
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.subtitle.title> value=Subtitle
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.subtitle.description> value=A subordinate headline for the article.
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.subtitle.enabled> value=True
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.subtitle.sortable> value=True
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.subtitle.operations> value=['plone.app.querystring.operation.string.contains']
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.subtitle.group> value=NITF
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.byline.title> value=Author
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.byline.enabled> value=True
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.byline.sortable> value=True
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.byline.operations> value=['plone.app.querystring.operation.string.contains']
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.byline.group> value=NITF
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.title> value=Urgency
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.description> value=News importance.
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.enabled> value=True
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.sortable> value=True
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.operations> value=['plone.app.querystring.operation.intselection.is']
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.vocabulary> value=collective.nitf.Urgencies
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.group> value=NITF
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.location.title> value=Location
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.location.enabled> value=True
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.location.sortable> value=True
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.location.description> value=Event location. Where an event took place (as opposed to where the story was written).
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.location.operations> value=['plone.app.querystring.operation.string.contains']
+------
+2016-08-23T19:27:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.location.group> value=NITF
+------
+2016-08-23T19:27:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.tiles> value=[u'collective.cover.banner', u'collective.cover.basic', u'collective.cover.calendar', u'collective.cover.carousel', u'collective.cover.collection', u'collective.cover.contentbody', u'collective.cover.embed', u'collective.cover.file', u'collective.cover.list', u'collective.cover.pfg', u'collective.cover.richtext', u'sc.photogallery', u'collective.nitf']
+------
+2016-08-23T19:27:35 INFO GenericSetup.types Types tool imported.
+------
+2016-08-23T19:27:35 INFO GenericSetup.types 'collective.nitf.content' type info imported.
+------
+2016-08-23T19:27:35 INFO GenericSetup.portlets Portlets imported
+------
+2016-08-23T19:27:35 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-23T19:27:35 WARNING GenericSetup There are unresolved or circular dependencies. Graphviz diagram:: digraph dependencies {"collective.portlet.calendar-upgrades" -> "plone_content"; "caching_policy_mgr" -> "toolset"; "typeinfo" -> "toolset"; "tinymce_settings" -> "componentregistry"; "archetypes-various" -> "componentregistry"; "pleonformgen" -> "toolset"; "pleonformgen" -> "propertiestool"; "pleonformgen" -> "typeinfo"; "atcttool" -> "catalog"; "atcttool" -> "componentregistry"; "actions" -> "componentregistry"; "skins" -> "componentregistry"; "cssregistry" -> "skins"; "cssregistry" -> "toolset"; "cssregistry" -> "componentregistry"; "collective.z3cform.datetimewidget_various";"factorytool" -> "componentregistry"; "factorytool" -> "typeinfo"; "archetypetool" -> "archetypes-various"; "ploneboard-various" -> "archetypes-various"; "ploneboard-various" -> "typeinfo"; "ploneboard-various" -> "toolset"; "ploneboard-various" -> "workflow"; "placeful_workflow" -> "typeinfo"; "placeful_workflow" -> "workflow"; "portal-transforms-various" -> "componentregistry"; "import-intid-util" -> "toolset"; "poi_various" -> "catalog"; "controlpanel" -> "actions"; "controlpanel" -> "componentregistry"; "placeful_marker" -> "workflow"; "action-icons" -> "componentregistry"; "componentregistry" -> "toolset"; "content" -> "typeinfo"; "plonesoftwarecenter_various" -> "typeinfo"; "mimetypes-registry-various" -> "componentregistry"; "solgemacontextualcontentmenu";"sharing" -> "rolemap"; "plone.app.event-catalog" -> "plone.app.registry"; "referenceablebehavior-various" -> "toolset"; "reference_catalog" -> "toolset"; "viewlets" -> "componentregistry"; "plone.app.registry" -> "componentregistry"; "plone.app.registry" -> "toolset"; "solgemafullcalendarinstall";"propertiestool" -> "componentregistry"; "various" -> "toolset"; "portlets" -> "componentregistry"; "portlets" -> "content"; "collective.nitf";"content_type_registry" -> "componentregistry"; "plone-final" -> "portlets"; "plone-final" -> "rolemap"; "plone-final" -> "tinymce_settings"; "plone-final" -> "cssregistry"; "plone-final" -> "jsregistry"; "plone-final" -> "viewlets"; "plone-final" -> "controlpanel"; "plone-final" -> "propertiestool"; "plone-final" -> "workflow"; "rolemap";"ploneopenid-various";"update-workflow-rolemap" -> "workflow"; "plone.app.caching";"collective.z3cform.datetimewidget";"uid_catalog" -> "toolset"; "workflow" -> "toolset"; "jquerytools-various" -> "cssregistry"; "s17.person-demo-steps";"contentrules" -> "componentregistry"; "contentrules" -> "content"; "contentrules" -> "workflow"; "catalog" -> "toolset"; "simpleattachment" -> "typeinfo"; "cookie_authentication" -> "toolset"; "import-relations-utils" -> "toolset"; "cmfeditions_various" -> "toolset"; "cmfeditions_various" -> "typeinfo"; "difftool" -> "toolset"; "difftool" -> "componentregistry"; "plone-content" -> "plone-final"; "toolset";"s17.person-upgrades";"properties";"plone.app.contenttypes" -> "typeinfo"; "plonepas" -> "componentregistry"; "plonepas" -> "controlpanel"; "plonepas" -> "memberdata-properties"; "plonepas" -> "rolemap"; "plone.app.theming" -> "toolset"; "tinymce_various" -> "componentregistry"; "browserlayer" -> "componentregistry"; "plone-difftool";"languagetool" -> "toolset"; "plone_outputfilters_various" -> "componentregistry"; "memberdata-properties" -> "componentregistry"; "plonetheme.sunburst-various" -> "actions"; "plone.app.versioningbehavior";"collective.js.jqueryui" -> "cssregistry"; "collective.js.jqueryui" -> "jsregistry"; "collective.js.jqueryui" -> "plone.app.registry"; "formonline-document-versioning" -> "typeinfo"; "mailhost" -> "componentregistry"; "repositorytool" -> "toolset"; "repositorytool" -> "typeinfo"; "repositorytool" -> "cmfeditions_various"; "Products.Ploneboard.uninstallVarious";"various-calendar" -> "toolset"; "plone.contentratings";"plone.app.blocks_default";"jsregistry" -> "skins"; "jsregistry" -> "toolset"; "jsregistry" -> "componentregistry"; "intid-register-content" -> "catalog"; "intid-register-content" -> "import-intid-util"; "plone.contentratings.uninstallVarious";"s17.person" -> "toolset"; "collective.portlet.calendar-upgrades" [color=red,style=filled]; }
+------
+2016-08-23T19:27:35 INFO GenericSetup.catalog Catalog imported.
+------
+2016-08-23T19:27:35 INFO GenericSetup.collective.nitf Added ZCTextIndex for field subtitle.
+------
+2016-08-23T19:27:35 INFO GenericSetup.collective.nitf Added ZCTextIndex for field byline.
+------
+2016-08-23T19:27:35 INFO GenericSetup.collective.nitf Added FieldIndex for field genre.
+------
+2016-08-23T19:27:35 INFO GenericSetup.collective.nitf Added FieldIndex for field section.
+------
+2016-08-23T19:27:35 INFO GenericSetup.collective.nitf Added FieldIndex for field urgency.
+------
+2016-08-23T19:27:35 INFO GenericSetup.collective.nitf Added ZCTextIndex for field location.
+------
+2016-08-23T19:27:35 INFO GenericSetup.collective.nitf Indexing new indexes subtitle, byline, genre, section, urgency, location.
+------
+2016-08-23T19:27:35 ERROR GenericSetup Step collective.portlet.calendar-upgrades has an invalid import handler
+------
+2016-08-23T19:27:35 INFO CMFQuickInstallerTool Multiple extension profiles found for product collective.upload. Used profile: collective.upload:default
+------
+2016-08-23T19:27:35 INFO Products.GenericSetup.tool Importing profile profile-collective.upload:default with dependency strategy upgrade.
+------
+2016-08-23T19:27:35 INFO Products.GenericSetup.tool Applying main profile profile-collective.upload:default
+------
+2016-08-23T19:27:35 WARNING GenericSetup There are unresolved or circular dependencies. Graphviz diagram:: digraph dependencies {"collective.portlet.calendar-upgrades" -> "plone_content"; "caching_policy_mgr" -> "toolset"; "typeinfo" -> "toolset"; "tinymce_settings" -> "componentregistry"; "archetypes-various" -> "componentregistry"; "pleonformgen" -> "toolset"; "pleonformgen" -> "propertiestool"; "pleonformgen" -> "typeinfo"; "atcttool" -> "catalog"; "atcttool" -> "componentregistry"; "actions" -> "componentregistry"; "skins" -> "componentregistry"; "cssregistry" -> "skins"; "cssregistry" -> "toolset"; "cssregistry" -> "componentregistry"; "collective.z3cform.datetimewidget_various";"factorytool" -> "componentregistry"; "factorytool" -> "typeinfo"; "archetypetool" -> "archetypes-various"; "ploneboard-various" -> "archetypes-various"; "ploneboard-various" -> "typeinfo"; "ploneboard-various" -> "toolset"; "ploneboard-various" -> "workflow"; "placeful_workflow" -> "typeinfo"; "placeful_workflow" -> "workflow"; "portal-transforms-various" -> "componentregistry"; "import-intid-util" -> "toolset"; "poi_various" -> "catalog"; "controlpanel" -> "actions"; "controlpanel" -> "componentregistry"; "placeful_marker" -> "workflow"; "action-icons" -> "componentregistry"; "componentregistry" -> "toolset"; "content" -> "typeinfo"; "plonesoftwarecenter_various" -> "typeinfo"; "mimetypes-registry-various" -> "componentregistry"; "solgemacontextualcontentmenu";"sharing" -> "rolemap"; "plone.app.event-catalog" -> "plone.app.registry"; "referenceablebehavior-various" -> "toolset"; "reference_catalog" -> "toolset"; "viewlets" -> "componentregistry"; "plone.app.registry" -> "componentregistry"; "plone.app.registry" -> "toolset"; "solgemafullcalendarinstall";"propertiestool" -> "componentregistry"; "various" -> "toolset"; "portlets" -> "componentregistry"; "portlets" -> "content"; "collective.nitf";"content_type_registry" -> "componentregistry"; "plone-final" -> "portlets"; "plone-final" -> "rolemap"; "plone-final" -> "tinymce_settings"; "plone-final" -> "cssregistry"; "plone-final" -> "jsregistry"; "plone-final" -> "viewlets"; "plone-final" -> "controlpanel"; "plone-final" -> "propertiestool"; "plone-final" -> "workflow"; "rolemap";"ploneopenid-various";"update-workflow-rolemap" -> "workflow"; "plone.app.caching";"collective.z3cform.datetimewidget";"uid_catalog" -> "toolset"; "workflow" -> "toolset"; "jquerytools-various" -> "cssregistry"; "s17.person-demo-steps";"contentrules" -> "componentregistry"; "contentrules" -> "content"; "contentrules" -> "workflow"; "catalog" -> "toolset"; "simpleattachment" -> "typeinfo"; "cookie_authentication" -> "toolset"; "import-relations-utils" -> "toolset"; "cmfeditions_various" -> "toolset"; "cmfeditions_various" -> "typeinfo"; "difftool" -> "toolset"; "difftool" -> "componentregistry"; "plone-content" -> "plone-final"; "toolset";"s17.person-upgrades";"properties";"plone.app.contenttypes" -> "typeinfo"; "plonepas" -> "componentregistry"; "plonepas" -> "controlpanel"; "plonepas" -> "memberdata-properties"; "plonepas" -> "rolemap"; "plone.app.theming" -> "toolset"; "tinymce_various" -> "componentregistry"; "browserlayer" -> "componentregistry"; "plone-difftool";"languagetool" -> "toolset"; "plone_outputfilters_various" -> "componentregistry"; "memberdata-properties" -> "componentregistry"; "plonetheme.sunburst-various" -> "actions"; "plone.app.versioningbehavior";"collective.js.jqueryui" -> "cssregistry"; "collective.js.jqueryui" -> "jsregistry"; "collective.js.jqueryui" -> "plone.app.registry"; "formonline-document-versioning" -> "typeinfo"; "mailhost" -> "componentregistry"; "repositorytool" -> "toolset"; "repositorytool" -> "typeinfo"; "repositorytool" -> "cmfeditions_various"; "Products.Ploneboard.uninstallVarious";"various-calendar" -> "toolset"; "plone.contentratings";"plone.app.blocks_default";"jsregistry" -> "skins"; "jsregistry" -> "toolset"; "jsregistry" -> "componentregistry"; "intid-register-content" -> "catalog"; "intid-register-content" -> "import-intid-util"; "plone.contentratings.uninstallVarious";"s17.person" -> "toolset"; "collective.portlet.calendar-upgrades" [color=red,style=filled]; }
+------
+2016-08-23T19:27:35 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2016-08-23T19:27:35 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2016-08-23T19:27:35 INFO GenericSetup.controlpanel Control panel imported.
+------
+2016-08-23T19:27:35 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-23T19:27:35 INFO GenericSetup.browserlayer Browser layers imported
+------
+2016-08-23T19:27:35 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-23T19:27:35 ERROR GenericSetup Step collective.portlet.calendar-upgrades has an invalid import handler
+------
+2016-08-23T19:27:36 ERROR Zope.SiteErrorLog 1471980456.510.860148972418 http://127.0.0.1:8080/Plone/portal_quickinstaller/installProducts
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 146, in publish
+  Module Zope2.App.startup, line 301, in commit
+  Module transaction._manager, line 89, in commit
+  Module transaction._transaction, line 329, in commit
+  Module transaction._transaction, line 443, in _commitResources
+  Module ZODB.Connection, line 567, in commit
+  Module ZODB.Connection, line 623, in _commit
+  Module ZODB.Connection, line 658, in _store_objects
+  Module ZODB.serialize, line 422, in serialize
+  Module ZODB.serialize, line 431, in _dump
+PicklingError: Can't pickle <class 'collective.siterss.interfaces.ISiteRSSSpecific'>: import of module collective.siterss.interfaces failed
+------
+2016-08-23T19:28:34 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=logout 
+------
+2016-08-23T19:28:35 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-23T19:28:35 INFO Z2 Shutting down
+------
+2016-08-23T19:30:30 INFO ZServer HTTP server started at Tue Aug 23 19:30:30 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-23T19:30:33 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-23T19:30:33 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-23T19:30:34 WARNING ZODB.blob (3314) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-23T19:30:38 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:30:39 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:30:40 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-23T19:30:40 WARNING plone.behavior Specifying 'for' in behavior 'Name from user name' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:30:40 WARNING plone.behavior Specifying 'for' in behavior 'Section' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:30:41 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-23T19:30:43 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-23T19:30:43 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:30:43 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:30:43 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:30:43 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:30:43 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:30:43 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:30:43 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:30:43 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:30:44 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-23T19:30:44 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-23T19:30:45 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-23T19:30:45 ERROR Application Couldn't install plone.app.referenceablebehavior
+Traceback (most recent call last):
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Zope2-2.13.24-py2.7.egg/OFS/Application.py", line 723, in install_package
+    init_func(newContext)
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/__init__.py", line 13, in initialize
+    import plone.app.referenceablebehavior.testing
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/testing.py", line 6, in <module>
+    from plone.app.testing import layers
+ImportError: No module named testing
+------
+2016-08-23T19:30:45 INFO Zope Ready to handle requests
+------
+2016-08-23T19:30:55 WARNING OFS.Uninstalled Could not import class 'ISiteRSSSpecific' from module 'collective.siterss.interfaces'
+------
+2016-08-23T19:30:55 WARNING OFS.Uninstalled Could not import class 'ICalendarExLayer' from module 'collective.portlet.calendar.browser.interfaces'
+------
+2016-08-23T19:31:02 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=login 
+------
+2016-08-23T19:31:34 INFO CMFQuickInstallerTool Multiple extension profiles found for product collective.nitf. Used profile: collective.nitf:default
+------
+2016-08-23T19:31:34 INFO Products.GenericSetup.tool Importing profile profile-collective.nitf:default with dependency strategy upgrade.
+------
+2016-08-23T19:31:34 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.z3cform:default. Profile stays at version (u'2',).
+------
+2016-08-23T19:31:34 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.jquerytools:default. Profile stays at version (u'3',).
+------
+2016-08-23T19:31:34 INFO Products.GenericSetup.tool No upgrades available for profile profile-collective.z3cform.datetimewidget:default. Profile stays at version (u'1', u'0').
+------
+2016-08-23T19:31:34 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.dexterity:default. Profile stays at version (u'2003',).
+------
+2016-08-23T19:31:34 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.registry:default. Profile stays at version (u'1', u'0a1').
+------
+2016-08-23T19:31:34 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.intid:default. Profile stays at version (u'1',).
+------
+2016-08-23T19:31:34 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.formwidget.autocomplete:default. Profile stays at version (u'1',).
+------
+2016-08-23T19:31:34 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.formwidget.contenttree:default. Profile stays at version (u'1', u'0a6').
+------
+2016-08-23T19:31:34 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.relationfield:default. Profile stays at version (u'1',).
+------
+2016-08-23T19:31:34 INFO Products.GenericSetup.tool No upgrades available for profile profile-collective.js.jqueryui:default. Profile stays at version (u'2200',).
+------
+2016-08-23T19:31:34 INFO Products.GenericSetup.tool No upgrades available for profile profile-collective.js.cycle2:default. Profile stays at version (u'1001',).
+------
+2016-08-23T19:31:34 INFO Products.GenericSetup.tool Applying main profile profile-collective.nitf:default
+------
+2016-08-23T19:31:34 WARNING GenericSetup There are unresolved or circular dependencies. Graphviz diagram:: digraph dependencies {"collective.portlet.calendar-upgrades" -> "plone_content"; "caching_policy_mgr" -> "toolset"; "typeinfo" -> "toolset"; "tinymce_settings" -> "componentregistry"; "archetypes-various" -> "componentregistry"; "pleonformgen" -> "toolset"; "pleonformgen" -> "propertiestool"; "pleonformgen" -> "typeinfo"; "atcttool" -> "catalog"; "atcttool" -> "componentregistry"; "actions" -> "componentregistry"; "skins" -> "componentregistry"; "cssregistry" -> "skins"; "cssregistry" -> "toolset"; "cssregistry" -> "componentregistry"; "collective.z3cform.datetimewidget_various";"factorytool" -> "componentregistry"; "factorytool" -> "typeinfo"; "archetypetool" -> "archetypes-various"; "ploneboard-various" -> "archetypes-various"; "ploneboard-various" -> "typeinfo"; "ploneboard-various" -> "toolset"; "ploneboard-various" -> "workflow"; "placeful_workflow" -> "typeinfo"; "placeful_workflow" -> "workflow"; "portal-transforms-various" -> "componentregistry"; "import-intid-util" -> "toolset"; "poi_various" -> "catalog"; "controlpanel" -> "actions"; "controlpanel" -> "componentregistry"; "placeful_marker" -> "workflow"; "action-icons" -> "componentregistry"; "componentregistry" -> "toolset"; "content" -> "typeinfo"; "plonesoftwarecenter_various" -> "typeinfo"; "mimetypes-registry-various" -> "componentregistry"; "solgemacontextualcontentmenu";"sharing" -> "rolemap"; "plone.app.event-catalog" -> "plone.app.registry"; "referenceablebehavior-various" -> "toolset"; "reference_catalog" -> "toolset"; "viewlets" -> "componentregistry"; "plone.app.registry" -> "componentregistry"; "plone.app.registry" -> "toolset"; "solgemafullcalendarinstall";"propertiestool" -> "componentregistry"; "various" -> "toolset"; "portlets" -> "componentregistry"; "portlets" -> "content"; "collective.nitf";"content_type_registry" -> "componentregistry"; "plone-final" -> "portlets"; "plone-final" -> "rolemap"; "plone-final" -> "tinymce_settings"; "plone-final" -> "cssregistry"; "plone-final" -> "jsregistry"; "plone-final" -> "viewlets"; "plone-final" -> "controlpanel"; "plone-final" -> "propertiestool"; "plone-final" -> "workflow"; "rolemap";"ploneopenid-various";"update-workflow-rolemap" -> "workflow"; "plone.app.caching";"collective.z3cform.datetimewidget";"uid_catalog" -> "toolset"; "workflow" -> "toolset"; "jquerytools-various" -> "cssregistry"; "s17.person-demo-steps";"contentrules" -> "componentregistry"; "contentrules" -> "content"; "contentrules" -> "workflow"; "catalog" -> "toolset"; "simpleattachment" -> "typeinfo"; "cookie_authentication" -> "toolset"; "import-relations-utils" -> "toolset"; "cmfeditions_various" -> "toolset"; "cmfeditions_various" -> "typeinfo"; "difftool" -> "toolset"; "difftool" -> "componentregistry"; "plone-content" -> "plone-final"; "toolset";"s17.person-upgrades";"properties";"plone.app.contenttypes" -> "typeinfo"; "plonepas" -> "componentregistry"; "plonepas" -> "controlpanel"; "plonepas" -> "memberdata-properties"; "plonepas" -> "rolemap"; "plone.app.theming" -> "toolset"; "tinymce_various" -> "componentregistry"; "browserlayer" -> "componentregistry"; "plone-difftool";"languagetool" -> "toolset"; "plone_outputfilters_various" -> "componentregistry"; "memberdata-properties" -> "componentregistry"; "plonetheme.sunburst-various" -> "actions"; "plone.app.versioningbehavior";"collective.js.jqueryui" -> "cssregistry"; "collective.js.jqueryui" -> "jsregistry"; "collective.js.jqueryui" -> "plone.app.registry"; "formonline-document-versioning" -> "typeinfo"; "mailhost" -> "componentregistry"; "repositorytool" -> "toolset"; "repositorytool" -> "typeinfo"; "repositorytool" -> "cmfeditions_various"; "Products.Ploneboard.uninstallVarious";"various-calendar" -> "toolset"; "plone.contentratings";"plone.app.blocks_default";"jsregistry" -> "skins"; "jsregistry" -> "toolset"; "jsregistry" -> "componentregistry"; "intid-register-content" -> "catalog"; "intid-register-content" -> "import-intid-util"; "plone.contentratings.uninstallVarious";"s17.person" -> "toolset"; "collective.portlet.calendar-upgrades" [color=red,style=filled]; }
+------
+2016-08-23T19:31:35 INFO GenericSetup.catalog Catalog imported.
+------
+2016-08-23T19:31:35 INFO GenericSetup.workflow Workflow tool imported.
+------
+2016-08-23T19:31:35 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2016-08-23T19:31:35 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2016-08-23T19:31:35 INFO GenericSetup.controlpanel Control panel imported.
+------
+2016-08-23T19:31:35 INFO GenericSetup. ATCTTool settings imported.
+------
+2016-08-23T19:31:35 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-23T19:31:35 INFO GenericSetup.browserlayer Browser layers imported
+------
+2016-08-23T19:31:35 INFO GenericSetup.propertiestool Properties tool imported.
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.title> value=Genre
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.description> value=An NITF genre field
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.enabled> value=True
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.sortable> value=True
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.operations> value=['plone.app.querystring.operation.selection.is']
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.vocabulary> value=collective.nitf.AvailableGenres
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.group> value=NITF
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.title> value=Section
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.description> value=An NITF section field
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.enabled> value=True
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.sortable> value=True
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.operations> value=['plone.app.querystring.operation.selection.is']
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.vocabulary> value=collective.nitf.AvailableSections
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.group> value=NITF
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.subtitle.title> value=Subtitle
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.subtitle.description> value=A subordinate headline for the article.
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.subtitle.enabled> value=True
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.subtitle.sortable> value=True
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.subtitle.operations> value=['plone.app.querystring.operation.string.contains']
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.subtitle.group> value=NITF
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.byline.title> value=Author
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.byline.enabled> value=True
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.byline.sortable> value=True
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.byline.operations> value=['plone.app.querystring.operation.string.contains']
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.byline.group> value=NITF
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.title> value=Urgency
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.description> value=News importance.
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.enabled> value=True
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.sortable> value=True
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.operations> value=['plone.app.querystring.operation.intselection.is']
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.vocabulary> value=collective.nitf.Urgencies
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.group> value=NITF
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.location.title> value=Location
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.location.enabled> value=True
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.location.sortable> value=True
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.location.description> value=Event location. Where an event took place (as opposed to where the story was written).
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.location.operations> value=['plone.app.querystring.operation.string.contains']
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.location.group> value=NITF
+------
+2016-08-23T19:31:35 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.tiles> value=[u'collective.cover.banner', u'collective.cover.basic', u'collective.cover.calendar', u'collective.cover.carousel', u'collective.cover.collection', u'collective.cover.contentbody', u'collective.cover.embed', u'collective.cover.file', u'collective.cover.list', u'collective.cover.pfg', u'collective.cover.richtext', u'sc.photogallery', u'collective.nitf']
+------
+2016-08-23T19:31:35 INFO GenericSetup.types Types tool imported.
+------
+2016-08-23T19:31:35 INFO GenericSetup.types 'collective.nitf.content' type info imported.
+------
+2016-08-23T19:31:35 INFO GenericSetup.portlets Portlets imported
+------
+2016-08-23T19:31:35 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-23T19:31:35 WARNING GenericSetup There are unresolved or circular dependencies. Graphviz diagram:: digraph dependencies {"collective.portlet.calendar-upgrades" -> "plone_content"; "caching_policy_mgr" -> "toolset"; "typeinfo" -> "toolset"; "tinymce_settings" -> "componentregistry"; "archetypes-various" -> "componentregistry"; "pleonformgen" -> "toolset"; "pleonformgen" -> "propertiestool"; "pleonformgen" -> "typeinfo"; "atcttool" -> "catalog"; "atcttool" -> "componentregistry"; "actions" -> "componentregistry"; "skins" -> "componentregistry"; "cssregistry" -> "skins"; "cssregistry" -> "toolset"; "cssregistry" -> "componentregistry"; "collective.z3cform.datetimewidget_various";"factorytool" -> "componentregistry"; "factorytool" -> "typeinfo"; "archetypetool" -> "archetypes-various"; "ploneboard-various" -> "archetypes-various"; "ploneboard-various" -> "typeinfo"; "ploneboard-various" -> "toolset"; "ploneboard-various" -> "workflow"; "placeful_workflow" -> "typeinfo"; "placeful_workflow" -> "workflow"; "portal-transforms-various" -> "componentregistry"; "import-intid-util" -> "toolset"; "poi_various" -> "catalog"; "controlpanel" -> "actions"; "controlpanel" -> "componentregistry"; "placeful_marker" -> "workflow"; "action-icons" -> "componentregistry"; "componentregistry" -> "toolset"; "content" -> "typeinfo"; "plonesoftwarecenter_various" -> "typeinfo"; "mimetypes-registry-various" -> "componentregistry"; "solgemacontextualcontentmenu";"sharing" -> "rolemap"; "plone.app.event-catalog" -> "plone.app.registry"; "referenceablebehavior-various" -> "toolset"; "reference_catalog" -> "toolset"; "viewlets" -> "componentregistry"; "plone.app.registry" -> "componentregistry"; "plone.app.registry" -> "toolset"; "solgemafullcalendarinstall";"propertiestool" -> "componentregistry"; "various" -> "toolset"; "portlets" -> "componentregistry"; "portlets" -> "content"; "collective.nitf";"content_type_registry" -> "componentregistry"; "plone-final" -> "portlets"; "plone-final" -> "rolemap"; "plone-final" -> "tinymce_settings"; "plone-final" -> "cssregistry"; "plone-final" -> "jsregistry"; "plone-final" -> "viewlets"; "plone-final" -> "controlpanel"; "plone-final" -> "propertiestool"; "plone-final" -> "workflow"; "rolemap";"ploneopenid-various";"update-workflow-rolemap" -> "workflow"; "plone.app.caching";"collective.z3cform.datetimewidget";"uid_catalog" -> "toolset"; "workflow" -> "toolset"; "jquerytools-various" -> "cssregistry"; "s17.person-demo-steps";"contentrules" -> "componentregistry"; "contentrules" -> "content"; "contentrules" -> "workflow"; "catalog" -> "toolset"; "simpleattachment" -> "typeinfo"; "cookie_authentication" -> "toolset"; "import-relations-utils" -> "toolset"; "cmfeditions_various" -> "toolset"; "cmfeditions_various" -> "typeinfo"; "difftool" -> "toolset"; "difftool" -> "componentregistry"; "plone-content" -> "plone-final"; "toolset";"s17.person-upgrades";"properties";"plone.app.contenttypes" -> "typeinfo"; "plonepas" -> "componentregistry"; "plonepas" -> "controlpanel"; "plonepas" -> "memberdata-properties"; "plonepas" -> "rolemap"; "plone.app.theming" -> "toolset"; "tinymce_various" -> "componentregistry"; "browserlayer" -> "componentregistry"; "plone-difftool";"languagetool" -> "toolset"; "plone_outputfilters_various" -> "componentregistry"; "memberdata-properties" -> "componentregistry"; "plonetheme.sunburst-various" -> "actions"; "plone.app.versioningbehavior";"collective.js.jqueryui" -> "cssregistry"; "collective.js.jqueryui" -> "jsregistry"; "collective.js.jqueryui" -> "plone.app.registry"; "formonline-document-versioning" -> "typeinfo"; "mailhost" -> "componentregistry"; "repositorytool" -> "toolset"; "repositorytool" -> "typeinfo"; "repositorytool" -> "cmfeditions_various"; "Products.Ploneboard.uninstallVarious";"various-calendar" -> "toolset"; "plone.contentratings";"plone.app.blocks_default";"jsregistry" -> "skins"; "jsregistry" -> "toolset"; "jsregistry" -> "componentregistry"; "intid-register-content" -> "catalog"; "intid-register-content" -> "import-intid-util"; "plone.contentratings.uninstallVarious";"s17.person" -> "toolset"; "collective.portlet.calendar-upgrades" [color=red,style=filled]; }
+------
+2016-08-23T19:31:35 INFO GenericSetup.catalog Catalog imported.
+------
+2016-08-23T19:31:35 INFO GenericSetup.collective.nitf Added ZCTextIndex for field subtitle.
+------
+2016-08-23T19:31:35 INFO GenericSetup.collective.nitf Added ZCTextIndex for field byline.
+------
+2016-08-23T19:31:35 INFO GenericSetup.collective.nitf Added FieldIndex for field genre.
+------
+2016-08-23T19:31:35 INFO GenericSetup.collective.nitf Added FieldIndex for field section.
+------
+2016-08-23T19:31:35 INFO GenericSetup.collective.nitf Added FieldIndex for field urgency.
+------
+2016-08-23T19:31:35 INFO GenericSetup.collective.nitf Added ZCTextIndex for field location.
+------
+2016-08-23T19:31:35 INFO GenericSetup.collective.nitf Indexing new indexes subtitle, byline, genre, section, urgency, location.
+------
+2016-08-23T19:31:35 ERROR GenericSetup Step collective.portlet.calendar-upgrades has an invalid import handler
+------
+2016-08-23T19:31:36 INFO CMFQuickInstallerTool Multiple extension profiles found for product collective.upload. Used profile: collective.upload:default
+------
+2016-08-23T19:31:36 INFO Products.GenericSetup.tool Importing profile profile-collective.upload:default with dependency strategy upgrade.
+------
+2016-08-23T19:31:36 INFO Products.GenericSetup.tool Applying main profile profile-collective.upload:default
+------
+2016-08-23T19:31:36 WARNING GenericSetup There are unresolved or circular dependencies. Graphviz diagram:: digraph dependencies {"collective.portlet.calendar-upgrades" -> "plone_content"; "caching_policy_mgr" -> "toolset"; "typeinfo" -> "toolset"; "tinymce_settings" -> "componentregistry"; "archetypes-various" -> "componentregistry"; "pleonformgen" -> "toolset"; "pleonformgen" -> "propertiestool"; "pleonformgen" -> "typeinfo"; "atcttool" -> "catalog"; "atcttool" -> "componentregistry"; "actions" -> "componentregistry"; "skins" -> "componentregistry"; "cssregistry" -> "skins"; "cssregistry" -> "toolset"; "cssregistry" -> "componentregistry"; "collective.z3cform.datetimewidget_various";"factorytool" -> "componentregistry"; "factorytool" -> "typeinfo"; "archetypetool" -> "archetypes-various"; "ploneboard-various" -> "archetypes-various"; "ploneboard-various" -> "typeinfo"; "ploneboard-various" -> "toolset"; "ploneboard-various" -> "workflow"; "placeful_workflow" -> "typeinfo"; "placeful_workflow" -> "workflow"; "portal-transforms-various" -> "componentregistry"; "import-intid-util" -> "toolset"; "poi_various" -> "catalog"; "controlpanel" -> "actions"; "controlpanel" -> "componentregistry"; "placeful_marker" -> "workflow"; "action-icons" -> "componentregistry"; "componentregistry" -> "toolset"; "content" -> "typeinfo"; "plonesoftwarecenter_various" -> "typeinfo"; "mimetypes-registry-various" -> "componentregistry"; "solgemacontextualcontentmenu";"sharing" -> "rolemap"; "plone.app.event-catalog" -> "plone.app.registry"; "referenceablebehavior-various" -> "toolset"; "reference_catalog" -> "toolset"; "viewlets" -> "componentregistry"; "plone.app.registry" -> "componentregistry"; "plone.app.registry" -> "toolset"; "solgemafullcalendarinstall";"propertiestool" -> "componentregistry"; "various" -> "toolset"; "portlets" -> "componentregistry"; "portlets" -> "content"; "collective.nitf";"content_type_registry" -> "componentregistry"; "plone-final" -> "portlets"; "plone-final" -> "rolemap"; "plone-final" -> "tinymce_settings"; "plone-final" -> "cssregistry"; "plone-final" -> "jsregistry"; "plone-final" -> "viewlets"; "plone-final" -> "controlpanel"; "plone-final" -> "propertiestool"; "plone-final" -> "workflow"; "rolemap";"ploneopenid-various";"update-workflow-rolemap" -> "workflow"; "plone.app.caching";"collective.z3cform.datetimewidget";"uid_catalog" -> "toolset"; "workflow" -> "toolset"; "jquerytools-various" -> "cssregistry"; "s17.person-demo-steps";"contentrules" -> "componentregistry"; "contentrules" -> "content"; "contentrules" -> "workflow"; "catalog" -> "toolset"; "simpleattachment" -> "typeinfo"; "cookie_authentication" -> "toolset"; "import-relations-utils" -> "toolset"; "cmfeditions_various" -> "toolset"; "cmfeditions_various" -> "typeinfo"; "difftool" -> "toolset"; "difftool" -> "componentregistry"; "plone-content" -> "plone-final"; "toolset";"s17.person-upgrades";"properties";"plone.app.contenttypes" -> "typeinfo"; "plonepas" -> "componentregistry"; "plonepas" -> "controlpanel"; "plonepas" -> "memberdata-properties"; "plonepas" -> "rolemap"; "plone.app.theming" -> "toolset"; "tinymce_various" -> "componentregistry"; "browserlayer" -> "componentregistry"; "plone-difftool";"languagetool" -> "toolset"; "plone_outputfilters_various" -> "componentregistry"; "memberdata-properties" -> "componentregistry"; "plonetheme.sunburst-various" -> "actions"; "plone.app.versioningbehavior";"collective.js.jqueryui" -> "cssregistry"; "collective.js.jqueryui" -> "jsregistry"; "collective.js.jqueryui" -> "plone.app.registry"; "formonline-document-versioning" -> "typeinfo"; "mailhost" -> "componentregistry"; "repositorytool" -> "toolset"; "repositorytool" -> "typeinfo"; "repositorytool" -> "cmfeditions_various"; "Products.Ploneboard.uninstallVarious";"various-calendar" -> "toolset"; "plone.contentratings";"plone.app.blocks_default";"jsregistry" -> "skins"; "jsregistry" -> "toolset"; "jsregistry" -> "componentregistry"; "intid-register-content" -> "catalog"; "intid-register-content" -> "import-intid-util"; "plone.contentratings.uninstallVarious";"s17.person" -> "toolset"; "collective.portlet.calendar-upgrades" [color=red,style=filled]; }
+------
+2016-08-23T19:31:36 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2016-08-23T19:31:36 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2016-08-23T19:31:36 INFO GenericSetup.controlpanel Control panel imported.
+------
+2016-08-23T19:31:36 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-23T19:31:36 INFO GenericSetup.browserlayer Browser layers imported
+------
+2016-08-23T19:31:36 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-23T19:31:36 ERROR GenericSetup Step collective.portlet.calendar-upgrades has an invalid import handler
+------
+2016-08-23T19:31:37 ERROR Zope.SiteErrorLog 1471980697.120.610735090107 http://127.0.0.1:8080/Plone/portal_quickinstaller/installProducts
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 146, in publish
+  Module Zope2.App.startup, line 301, in commit
+  Module transaction._manager, line 89, in commit
+  Module transaction._transaction, line 329, in commit
+  Module transaction._transaction, line 443, in _commitResources
+  Module ZODB.Connection, line 567, in commit
+  Module ZODB.Connection, line 623, in _commit
+  Module ZODB.Connection, line 658, in _store_objects
+  Module ZODB.serialize, line 422, in serialize
+  Module ZODB.serialize, line 431, in _dump
+PicklingError: Can't pickle <class 'collective.siterss.interfaces.ISiteRSSSpecific'>: import of module collective.siterss.interfaces failed
+------
+2016-08-23T19:31:44 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-23T19:31:44 INFO Z2 Shutting down
+------
+2016-08-23T19:34:42 INFO ZServer HTTP server started at Tue Aug 23 19:34:42 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-23T19:34:45 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-23T19:34:45 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-23T19:34:46 WARNING ZODB.blob (3341) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-23T19:34:50 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:34:52 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:34:52 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-23T19:34:53 WARNING plone.behavior Specifying 'for' in behavior 'Name from user name' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:34:53 WARNING plone.behavior Specifying 'for' in behavior 'Section' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:34:54 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-23T19:34:57 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-23T19:34:57 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:34:57 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:34:57 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:34:57 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:34:57 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:34:57 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:34:57 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:34:57 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:34:58 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-23T19:34:58 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-23T19:34:58 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-23T19:34:58 ERROR Application Couldn't install plone.app.referenceablebehavior
+Traceback (most recent call last):
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Zope2-2.13.24-py2.7.egg/OFS/Application.py", line 723, in install_package
+    init_func(newContext)
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/__init__.py", line 13, in initialize
+    import plone.app.referenceablebehavior.testing
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/testing.py", line 6, in <module>
+    from plone.app.testing import layers
+ImportError: No module named testing
+------
+2016-08-23T19:34:58 INFO Zope Ready to handle requests
+------
+2016-08-23T19:35:00 WARNING OFS.Uninstalled Could not import class 'ICalendarExLayer' from module 'collective.portlet.calendar.browser.interfaces'
+------
+2016-08-23T19:35:20 INFO CMFQuickInstallerTool Multiple extension profiles found for product collective.nitf. Used profile: collective.nitf:default
+------
+2016-08-23T19:35:20 INFO Products.GenericSetup.tool Importing profile profile-collective.nitf:default with dependency strategy upgrade.
+------
+2016-08-23T19:35:20 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.z3cform:default. Profile stays at version (u'2',).
+------
+2016-08-23T19:35:20 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.jquerytools:default. Profile stays at version (u'3',).
+------
+2016-08-23T19:35:20 INFO Products.GenericSetup.tool No upgrades available for profile profile-collective.z3cform.datetimewidget:default. Profile stays at version (u'1', u'0').
+------
+2016-08-23T19:35:20 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.dexterity:default. Profile stays at version (u'2003',).
+------
+2016-08-23T19:35:20 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.registry:default. Profile stays at version (u'1', u'0a1').
+------
+2016-08-23T19:35:20 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.intid:default. Profile stays at version (u'1',).
+------
+2016-08-23T19:35:20 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.formwidget.autocomplete:default. Profile stays at version (u'1',).
+------
+2016-08-23T19:35:20 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.formwidget.contenttree:default. Profile stays at version (u'1', u'0a6').
+------
+2016-08-23T19:35:20 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.relationfield:default. Profile stays at version (u'1',).
+------
+2016-08-23T19:35:20 INFO Products.GenericSetup.tool No upgrades available for profile profile-collective.js.jqueryui:default. Profile stays at version (u'2200',).
+------
+2016-08-23T19:35:20 INFO Products.GenericSetup.tool No upgrades available for profile profile-collective.js.cycle2:default. Profile stays at version (u'1001',).
+------
+2016-08-23T19:35:20 INFO Products.GenericSetup.tool Applying main profile profile-collective.nitf:default
+------
+2016-08-23T19:35:20 WARNING GenericSetup There are unresolved or circular dependencies. Graphviz diagram:: digraph dependencies {"collective.portlet.calendar-upgrades" -> "plone_content"; "caching_policy_mgr" -> "toolset"; "typeinfo" -> "toolset"; "tinymce_settings" -> "componentregistry"; "archetypes-various" -> "componentregistry"; "pleonformgen" -> "toolset"; "pleonformgen" -> "propertiestool"; "pleonformgen" -> "typeinfo"; "atcttool" -> "catalog"; "atcttool" -> "componentregistry"; "actions" -> "componentregistry"; "skins" -> "componentregistry"; "cssregistry" -> "skins"; "cssregistry" -> "toolset"; "cssregistry" -> "componentregistry"; "collective.z3cform.datetimewidget_various";"factorytool" -> "componentregistry"; "factorytool" -> "typeinfo"; "archetypetool" -> "archetypes-various"; "ploneboard-various" -> "archetypes-various"; "ploneboard-various" -> "typeinfo"; "ploneboard-various" -> "toolset"; "ploneboard-various" -> "workflow"; "placeful_workflow" -> "typeinfo"; "placeful_workflow" -> "workflow"; "portal-transforms-various" -> "componentregistry"; "import-intid-util" -> "toolset"; "poi_various" -> "catalog"; "controlpanel" -> "actions"; "controlpanel" -> "componentregistry"; "placeful_marker" -> "workflow"; "action-icons" -> "componentregistry"; "componentregistry" -> "toolset"; "content" -> "typeinfo"; "plonesoftwarecenter_various" -> "typeinfo"; "mimetypes-registry-various" -> "componentregistry"; "solgemacontextualcontentmenu";"sharing" -> "rolemap"; "plone.app.event-catalog" -> "plone.app.registry"; "referenceablebehavior-various" -> "toolset"; "reference_catalog" -> "toolset"; "viewlets" -> "componentregistry"; "plone.app.registry" -> "componentregistry"; "plone.app.registry" -> "toolset"; "solgemafullcalendarinstall";"propertiestool" -> "componentregistry"; "various" -> "toolset"; "portlets" -> "componentregistry"; "portlets" -> "content"; "collective.nitf";"content_type_registry" -> "componentregistry"; "plone-final" -> "portlets"; "plone-final" -> "rolemap"; "plone-final" -> "tinymce_settings"; "plone-final" -> "cssregistry"; "plone-final" -> "jsregistry"; "plone-final" -> "viewlets"; "plone-final" -> "controlpanel"; "plone-final" -> "propertiestool"; "plone-final" -> "workflow"; "rolemap";"ploneopenid-various";"update-workflow-rolemap" -> "workflow"; "plone.app.caching";"collective.z3cform.datetimewidget";"uid_catalog" -> "toolset"; "workflow" -> "toolset"; "jquerytools-various" -> "cssregistry"; "s17.person-demo-steps";"contentrules" -> "componentregistry"; "contentrules" -> "content"; "contentrules" -> "workflow"; "catalog" -> "toolset"; "simpleattachment" -> "typeinfo"; "cookie_authentication" -> "toolset"; "import-relations-utils" -> "toolset"; "cmfeditions_various" -> "toolset"; "cmfeditions_various" -> "typeinfo"; "difftool" -> "toolset"; "difftool" -> "componentregistry"; "plone-content" -> "plone-final"; "toolset";"s17.person-upgrades";"properties";"plone.app.contenttypes" -> "typeinfo"; "plonepas" -> "componentregistry"; "plonepas" -> "controlpanel"; "plonepas" -> "memberdata-properties"; "plonepas" -> "rolemap"; "plone.app.theming" -> "toolset"; "tinymce_various" -> "componentregistry"; "browserlayer" -> "componentregistry"; "plone-difftool";"languagetool" -> "toolset"; "plone_outputfilters_various" -> "componentregistry"; "memberdata-properties" -> "componentregistry"; "plonetheme.sunburst-various" -> "actions"; "plone.app.versioningbehavior";"collective.js.jqueryui" -> "cssregistry"; "collective.js.jqueryui" -> "jsregistry"; "collective.js.jqueryui" -> "plone.app.registry"; "formonline-document-versioning" -> "typeinfo"; "mailhost" -> "componentregistry"; "repositorytool" -> "toolset"; "repositorytool" -> "typeinfo"; "repositorytool" -> "cmfeditions_various"; "Products.Ploneboard.uninstallVarious";"various-calendar" -> "toolset"; "plone.contentratings";"plone.app.blocks_default";"jsregistry" -> "skins"; "jsregistry" -> "toolset"; "jsregistry" -> "componentregistry"; "intid-register-content" -> "catalog"; "intid-register-content" -> "import-intid-util"; "plone.contentratings.uninstallVarious";"s17.person" -> "toolset"; "collective.portlet.calendar-upgrades" [color=red,style=filled]; }
+------
+2016-08-23T19:35:21 INFO GenericSetup.catalog Catalog imported.
+------
+2016-08-23T19:35:21 INFO GenericSetup.workflow Workflow tool imported.
+------
+2016-08-23T19:35:21 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2016-08-23T19:35:21 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2016-08-23T19:35:21 INFO GenericSetup.controlpanel Control panel imported.
+------
+2016-08-23T19:35:21 INFO GenericSetup. ATCTTool settings imported.
+------
+2016-08-23T19:35:21 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-23T19:35:21 INFO GenericSetup.browserlayer Browser layers imported
+------
+2016-08-23T19:35:21 INFO GenericSetup.propertiestool Properties tool imported.
+------
+2016-08-23T19:35:21 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.title> value=Genre
+------
+2016-08-23T19:35:21 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.description> value=An NITF genre field
+------
+2016-08-23T19:35:21 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.enabled> value=True
+------
+2016-08-23T19:35:21 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.sortable> value=True
+------
+2016-08-23T19:35:21 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.operations> value=['plone.app.querystring.operation.selection.is']
+------
+2016-08-23T19:35:21 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.vocabulary> value=collective.nitf.AvailableGenres
+------
+2016-08-23T19:35:21 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.group> value=NITF
+------
+2016-08-23T19:35:21 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.title> value=Section
+------
+2016-08-23T19:35:21 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.description> value=An NITF section field
+------
+2016-08-23T19:35:21 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.enabled> value=True
+------
+2016-08-23T19:35:21 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.sortable> value=True
+------
+2016-08-23T19:35:21 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.operations> value=['plone.app.querystring.operation.selection.is']
+------
+2016-08-23T19:35:21 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.vocabulary> value=collective.nitf.AvailableSections
+------
+2016-08-23T19:35:21 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.group> value=NITF
+------
+2016-08-23T19:35:21 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.subtitle.title> value=Subtitle
+------
+2016-08-23T19:35:21 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.subtitle.description> value=A subordinate headline for the article.
+------
+2016-08-23T19:35:21 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.subtitle.enabled> value=True
+------
+2016-08-23T19:35:21 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.subtitle.sortable> value=True
+------
+2016-08-23T19:35:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.subtitle.operations> value=['plone.app.querystring.operation.string.contains']
+------
+2016-08-23T19:35:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.subtitle.group> value=NITF
+------
+2016-08-23T19:35:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.byline.title> value=Author
+------
+2016-08-23T19:35:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.byline.enabled> value=True
+------
+2016-08-23T19:35:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.byline.sortable> value=True
+------
+2016-08-23T19:35:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.byline.operations> value=['plone.app.querystring.operation.string.contains']
+------
+2016-08-23T19:35:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.byline.group> value=NITF
+------
+2016-08-23T19:35:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.title> value=Urgency
+------
+2016-08-23T19:35:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.description> value=News importance.
+------
+2016-08-23T19:35:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.enabled> value=True
+------
+2016-08-23T19:35:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.sortable> value=True
+------
+2016-08-23T19:35:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.operations> value=['plone.app.querystring.operation.intselection.is']
+------
+2016-08-23T19:35:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.vocabulary> value=collective.nitf.Urgencies
+------
+2016-08-23T19:35:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.group> value=NITF
+------
+2016-08-23T19:35:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.location.title> value=Location
+------
+2016-08-23T19:35:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.location.enabled> value=True
+------
+2016-08-23T19:35:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.location.sortable> value=True
+------
+2016-08-23T19:35:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.location.description> value=Event location. Where an event took place (as opposed to where the story was written).
+------
+2016-08-23T19:35:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.location.operations> value=['plone.app.querystring.operation.string.contains']
+------
+2016-08-23T19:35:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.location.group> value=NITF
+------
+2016-08-23T19:35:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.tiles> value=[u'collective.cover.banner', u'collective.cover.basic', u'collective.cover.calendar', u'collective.cover.carousel', u'collective.cover.collection', u'collective.cover.contentbody', u'collective.cover.embed', u'collective.cover.file', u'collective.cover.list', u'collective.cover.pfg', u'collective.cover.richtext', u'sc.photogallery', u'collective.nitf']
+------
+2016-08-23T19:35:22 INFO GenericSetup.types Types tool imported.
+------
+2016-08-23T19:35:22 INFO GenericSetup.types 'collective.nitf.content' type info imported.
+------
+2016-08-23T19:35:22 INFO GenericSetup.portlets Portlets imported
+------
+2016-08-23T19:35:22 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-23T19:35:22 WARNING GenericSetup There are unresolved or circular dependencies. Graphviz diagram:: digraph dependencies {"collective.portlet.calendar-upgrades" -> "plone_content"; "caching_policy_mgr" -> "toolset"; "typeinfo" -> "toolset"; "tinymce_settings" -> "componentregistry"; "archetypes-various" -> "componentregistry"; "pleonformgen" -> "toolset"; "pleonformgen" -> "propertiestool"; "pleonformgen" -> "typeinfo"; "atcttool" -> "catalog"; "atcttool" -> "componentregistry"; "actions" -> "componentregistry"; "skins" -> "componentregistry"; "cssregistry" -> "skins"; "cssregistry" -> "toolset"; "cssregistry" -> "componentregistry"; "collective.z3cform.datetimewidget_various";"factorytool" -> "componentregistry"; "factorytool" -> "typeinfo"; "archetypetool" -> "archetypes-various"; "ploneboard-various" -> "archetypes-various"; "ploneboard-various" -> "typeinfo"; "ploneboard-various" -> "toolset"; "ploneboard-various" -> "workflow"; "placeful_workflow" -> "typeinfo"; "placeful_workflow" -> "workflow"; "portal-transforms-various" -> "componentregistry"; "import-intid-util" -> "toolset"; "poi_various" -> "catalog"; "controlpanel" -> "actions"; "controlpanel" -> "componentregistry"; "placeful_marker" -> "workflow"; "action-icons" -> "componentregistry"; "componentregistry" -> "toolset"; "content" -> "typeinfo"; "plonesoftwarecenter_various" -> "typeinfo"; "mimetypes-registry-various" -> "componentregistry"; "solgemacontextualcontentmenu";"sharing" -> "rolemap"; "plone.app.event-catalog" -> "plone.app.registry"; "referenceablebehavior-various" -> "toolset"; "reference_catalog" -> "toolset"; "viewlets" -> "componentregistry"; "plone.app.registry" -> "componentregistry"; "plone.app.registry" -> "toolset"; "solgemafullcalendarinstall";"propertiestool" -> "componentregistry"; "various" -> "toolset"; "portlets" -> "componentregistry"; "portlets" -> "content"; "collective.nitf";"content_type_registry" -> "componentregistry"; "plone-final" -> "portlets"; "plone-final" -> "rolemap"; "plone-final" -> "tinymce_settings"; "plone-final" -> "cssregistry"; "plone-final" -> "jsregistry"; "plone-final" -> "viewlets"; "plone-final" -> "controlpanel"; "plone-final" -> "propertiestool"; "plone-final" -> "workflow"; "rolemap";"ploneopenid-various";"update-workflow-rolemap" -> "workflow"; "plone.app.caching";"collective.z3cform.datetimewidget";"uid_catalog" -> "toolset"; "workflow" -> "toolset"; "jquerytools-various" -> "cssregistry"; "s17.person-demo-steps";"contentrules" -> "componentregistry"; "contentrules" -> "content"; "contentrules" -> "workflow"; "catalog" -> "toolset"; "simpleattachment" -> "typeinfo"; "cookie_authentication" -> "toolset"; "import-relations-utils" -> "toolset"; "cmfeditions_various" -> "toolset"; "cmfeditions_various" -> "typeinfo"; "difftool" -> "toolset"; "difftool" -> "componentregistry"; "plone-content" -> "plone-final"; "toolset";"s17.person-upgrades";"properties";"plone.app.contenttypes" -> "typeinfo"; "plonepas" -> "componentregistry"; "plonepas" -> "controlpanel"; "plonepas" -> "memberdata-properties"; "plonepas" -> "rolemap"; "plone.app.theming" -> "toolset"; "tinymce_various" -> "componentregistry"; "browserlayer" -> "componentregistry"; "plone-difftool";"languagetool" -> "toolset"; "plone_outputfilters_various" -> "componentregistry"; "memberdata-properties" -> "componentregistry"; "plonetheme.sunburst-various" -> "actions"; "plone.app.versioningbehavior";"collective.js.jqueryui" -> "cssregistry"; "collective.js.jqueryui" -> "jsregistry"; "collective.js.jqueryui" -> "plone.app.registry"; "formonline-document-versioning" -> "typeinfo"; "mailhost" -> "componentregistry"; "repositorytool" -> "toolset"; "repositorytool" -> "typeinfo"; "repositorytool" -> "cmfeditions_various"; "Products.Ploneboard.uninstallVarious";"various-calendar" -> "toolset"; "plone.contentratings";"plone.app.blocks_default";"jsregistry" -> "skins"; "jsregistry" -> "toolset"; "jsregistry" -> "componentregistry"; "intid-register-content" -> "catalog"; "intid-register-content" -> "import-intid-util"; "plone.contentratings.uninstallVarious";"s17.person" -> "toolset"; "collective.portlet.calendar-upgrades" [color=red,style=filled]; }
+------
+2016-08-23T19:35:22 INFO GenericSetup.catalog Catalog imported.
+------
+2016-08-23T19:35:22 INFO GenericSetup.collective.nitf Added ZCTextIndex for field subtitle.
+------
+2016-08-23T19:35:22 INFO GenericSetup.collective.nitf Added ZCTextIndex for field byline.
+------
+2016-08-23T19:35:22 INFO GenericSetup.collective.nitf Added FieldIndex for field genre.
+------
+2016-08-23T19:35:22 INFO GenericSetup.collective.nitf Added FieldIndex for field section.
+------
+2016-08-23T19:35:22 INFO GenericSetup.collective.nitf Added FieldIndex for field urgency.
+------
+2016-08-23T19:35:22 INFO GenericSetup.collective.nitf Added ZCTextIndex for field location.
+------
+2016-08-23T19:35:22 INFO GenericSetup.collective.nitf Indexing new indexes subtitle, byline, genre, section, urgency, location.
+------
+2016-08-23T19:35:22 ERROR GenericSetup Step collective.portlet.calendar-upgrades has an invalid import handler
+------
+2016-08-23T19:35:22 INFO CMFQuickInstallerTool Multiple extension profiles found for product collective.upload. Used profile: collective.upload:default
+------
+2016-08-23T19:35:22 INFO Products.GenericSetup.tool Importing profile profile-collective.upload:default with dependency strategy upgrade.
+------
+2016-08-23T19:35:22 INFO Products.GenericSetup.tool Applying main profile profile-collective.upload:default
+------
+2016-08-23T19:35:22 WARNING GenericSetup There are unresolved or circular dependencies. Graphviz diagram:: digraph dependencies {"collective.portlet.calendar-upgrades" -> "plone_content"; "caching_policy_mgr" -> "toolset"; "typeinfo" -> "toolset"; "tinymce_settings" -> "componentregistry"; "archetypes-various" -> "componentregistry"; "pleonformgen" -> "toolset"; "pleonformgen" -> "propertiestool"; "pleonformgen" -> "typeinfo"; "atcttool" -> "catalog"; "atcttool" -> "componentregistry"; "actions" -> "componentregistry"; "skins" -> "componentregistry"; "cssregistry" -> "skins"; "cssregistry" -> "toolset"; "cssregistry" -> "componentregistry"; "collective.z3cform.datetimewidget_various";"factorytool" -> "componentregistry"; "factorytool" -> "typeinfo"; "archetypetool" -> "archetypes-various"; "ploneboard-various" -> "archetypes-various"; "ploneboard-various" -> "typeinfo"; "ploneboard-various" -> "toolset"; "ploneboard-various" -> "workflow"; "placeful_workflow" -> "typeinfo"; "placeful_workflow" -> "workflow"; "portal-transforms-various" -> "componentregistry"; "import-intid-util" -> "toolset"; "poi_various" -> "catalog"; "controlpanel" -> "actions"; "controlpanel" -> "componentregistry"; "placeful_marker" -> "workflow"; "action-icons" -> "componentregistry"; "componentregistry" -> "toolset"; "content" -> "typeinfo"; "plonesoftwarecenter_various" -> "typeinfo"; "mimetypes-registry-various" -> "componentregistry"; "solgemacontextualcontentmenu";"sharing" -> "rolemap"; "plone.app.event-catalog" -> "plone.app.registry"; "referenceablebehavior-various" -> "toolset"; "reference_catalog" -> "toolset"; "viewlets" -> "componentregistry"; "plone.app.registry" -> "componentregistry"; "plone.app.registry" -> "toolset"; "solgemafullcalendarinstall";"propertiestool" -> "componentregistry"; "various" -> "toolset"; "portlets" -> "componentregistry"; "portlets" -> "content"; "collective.nitf";"content_type_registry" -> "componentregistry"; "plone-final" -> "portlets"; "plone-final" -> "rolemap"; "plone-final" -> "tinymce_settings"; "plone-final" -> "cssregistry"; "plone-final" -> "jsregistry"; "plone-final" -> "viewlets"; "plone-final" -> "controlpanel"; "plone-final" -> "propertiestool"; "plone-final" -> "workflow"; "rolemap";"ploneopenid-various";"update-workflow-rolemap" -> "workflow"; "plone.app.caching";"collective.z3cform.datetimewidget";"uid_catalog" -> "toolset"; "workflow" -> "toolset"; "jquerytools-various" -> "cssregistry"; "s17.person-demo-steps";"contentrules" -> "componentregistry"; "contentrules" -> "content"; "contentrules" -> "workflow"; "catalog" -> "toolset"; "simpleattachment" -> "typeinfo"; "cookie_authentication" -> "toolset"; "import-relations-utils" -> "toolset"; "cmfeditions_various" -> "toolset"; "cmfeditions_various" -> "typeinfo"; "difftool" -> "toolset"; "difftool" -> "componentregistry"; "plone-content" -> "plone-final"; "toolset";"s17.person-upgrades";"properties";"plone.app.contenttypes" -> "typeinfo"; "plonepas" -> "componentregistry"; "plonepas" -> "controlpanel"; "plonepas" -> "memberdata-properties"; "plonepas" -> "rolemap"; "plone.app.theming" -> "toolset"; "tinymce_various" -> "componentregistry"; "browserlayer" -> "componentregistry"; "plone-difftool";"languagetool" -> "toolset"; "plone_outputfilters_various" -> "componentregistry"; "memberdata-properties" -> "componentregistry"; "plonetheme.sunburst-various" -> "actions"; "plone.app.versioningbehavior";"collective.js.jqueryui" -> "cssregistry"; "collective.js.jqueryui" -> "jsregistry"; "collective.js.jqueryui" -> "plone.app.registry"; "formonline-document-versioning" -> "typeinfo"; "mailhost" -> "componentregistry"; "repositorytool" -> "toolset"; "repositorytool" -> "typeinfo"; "repositorytool" -> "cmfeditions_various"; "Products.Ploneboard.uninstallVarious";"various-calendar" -> "toolset"; "plone.contentratings";"plone.app.blocks_default";"jsregistry" -> "skins"; "jsregistry" -> "toolset"; "jsregistry" -> "componentregistry"; "intid-register-content" -> "catalog"; "intid-register-content" -> "import-intid-util"; "plone.contentratings.uninstallVarious";"s17.person" -> "toolset"; "collective.portlet.calendar-upgrades" [color=red,style=filled]; }
+------
+2016-08-23T19:35:22 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2016-08-23T19:35:22 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2016-08-23T19:35:22 INFO GenericSetup.controlpanel Control panel imported.
+------
+2016-08-23T19:35:22 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-23T19:35:22 INFO GenericSetup.browserlayer Browser layers imported
+------
+2016-08-23T19:35:22 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-23T19:35:22 ERROR GenericSetup Step collective.portlet.calendar-upgrades has an invalid import handler
+------
+2016-08-23T19:35:23 ERROR Zope.SiteErrorLog 1471980923.430.267843768453 http://127.0.0.1:8080/Plone/portal_quickinstaller/installProducts
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 146, in publish
+  Module Zope2.App.startup, line 301, in commit
+  Module transaction._manager, line 89, in commit
+  Module transaction._transaction, line 329, in commit
+  Module transaction._transaction, line 443, in _commitResources
+  Module ZODB.Connection, line 567, in commit
+  Module ZODB.Connection, line 623, in _commit
+  Module ZODB.Connection, line 658, in _store_objects
+  Module ZODB.serialize, line 422, in serialize
+  Module ZODB.serialize, line 431, in _dump
+PicklingError: Can't pickle <class 'collective.portlet.calendar.browser.interfaces.ICalendarExLayer'>: import of module collective.portlet.calendar.browser.interfaces failed
+------
+2016-08-23T19:36:12 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=logout 
+------
+2016-08-23T19:37:00 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-23T19:37:00 INFO Z2 Shutting down
+------
+2016-08-23T19:38:15 INFO ZServer HTTP server started at Tue Aug 23 19:38:15 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-23T19:38:18 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-23T19:38:18 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-23T19:38:19 WARNING ZODB.blob (3359) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-23T19:38:23 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:38:25 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:38:25 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-23T19:38:26 WARNING plone.behavior Specifying 'for' in behavior 'Name from user name' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:38:26 WARNING plone.behavior Specifying 'for' in behavior 'Section' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:38:27 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-23T19:38:30 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-23T19:38:30 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:38:30 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:38:30 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:38:30 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:38:30 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:38:30 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:38:30 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:38:30 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:38:30 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-23T19:38:30 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-23T19:38:31 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-23T19:38:31 ERROR Application Couldn't install plone.app.referenceablebehavior
+Traceback (most recent call last):
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Zope2-2.13.24-py2.7.egg/OFS/Application.py", line 723, in install_package
+    init_func(newContext)
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/__init__.py", line 13, in initialize
+    import plone.app.referenceablebehavior.testing
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/testing.py", line 6, in <module>
+    from plone.app.testing import layers
+ImportError: No module named testing
+------
+2016-08-23T19:38:31 INFO Zope Ready to handle requests
+------
+2016-08-23T19:38:43 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=login 
+------
+2016-08-23T19:39:15 INFO CMFQuickInstallerTool Multiple extension profiles found for product collective.nitf. Used profile: collective.nitf:default
+------
+2016-08-23T19:39:15 INFO Products.GenericSetup.tool Importing profile profile-collective.nitf:default with dependency strategy upgrade.
+------
+2016-08-23T19:39:15 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.z3cform:default. Profile stays at version (u'2',).
+------
+2016-08-23T19:39:15 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.jquerytools:default. Profile stays at version (u'3',).
+------
+2016-08-23T19:39:15 INFO Products.GenericSetup.tool No upgrades available for profile profile-collective.z3cform.datetimewidget:default. Profile stays at version (u'1', u'0').
+------
+2016-08-23T19:39:15 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.dexterity:default. Profile stays at version (u'2003',).
+------
+2016-08-23T19:39:15 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.registry:default. Profile stays at version (u'1', u'0a1').
+------
+2016-08-23T19:39:15 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.intid:default. Profile stays at version (u'1',).
+------
+2016-08-23T19:39:15 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.formwidget.autocomplete:default. Profile stays at version (u'1',).
+------
+2016-08-23T19:39:15 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.formwidget.contenttree:default. Profile stays at version (u'1', u'0a6').
+------
+2016-08-23T19:39:15 INFO Products.GenericSetup.tool No upgrades available for profile profile-plone.app.relationfield:default. Profile stays at version (u'1',).
+------
+2016-08-23T19:39:15 INFO Products.GenericSetup.tool No upgrades available for profile profile-collective.js.jqueryui:default. Profile stays at version (u'2200',).
+------
+2016-08-23T19:39:15 INFO Products.GenericSetup.tool No upgrades available for profile profile-collective.js.cycle2:default. Profile stays at version (u'1001',).
+------
+2016-08-23T19:39:15 INFO Products.GenericSetup.tool Applying main profile profile-collective.nitf:default
+------
+2016-08-23T19:39:15 WARNING GenericSetup There are unresolved or circular dependencies. Graphviz diagram:: digraph dependencies {"collective.portlet.calendar-upgrades" -> "plone_content"; "caching_policy_mgr" -> "toolset"; "typeinfo" -> "toolset"; "tinymce_settings" -> "componentregistry"; "archetypes-various" -> "componentregistry"; "pleonformgen" -> "toolset"; "pleonformgen" -> "propertiestool"; "pleonformgen" -> "typeinfo"; "atcttool" -> "catalog"; "atcttool" -> "componentregistry"; "actions" -> "componentregistry"; "skins" -> "componentregistry"; "cssregistry" -> "skins"; "cssregistry" -> "toolset"; "cssregistry" -> "componentregistry"; "collective.z3cform.datetimewidget_various";"factorytool" -> "componentregistry"; "factorytool" -> "typeinfo"; "archetypetool" -> "archetypes-various"; "ploneboard-various" -> "archetypes-various"; "ploneboard-various" -> "typeinfo"; "ploneboard-various" -> "toolset"; "ploneboard-various" -> "workflow"; "placeful_workflow" -> "typeinfo"; "placeful_workflow" -> "workflow"; "portal-transforms-various" -> "componentregistry"; "import-intid-util" -> "toolset"; "poi_various" -> "catalog"; "controlpanel" -> "actions"; "controlpanel" -> "componentregistry"; "placeful_marker" -> "workflow"; "action-icons" -> "componentregistry"; "componentregistry" -> "toolset"; "content" -> "typeinfo"; "plonesoftwarecenter_various" -> "typeinfo"; "mimetypes-registry-various" -> "componentregistry"; "solgemacontextualcontentmenu";"sharing" -> "rolemap"; "plone.app.event-catalog" -> "plone.app.registry"; "referenceablebehavior-various" -> "toolset"; "reference_catalog" -> "toolset"; "viewlets" -> "componentregistry"; "plone.app.registry" -> "componentregistry"; "plone.app.registry" -> "toolset"; "solgemafullcalendarinstall";"propertiestool" -> "componentregistry"; "various" -> "toolset"; "portlets" -> "componentregistry"; "portlets" -> "content"; "collective.nitf";"content_type_registry" -> "componentregistry"; "plone-final" -> "portlets"; "plone-final" -> "rolemap"; "plone-final" -> "tinymce_settings"; "plone-final" -> "cssregistry"; "plone-final" -> "jsregistry"; "plone-final" -> "viewlets"; "plone-final" -> "controlpanel"; "plone-final" -> "propertiestool"; "plone-final" -> "workflow"; "rolemap";"ploneopenid-various";"update-workflow-rolemap" -> "workflow"; "plone.app.caching";"collective.z3cform.datetimewidget";"uid_catalog" -> "toolset"; "workflow" -> "toolset"; "jquerytools-various" -> "cssregistry"; "s17.person-demo-steps";"contentrules" -> "componentregistry"; "contentrules" -> "content"; "contentrules" -> "workflow"; "catalog" -> "toolset"; "simpleattachment" -> "typeinfo"; "cookie_authentication" -> "toolset"; "import-relations-utils" -> "toolset"; "cmfeditions_various" -> "toolset"; "cmfeditions_various" -> "typeinfo"; "difftool" -> "toolset"; "difftool" -> "componentregistry"; "plone-content" -> "plone-final"; "toolset";"s17.person-upgrades";"properties";"plone.app.contenttypes" -> "typeinfo"; "plonepas" -> "componentregistry"; "plonepas" -> "controlpanel"; "plonepas" -> "memberdata-properties"; "plonepas" -> "rolemap"; "plone.app.theming" -> "toolset"; "tinymce_various" -> "componentregistry"; "browserlayer" -> "componentregistry"; "plone-difftool";"languagetool" -> "toolset"; "plone_outputfilters_various" -> "componentregistry"; "memberdata-properties" -> "componentregistry"; "plonetheme.sunburst-various" -> "actions"; "plone.app.versioningbehavior";"collective.js.jqueryui" -> "cssregistry"; "collective.js.jqueryui" -> "jsregistry"; "collective.js.jqueryui" -> "plone.app.registry"; "formonline-document-versioning" -> "typeinfo"; "mailhost" -> "componentregistry"; "repositorytool" -> "toolset"; "repositorytool" -> "typeinfo"; "repositorytool" -> "cmfeditions_various"; "Products.Ploneboard.uninstallVarious";"various-calendar" -> "toolset"; "plone.contentratings";"plone.app.blocks_default";"jsregistry" -> "skins"; "jsregistry" -> "toolset"; "jsregistry" -> "componentregistry"; "intid-register-content" -> "catalog"; "intid-register-content" -> "import-intid-util"; "plone.contentratings.uninstallVarious";"s17.person" -> "toolset"; "collective.portlet.calendar-upgrades" [color=red,style=filled]; }
+------
+2016-08-23T19:39:16 INFO GenericSetup.catalog Catalog imported.
+------
+2016-08-23T19:39:16 INFO GenericSetup.workflow Workflow tool imported.
+------
+2016-08-23T19:39:16 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2016-08-23T19:39:16 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2016-08-23T19:39:16 INFO GenericSetup.controlpanel Control panel imported.
+------
+2016-08-23T19:39:16 INFO GenericSetup. ATCTTool settings imported.
+------
+2016-08-23T19:39:16 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-23T19:39:16 INFO GenericSetup.browserlayer Browser layers imported
+------
+2016-08-23T19:39:16 INFO GenericSetup.propertiestool Properties tool imported.
+------
+2016-08-23T19:39:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.title> value=Genre
+------
+2016-08-23T19:39:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.description> value=An NITF genre field
+------
+2016-08-23T19:39:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.enabled> value=True
+------
+2016-08-23T19:39:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.sortable> value=True
+------
+2016-08-23T19:39:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.operations> value=['plone.app.querystring.operation.selection.is']
+------
+2016-08-23T19:39:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.vocabulary> value=collective.nitf.AvailableGenres
+------
+2016-08-23T19:39:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.genre.group> value=NITF
+------
+2016-08-23T19:39:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.title> value=Section
+------
+2016-08-23T19:39:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.description> value=An NITF section field
+------
+2016-08-23T19:39:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.enabled> value=True
+------
+2016-08-23T19:39:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.sortable> value=True
+------
+2016-08-23T19:39:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.operations> value=['plone.app.querystring.operation.selection.is']
+------
+2016-08-23T19:39:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.vocabulary> value=collective.nitf.AvailableSections
+------
+2016-08-23T19:39:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.section.group> value=NITF
+------
+2016-08-23T19:39:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.subtitle.title> value=Subtitle
+------
+2016-08-23T19:39:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.subtitle.description> value=A subordinate headline for the article.
+------
+2016-08-23T19:39:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.subtitle.enabled> value=True
+------
+2016-08-23T19:39:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.subtitle.sortable> value=True
+------
+2016-08-23T19:39:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.subtitle.operations> value=['plone.app.querystring.operation.string.contains']
+------
+2016-08-23T19:39:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.subtitle.group> value=NITF
+------
+2016-08-23T19:39:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.byline.title> value=Author
+------
+2016-08-23T19:39:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.byline.enabled> value=True
+------
+2016-08-23T19:39:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.byline.sortable> value=True
+------
+2016-08-23T19:39:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.byline.operations> value=['plone.app.querystring.operation.string.contains']
+------
+2016-08-23T19:39:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.byline.group> value=NITF
+------
+2016-08-23T19:39:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.title> value=Urgency
+------
+2016-08-23T19:39:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.description> value=News importance.
+------
+2016-08-23T19:39:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.enabled> value=True
+------
+2016-08-23T19:39:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.sortable> value=True
+------
+2016-08-23T19:39:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.operations> value=['plone.app.querystring.operation.intselection.is']
+------
+2016-08-23T19:39:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.vocabulary> value=collective.nitf.Urgencies
+------
+2016-08-23T19:39:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.urgency.group> value=NITF
+------
+2016-08-23T19:39:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.location.title> value=Location
+------
+2016-08-23T19:39:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.location.enabled> value=True
+------
+2016-08-23T19:39:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.location.sortable> value=True
+------
+2016-08-23T19:39:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.location.description> value=Event location. Where an event took place (as opposed to where the story was written).
+------
+2016-08-23T19:39:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.location.operations> value=['plone.app.querystring.operation.string.contains']
+------
+2016-08-23T19:39:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.querystring.field.location.group> value=NITF
+------
+2016-08-23T19:39:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Record plone.app.tiles> value=[u'collective.cover.banner', u'collective.cover.basic', u'collective.cover.calendar', u'collective.cover.carousel', u'collective.cover.collection', u'collective.cover.contentbody', u'collective.cover.embed', u'collective.cover.file', u'collective.cover.list', u'collective.cover.pfg', u'collective.cover.richtext', u'sc.photogallery', u'collective.nitf']
+------
+2016-08-23T19:39:17 INFO GenericSetup.types Types tool imported.
+------
+2016-08-23T19:39:17 INFO GenericSetup.types 'collective.nitf.content' type info imported.
+------
+2016-08-23T19:39:17 INFO GenericSetup.portlets Portlets imported
+------
+2016-08-23T19:39:17 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-23T19:39:17 WARNING GenericSetup There are unresolved or circular dependencies. Graphviz diagram:: digraph dependencies {"collective.portlet.calendar-upgrades" -> "plone_content"; "caching_policy_mgr" -> "toolset"; "typeinfo" -> "toolset"; "tinymce_settings" -> "componentregistry"; "archetypes-various" -> "componentregistry"; "pleonformgen" -> "toolset"; "pleonformgen" -> "propertiestool"; "pleonformgen" -> "typeinfo"; "atcttool" -> "catalog"; "atcttool" -> "componentregistry"; "actions" -> "componentregistry"; "skins" -> "componentregistry"; "cssregistry" -> "skins"; "cssregistry" -> "toolset"; "cssregistry" -> "componentregistry"; "collective.z3cform.datetimewidget_various";"factorytool" -> "componentregistry"; "factorytool" -> "typeinfo"; "archetypetool" -> "archetypes-various"; "ploneboard-various" -> "archetypes-various"; "ploneboard-various" -> "typeinfo"; "ploneboard-various" -> "toolset"; "ploneboard-various" -> "workflow"; "placeful_workflow" -> "typeinfo"; "placeful_workflow" -> "workflow"; "portal-transforms-various" -> "componentregistry"; "import-intid-util" -> "toolset"; "poi_various" -> "catalog"; "controlpanel" -> "actions"; "controlpanel" -> "componentregistry"; "placeful_marker" -> "workflow"; "action-icons" -> "componentregistry"; "componentregistry" -> "toolset"; "content" -> "typeinfo"; "plonesoftwarecenter_various" -> "typeinfo"; "mimetypes-registry-various" -> "componentregistry"; "solgemacontextualcontentmenu";"sharing" -> "rolemap"; "plone.app.event-catalog" -> "plone.app.registry"; "referenceablebehavior-various" -> "toolset"; "reference_catalog" -> "toolset"; "viewlets" -> "componentregistry"; "plone.app.registry" -> "componentregistry"; "plone.app.registry" -> "toolset"; "solgemafullcalendarinstall";"propertiestool" -> "componentregistry"; "various" -> "toolset"; "portlets" -> "componentregistry"; "portlets" -> "content"; "collective.nitf";"content_type_registry" -> "componentregistry"; "plone-final" -> "portlets"; "plone-final" -> "rolemap"; "plone-final" -> "tinymce_settings"; "plone-final" -> "cssregistry"; "plone-final" -> "jsregistry"; "plone-final" -> "viewlets"; "plone-final" -> "controlpanel"; "plone-final" -> "propertiestool"; "plone-final" -> "workflow"; "rolemap";"ploneopenid-various";"update-workflow-rolemap" -> "workflow"; "plone.app.caching";"collective.z3cform.datetimewidget";"uid_catalog" -> "toolset"; "workflow" -> "toolset"; "jquerytools-various" -> "cssregistry"; "s17.person-demo-steps";"contentrules" -> "componentregistry"; "contentrules" -> "content"; "contentrules" -> "workflow"; "catalog" -> "toolset"; "simpleattachment" -> "typeinfo"; "cookie_authentication" -> "toolset"; "import-relations-utils" -> "toolset"; "cmfeditions_various" -> "toolset"; "cmfeditions_various" -> "typeinfo"; "difftool" -> "toolset"; "difftool" -> "componentregistry"; "plone-content" -> "plone-final"; "toolset";"s17.person-upgrades";"properties";"plone.app.contenttypes" -> "typeinfo"; "plonepas" -> "componentregistry"; "plonepas" -> "controlpanel"; "plonepas" -> "memberdata-properties"; "plonepas" -> "rolemap"; "plone.app.theming" -> "toolset"; "tinymce_various" -> "componentregistry"; "browserlayer" -> "componentregistry"; "plone-difftool";"languagetool" -> "toolset"; "plone_outputfilters_various" -> "componentregistry"; "memberdata-properties" -> "componentregistry"; "plonetheme.sunburst-various" -> "actions"; "plone.app.versioningbehavior";"collective.js.jqueryui" -> "cssregistry"; "collective.js.jqueryui" -> "jsregistry"; "collective.js.jqueryui" -> "plone.app.registry"; "formonline-document-versioning" -> "typeinfo"; "mailhost" -> "componentregistry"; "repositorytool" -> "toolset"; "repositorytool" -> "typeinfo"; "repositorytool" -> "cmfeditions_various"; "Products.Ploneboard.uninstallVarious";"various-calendar" -> "toolset"; "plone.contentratings";"plone.app.blocks_default";"jsregistry" -> "skins"; "jsregistry" -> "toolset"; "jsregistry" -> "componentregistry"; "intid-register-content" -> "catalog"; "intid-register-content" -> "import-intid-util"; "plone.contentratings.uninstallVarious";"s17.person" -> "toolset"; "collective.portlet.calendar-upgrades" [color=red,style=filled]; }
+------
+2016-08-23T19:39:17 INFO GenericSetup.catalog Catalog imported.
+------
+2016-08-23T19:39:17 INFO GenericSetup.collective.nitf Added ZCTextIndex for field subtitle.
+------
+2016-08-23T19:39:17 INFO GenericSetup.collective.nitf Added ZCTextIndex for field byline.
+------
+2016-08-23T19:39:17 INFO GenericSetup.collective.nitf Added FieldIndex for field genre.
+------
+2016-08-23T19:39:17 INFO GenericSetup.collective.nitf Added FieldIndex for field section.
+------
+2016-08-23T19:39:17 INFO GenericSetup.collective.nitf Added FieldIndex for field urgency.
+------
+2016-08-23T19:39:17 INFO GenericSetup.collective.nitf Added ZCTextIndex for field location.
+------
+2016-08-23T19:39:17 INFO GenericSetup.collective.nitf Indexing new indexes subtitle, byline, genre, section, urgency, location.
+------
+2016-08-23T19:39:17 INFO CMFQuickInstallerTool Multiple extension profiles found for product collective.upload. Used profile: collective.upload:default
+------
+2016-08-23T19:39:17 INFO Products.GenericSetup.tool Importing profile profile-collective.upload:default with dependency strategy upgrade.
+------
+2016-08-23T19:39:17 INFO Products.GenericSetup.tool Applying main profile profile-collective.upload:default
+------
+2016-08-23T19:39:17 WARNING GenericSetup There are unresolved or circular dependencies. Graphviz diagram:: digraph dependencies {"collective.portlet.calendar-upgrades" -> "plone_content"; "caching_policy_mgr" -> "toolset"; "typeinfo" -> "toolset"; "tinymce_settings" -> "componentregistry"; "archetypes-various" -> "componentregistry"; "pleonformgen" -> "toolset"; "pleonformgen" -> "propertiestool"; "pleonformgen" -> "typeinfo"; "atcttool" -> "catalog"; "atcttool" -> "componentregistry"; "actions" -> "componentregistry"; "skins" -> "componentregistry"; "cssregistry" -> "skins"; "cssregistry" -> "toolset"; "cssregistry" -> "componentregistry"; "collective.z3cform.datetimewidget_various";"factorytool" -> "componentregistry"; "factorytool" -> "typeinfo"; "archetypetool" -> "archetypes-various"; "ploneboard-various" -> "archetypes-various"; "ploneboard-various" -> "typeinfo"; "ploneboard-various" -> "toolset"; "ploneboard-various" -> "workflow"; "placeful_workflow" -> "typeinfo"; "placeful_workflow" -> "workflow"; "portal-transforms-various" -> "componentregistry"; "import-intid-util" -> "toolset"; "poi_various" -> "catalog"; "controlpanel" -> "actions"; "controlpanel" -> "componentregistry"; "placeful_marker" -> "workflow"; "action-icons" -> "componentregistry"; "componentregistry" -> "toolset"; "content" -> "typeinfo"; "plonesoftwarecenter_various" -> "typeinfo"; "mimetypes-registry-various" -> "componentregistry"; "solgemacontextualcontentmenu";"sharing" -> "rolemap"; "plone.app.event-catalog" -> "plone.app.registry"; "referenceablebehavior-various" -> "toolset"; "reference_catalog" -> "toolset"; "viewlets" -> "componentregistry"; "plone.app.registry" -> "componentregistry"; "plone.app.registry" -> "toolset"; "solgemafullcalendarinstall";"propertiestool" -> "componentregistry"; "various" -> "toolset"; "portlets" -> "componentregistry"; "portlets" -> "content"; "collective.nitf";"content_type_registry" -> "componentregistry"; "plone-final" -> "portlets"; "plone-final" -> "rolemap"; "plone-final" -> "tinymce_settings"; "plone-final" -> "cssregistry"; "plone-final" -> "jsregistry"; "plone-final" -> "viewlets"; "plone-final" -> "controlpanel"; "plone-final" -> "propertiestool"; "plone-final" -> "workflow"; "rolemap";"ploneopenid-various";"update-workflow-rolemap" -> "workflow"; "plone.app.caching";"collective.z3cform.datetimewidget";"uid_catalog" -> "toolset"; "workflow" -> "toolset"; "jquerytools-various" -> "cssregistry"; "s17.person-demo-steps";"contentrules" -> "componentregistry"; "contentrules" -> "content"; "contentrules" -> "workflow"; "catalog" -> "toolset"; "simpleattachment" -> "typeinfo"; "cookie_authentication" -> "toolset"; "import-relations-utils" -> "toolset"; "cmfeditions_various" -> "toolset"; "cmfeditions_various" -> "typeinfo"; "difftool" -> "toolset"; "difftool" -> "componentregistry"; "plone-content" -> "plone-final"; "toolset";"s17.person-upgrades";"properties";"plone.app.contenttypes" -> "typeinfo"; "plonepas" -> "componentregistry"; "plonepas" -> "controlpanel"; "plonepas" -> "memberdata-properties"; "plonepas" -> "rolemap"; "plone.app.theming" -> "toolset"; "tinymce_various" -> "componentregistry"; "browserlayer" -> "componentregistry"; "plone-difftool";"languagetool" -> "toolset"; "plone_outputfilters_various" -> "componentregistry"; "memberdata-properties" -> "componentregistry"; "plonetheme.sunburst-various" -> "actions"; "plone.app.versioningbehavior";"collective.js.jqueryui" -> "cssregistry"; "collective.js.jqueryui" -> "jsregistry"; "collective.js.jqueryui" -> "plone.app.registry"; "formonline-document-versioning" -> "typeinfo"; "mailhost" -> "componentregistry"; "repositorytool" -> "toolset"; "repositorytool" -> "typeinfo"; "repositorytool" -> "cmfeditions_various"; "Products.Ploneboard.uninstallVarious";"various-calendar" -> "toolset"; "plone.contentratings";"plone.app.blocks_default";"jsregistry" -> "skins"; "jsregistry" -> "toolset"; "jsregistry" -> "componentregistry"; "intid-register-content" -> "catalog"; "intid-register-content" -> "import-intid-util"; "plone.contentratings.uninstallVarious";"s17.person" -> "toolset"; "collective.portlet.calendar-upgrades" [color=red,style=filled]; }
+------
+2016-08-23T19:39:17 INFO GenericSetup.resourceregistry Javascript registry imported.
+------
+2016-08-23T19:39:17 INFO GenericSetup.resourceregistry Stylesheet registry imported.
+------
+2016-08-23T19:39:17 INFO GenericSetup.controlpanel Control panel imported.
+------
+2016-08-23T19:39:17 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-23T19:39:17 INFO GenericSetup.browserlayer Browser layers imported
+------
+2016-08-23T19:39:17 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-23T19:42:01 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=logout 
+------
+2016-08-23T19:44:52 ERROR Zope.SiteErrorLog 1471981492.30.776923200249 http://127.0.0.1:8080/manage_main
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module App.special_dtml, line 185, in _exec
+  Module DocumentTemplate.DT_Let, line 77, in render
+  Module DocumentTemplate.DT_In, line 707, in renderwob
+  Module Products.CMFCore.DynamicType, line 109, in icon
+  Module Products.CMFCore.utils, line 10, in check_getToolByName
+  Module Products.CMFCore.utils, line 120, in getToolByName
+AttributeError: portal_url
+------
+2016-08-23T19:44:56 ERROR Zope.SiteErrorLog 1471981496.060.280933946011 http://127.0.0.1:8080/manage_main
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module App.special_dtml, line 185, in _exec
+  Module DocumentTemplate.DT_Let, line 77, in render
+  Module DocumentTemplate.DT_In, line 707, in renderwob
+  Module Products.CMFCore.DynamicType, line 109, in icon
+  Module Products.CMFCore.utils, line 10, in check_getToolByName
+  Module Products.CMFCore.utils, line 120, in getToolByName
+AttributeError: portal_url
+------
+2016-08-23T19:45:00 ERROR Zope.SiteErrorLog 1471981500.980.837932292139 http://127.0.0.1:8080/manage_main
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module Shared.DC.Scripts.Bindings, line 322, in __call__
+  Module Shared.DC.Scripts.Bindings, line 359, in _bindAndExec
+  Module App.special_dtml, line 185, in _exec
+  Module DocumentTemplate.DT_Let, line 77, in render
+  Module DocumentTemplate.DT_In, line 707, in renderwob
+  Module Products.CMFCore.DynamicType, line 109, in icon
+  Module Products.CMFCore.utils, line 10, in check_getToolByName
+  Module Products.CMFCore.utils, line 120, in getToolByName
+AttributeError: portal_url
+------
+2016-08-23T19:46:59 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-23T19:46:59 INFO Z2 Shutting down
+------
+2016-08-23T19:50:22 INFO ZServer HTTP server started at Tue Aug 23 19:50:22 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-23T19:50:25 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-23T19:50:25 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-23T19:50:26 WARNING ZODB.blob (3524) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-23T19:50:30 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:50:31 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:50:32 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-23T19:50:33 WARNING plone.behavior Specifying 'for' in behavior 'Name from user name' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:50:33 WARNING plone.behavior Specifying 'for' in behavior 'Section' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:50:34 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-23T19:50:36 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-23T19:50:36 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:50:36 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:50:36 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:50:36 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:50:36 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:50:36 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:50:36 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:50:36 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:50:37 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-23T19:50:37 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-23T19:50:38 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-23T19:50:38 ERROR Application Couldn't install plone.app.referenceablebehavior
+Traceback (most recent call last):
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Zope2-2.13.24-py2.7.egg/OFS/Application.py", line 723, in install_package
+    init_func(newContext)
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/__init__.py", line 13, in initialize
+    import plone.app.referenceablebehavior.testing
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/testing.py", line 6, in <module>
+    from plone.app.testing import layers
+ImportError: No module named testing
+------
+2016-08-23T19:50:38 INFO Zope Ready to handle requests
+------
+2016-08-23T19:51:17 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-23T19:51:17 INFO Z2 Shutting down
+------
+2016-08-23T19:53:00 INFO ZServer HTTP server started at Tue Aug 23 19:53:00 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-23T19:53:02 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-23T19:53:03 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-23T19:53:03 WARNING ZODB.blob (3541) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-23T19:53:07 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:53:09 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:53:09 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-23T19:53:10 WARNING plone.behavior Specifying 'for' in behavior 'Name from user name' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:53:10 WARNING plone.behavior Specifying 'for' in behavior 'Section' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T19:53:11 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-23T19:53:14 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-23T19:53:14 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:53:14 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:53:14 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:53:14 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:53:14 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:53:14 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:53:14 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T19:53:14 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T19:53:14 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-23T19:53:15 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-23T19:53:15 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-23T19:53:15 ERROR Application Couldn't install plone.app.referenceablebehavior
+Traceback (most recent call last):
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Zope2-2.13.24-py2.7.egg/OFS/Application.py", line 723, in install_package
+    init_func(newContext)
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/__init__.py", line 13, in initialize
+    import plone.app.referenceablebehavior.testing
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/testing.py", line 6, in <module>
+    from plone.app.testing import layers
+ImportError: No module named testing
+------
+2016-08-23T19:53:15 INFO Zope Ready to handle requests
+------
+2016-08-23T19:59:16 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=logout 
+------
+2016-08-23T19:59:43 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-23T19:59:43 INFO Z2 Shutting down
+------
+2016-08-23T20:02:19 INFO ZServer HTTP server started at Tue Aug 23 20:02:19 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-23T20:02:22 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-23T20:02:22 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-23T20:02:23 WARNING ZODB.blob (3637) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-23T20:02:27 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T20:02:28 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T20:02:28 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-23T20:02:29 WARNING plone.behavior Specifying 'for' in behavior 'Name from user name' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T20:02:29 WARNING plone.behavior Specifying 'for' in behavior 'Section' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-23T20:02:30 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-23T20:02:33 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-23T20:02:33 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T20:02:33 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T20:02:33 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T20:02:33 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T20:02:33 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T20:02:33 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T20:02:33 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-23T20:02:33 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-23T20:02:34 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-23T20:02:34 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-23T20:02:34 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-23T20:02:34 ERROR Application Couldn't install plone.app.referenceablebehavior
+Traceback (most recent call last):
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Zope2-2.13.24-py2.7.egg/OFS/Application.py", line 723, in install_package
+    init_func(newContext)
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/__init__.py", line 13, in initialize
+    import plone.app.referenceablebehavior.testing
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/testing.py", line 6, in <module>
+    from plone.app.testing import layers
+ImportError: No module named testing
+------
+2016-08-23T20:02:34 INFO Zope Ready to handle requests
+------
+2016-08-23T20:02:53 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=login 
+------
+2016-08-23T20:03:16 INFO CMFQuickInstallerTool Multiple extension profiles found for product membrane. Used profile: Products.membrane:default
+------
+2016-08-23T20:03:16 INFO Products.GenericSetup.tool Importing profile profile-Products.membrane:default with dependency strategy upgrade.
+------
+2016-08-23T20:03:16 INFO Products.GenericSetup.tool Applying main profile profile-Products.membrane:default
+------
+2016-08-23T20:03:16 WARNING GenericSetup There are unresolved or circular dependencies. Graphviz diagram:: digraph dependencies {"collective.portlet.calendar-upgrades" -> "plone_content"; "caching_policy_mgr" -> "toolset"; "typeinfo" -> "toolset"; "tinymce_settings" -> "componentregistry"; "archetypes-various" -> "componentregistry"; "pleonformgen" -> "toolset"; "pleonformgen" -> "propertiestool"; "pleonformgen" -> "typeinfo"; "plugins";"atcttool" -> "catalog"; "atcttool" -> "componentregistry"; "actions" -> "componentregistry"; "skins" -> "componentregistry"; "cssregistry" -> "skins"; "cssregistry" -> "toolset"; "cssregistry" -> "componentregistry"; "collective.z3cform.datetimewidget_various";"factorytool" -> "componentregistry"; "factorytool" -> "typeinfo"; "archetypetool" -> "archetypes-various"; "ploneboard-various" -> "archetypes-various"; "ploneboard-various" -> "typeinfo"; "ploneboard-various" -> "toolset"; "ploneboard-various" -> "workflow"; "placeful_workflow" -> "typeinfo"; "placeful_workflow" -> "workflow"; "portal-transforms-various" -> "componentregistry"; "import-intid-util" -> "toolset"; "poi_various" -> "catalog"; "controlpanel" -> "actions"; "controlpanel" -> "componentregistry"; "placeful_marker" -> "workflow"; "action-icons" -> "componentregistry"; "componentregistry" -> "toolset"; "content" -> "typeinfo"; "plonesoftwarecenter_various" -> "typeinfo"; "mimetypes-registry-various" -> "componentregistry"; "solgemacontextualcontentmenu";"sharing" -> "rolemap"; "plone.app.event-catalog" -> "plone.app.registry"; "referenceablebehavior-various" -> "toolset"; "reference_catalog" -> "toolset"; "viewlets" -> "componentregistry"; "plone.app.registry" -> "componentregistry"; "plone.app.registry" -> "toolset"; "solgemafullcalendarinstall";"propertiestool" -> "componentregistry"; "various" -> "toolset"; "portlets" -> "componentregistry"; "portlets" -> "content"; "collective.nitf";"content_type_registry" -> "componentregistry"; "plone-final" -> "portlets"; "plone-final" -> "rolemap"; "plone-final" -> "tinymce_settings"; "plone-final" -> "cssregistry"; "plone-final" -> "jsregistry"; "plone-final" -> "viewlets"; "plone-final" -> "controlpanel"; "plone-final" -> "propertiestool"; "plone-final" -> "workflow"; "rolemap";"ploneopenid-various";"update-workflow-rolemap" -> "workflow"; "plone.app.caching";"collective.z3cform.datetimewidget";"uid_catalog" -> "toolset"; "workflow" -> "toolset"; "jquerytools-various" -> "cssregistry"; "s17.person-demo-steps";"contentrules" -> "componentregistry"; "contentrules" -> "content"; "contentrules" -> "workflow"; "catalog" -> "toolset"; "simpleattachment" -> "typeinfo"; "cookie_authentication" -> "toolset"; "import-relations-utils" -> "toolset"; "cmfeditions_various" -> "toolset"; "cmfeditions_various" -> "typeinfo"; "difftool" -> "toolset"; "difftool" -> "componentregistry"; "plone-content" -> "plone-final"; "toolset";"s17.person-upgrades";"properties";"plone.app.contenttypes" -> "typeinfo"; "plonepas" -> "componentregistry"; "plonepas" -> "controlpanel"; "plonepas" -> "memberdata-properties"; "plonepas" -> "rolemap"; "plone.app.theming" -> "toolset"; "tinymce_various" -> "componentregistry"; "browserlayer" -> "componentregistry"; "plone-difftool";"languagetool" -> "toolset"; "plone_outputfilters_various" -> "componentregistry"; "memberdata-properties" -> "componentregistry"; "plonetheme.sunburst-various" -> "actions"; "plone.app.versioningbehavior";"collective.js.jqueryui" -> "cssregistry"; "collective.js.jqueryui" -> "jsregistry"; "collective.js.jqueryui" -> "plone.app.registry"; "formonline-document-versioning" -> "typeinfo"; "mailhost" -> "componentregistry"; "repositorytool" -> "toolset"; "repositorytool" -> "typeinfo"; "repositorytool" -> "cmfeditions_various"; "Products.Ploneboard.uninstallVarious";"various-calendar" -> "toolset"; "plone.contentratings";"plone.app.blocks_default";"membranetool" -> "toolset"; "membranetool" -> "workflow"; "jsregistry" -> "skins"; "jsregistry" -> "toolset"; "jsregistry" -> "componentregistry"; "intid-register-content" -> "catalog"; "intid-register-content" -> "import-intid-util"; "plone.contentratings.uninstallVarious";"s17.person" -> "toolset"; "collective.portlet.calendar-upgrades" [color=red,style=filled]; }
+------
+2016-08-23T20:03:17 INFO GenericSetup.toolset Toolset imported.
+------
+2016-08-23T20:03:17 INFO GenericSetup.catalog Catalog imported.
+------
+2016-08-23T20:03:17 INFO GenericSetup.catalog MembraneTool settings imported.
+------
+2016-08-23T20:03:17 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-23T20:03:17 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-23T20:03:17 INFO GenericSetup.plugins Added User Manager.
+Added Group Manager.
+Added Role Manager.
+Added Property Manager.
+Added User Factory.
+
+------
+2016-08-23T20:08:13 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=logout 
+------
+2016-08-23T20:11:07 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=login 
+------
+2016-08-23T20:12:02 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<NewsItem at >
+------
+2016-08-23T20:12:13 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<NewsItem at /Plone/com-vasta-programacao-cultural-bienal-do-livro-de-sp-reunira-280-expositores>
+------
+2016-08-23T20:12:14 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<NewsItem at /Plone/com-vasta-programacao-cultural-bienal-do-livro-de-sp-reunira-280-expositores>
+------
+2016-08-23T20:12:14 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<NewsItem at /Plone/com-vasta-programacao-cultural-bienal-do-livro-de-sp-reunira-280-expositores>
+------
+2016-08-23T20:12:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<Collection at /Plone/news/aggregator>
+------
+2016-08-23T20:12:22 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Folder at /Plone/news>
+------
+2016-08-23T20:12:24 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<Collection at /Plone/news/aggregator>
+------
+2016-08-23T20:12:24 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Folder at /Plone/news>
+------
+2016-08-23T20:12:24 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<Collection at /Plone/news/aggregator>
+------
+2016-08-23T20:12:24 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Folder at /Plone/news>
+------
+2016-08-23T20:12:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<NewsItem at /Plone/news/mundo>
+------
+2016-08-23T20:12:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<Folder at /Plone/news>
+------
+2016-08-23T20:12:32 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<NewsItem at /Plone/news/mundo>
+------
+2016-08-23T20:12:32 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<Folder at /Plone/news>
+------
+2016-08-23T20:12:32 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<NewsItem at /Plone/news/mundo>
+------
+2016-08-23T20:12:32 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<Folder at /Plone/news>
+------
+2016-08-23T20:12:47 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<plone.app.contenttypes.content.Folder object at 0xb121faac>
+------
+2016-08-23T20:13:20 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<NewsItem at >
+------
+2016-08-23T20:13:20 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Folder at /Plone/noticias>
+------
+2016-08-23T20:15:20 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneboardComment: title='';>
+------
+2016-08-23T20:15:20 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneboardConversation at /Plone/plone-development-forum/automatizacao-de-processos/530039801>
+------
+2016-08-23T20:15:21 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneboardComment: title='Re: Problemas com o desenvolvimento de aplicativo para a fila do SUS da regi\xc3\xa3o Norte';>
+------
+2016-08-23T20:15:55 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PloneboardComment: title='Re: Problemas com o desenvolvimento de aplicativo para a fila do SUS da regi\xc3\xa3o Norte';>
+------
+2016-08-23T20:15:55 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneboardConversation at /Plone/plone-development-forum/automatizacao-de-processos/530039801>
+------
+2016-08-23T20:16:09 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneboardComment: title='';>
+------
+2016-08-23T20:16:09 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneboardConversation at /Plone/plone-development-forum/automatizacao-de-processos/530039801>
+------
+2016-08-23T20:16:09 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneboardComment: title='Re: Problemas com o desenvolvimento de aplicativo para a fila do SUS da regi\xc3\xa3o Norte';>
+------
+2016-08-23T20:17:14 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<sc.photogallery.content.PhotoGallery object at 0xafe4602c>
+------
+2016-08-23T20:17:27 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Image at delete.jpg>
+------
+2016-08-23T20:17:27 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Image at export.jpg>
+------
+2016-08-23T20:17:27 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PhotoGallery at /Plone/fotos>
+------
+2016-08-23T20:17:27 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PhotoGallery at /Plone/fotos>
+------
+2016-08-23T20:17:27 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Image at /Plone/fotos/delete.jpg>
+------
+2016-08-23T20:17:28 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Image at /Plone/fotos/export.jpg>
+------
+2016-08-23T20:17:28 INFO ZPublisher.Conflict ConflictError at /Plone/fotos/media_uploader: database conflict error (oid 0x444b, class BTrees.OOBTree.OOBTree, serial this txn started with 0x03b96f213eb27611 2016-08-23 20:17:14.694636, serial currently committed 0x03b96f2177ce2788 2016-08-23 20:17:28.079365) (1 conflicts (0 unresolved) since startup at Tue Aug 23 20:02:34 2016)
+------
+2016-08-23T20:17:28 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Image at errorcouturier.png>
+------
+2016-08-23T20:17:28 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PhotoGallery at /Plone/fotos>
+------
+2016-08-23T20:17:28 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Image at /Plone/fotos/errorcouturier.png>
+------
+2016-08-23T20:17:28 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Image at deletesim.jpg>
+------
+2016-08-23T20:17:28 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Image at export.jpg>
+------
+2016-08-23T20:17:28 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PhotoGallery at /Plone/fotos>
+------
+2016-08-23T20:17:28 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Image at /Plone/fotos/deletesim.jpg>
+------
+2016-08-23T20:17:29 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PhotoGallery at /Plone/fotos>
+------
+2016-08-23T20:17:29 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Image at erro.png>
+------
+2016-08-23T20:17:29 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Image at /Plone/fotos/export.jpg>
+------
+2016-08-23T20:17:29 INFO ZPublisher.Conflict ConflictError at /Plone/fotos/media_uploader: database conflict error (oid 0x4468, class persistent.list.PersistentList) (2 conflicts (0 unresolved) since startup at Tue Aug 23 20:02:34 2016)
+------
+2016-08-23T20:17:29 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PhotoGallery at /Plone/fotos>
+------
+2016-08-23T20:17:29 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Image at /Plone/fotos/erro.png>
+------
+2016-08-23T20:17:29 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Image at export.jpg>
+------
+2016-08-23T20:17:29 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PhotoGallery at /Plone/fotos>
+------
+2016-08-23T20:17:29 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Image at /Plone/fotos/export.jpg>
+------
+2016-08-23T20:17:29 INFO ZPublisher.Conflict ConflictError at /Plone/fotos/media_uploader: database conflict error (oid 0x4468, class persistent.list.PersistentList) (3 conflicts (0 unresolved) since startup at Tue Aug 23 20:02:34 2016)
+------
+2016-08-23T20:17:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Image at export.jpg>
+------
+2016-08-23T20:17:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PhotoGallery at /Plone/fotos>
+------
+2016-08-23T20:17:31 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Image at /Plone/fotos/export.jpg>
+------
+2016-08-23T20:18:07 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Document at /Plone/front-page>
+------
+2016-08-23T20:18:18 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<Document at /Plone/front-page>
+------
+2016-08-23T20:22:30 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Collection at /Plone/site-feed>
+------
+2016-08-23T20:25:38 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<PloneboardComment: title='';>
+------
+2016-08-23T20:25:38 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneboardConversation at /Plone/plone-development-forum/automatizacao-de-processos/530039801>
+------
+2016-08-23T20:25:38 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PloneboardComment: title='Re: Problemas com o desenvolvimento de aplicativo para a fila do SUS da regi\xc3\xa3o Norte';>
+------
+2016-08-23T20:28:56 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<Image at /Plone/fotos/delete.jpg>
+------
+2016-08-23T20:28:56 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<Image at /Plone/fotos/errorcouturier.png>
+------
+2016-08-23T20:28:56 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<Image at /Plone/fotos/deletesim.jpg>
+------
+2016-08-23T20:28:56 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<Image at /Plone/fotos/erro.png>
+------
+2016-08-23T20:28:56 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<Image at /Plone/fotos/export.jpg>
+------
+2016-08-23T20:28:56 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<PhotoGallery at /Plone/fotos>
+------
+2016-08-23T20:29:17 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<sc.photogallery.content.PhotoGallery object at 0xb016082c>
+------
+2016-08-23T20:29:28 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Image at erro-copia.png>
+------
+2016-08-23T20:29:28 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Image at export-copia.jpg>
+------
+2016-08-23T20:29:28 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PhotoGallery at /Plone/fotos>
+------
+2016-08-23T20:29:28 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Image at /Plone/fotos/erro-copia.png>
+------
+2016-08-23T20:29:28 ERROR zc.lockfile Error locking file /home/vagrant/Plone_SP/zinstance/var/log/audit.log.lock; pid=3637
+Traceback (most recent call last):
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/zc.lockfile-1.0.2-py2.7.egg/zc/lockfile/__init__.py", line 84, in __init__
+    _lock_file(fp)
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/zc.lockfile-1.0.2-py2.7.egg/zc/lockfile/__init__.py", line 59, in _lock_file
+    raise LockError("Couldn't lock %r" % file.name)
+LockError: Couldn't lock '/home/vagrant/Plone_SP/zinstance/var/log/audit.log.lock'
+------
+2016-08-23T20:29:28 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PhotoGallery at /Plone/fotos>
+------
+2016-08-23T20:29:28 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Image at /Plone/fotos/export-copia.jpg>
+------
+2016-08-23T20:29:28 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Image at errorcouturier-copia.png>
+------
+2016-08-23T20:29:28 INFO ZPublisher.Conflict ConflictError at /Plone/fotos/media_uploader: database conflict error (oid 0x4535, class BTrees.OOBTree.OOBTree, serial this txn started with 0x03b96f2d4bef6d55 2016-08-23 20:29:17.797327, serial currently committed 0x03b96f2d7a9714cc 2016-08-23 20:29:28.732069) (4 conflicts (0 unresolved) since startup at Tue Aug 23 20:02:34 2016)
+------
+2016-08-23T20:29:29 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PhotoGallery at /Plone/fotos>
+------
+2016-08-23T20:29:29 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Image at /Plone/fotos/errorcouturier-copia.png>
+------
+2016-08-23T20:29:29 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Image at bd-copia.jpg>
+------
+2016-08-23T20:29:29 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PhotoGallery at /Plone/fotos>
+------
+2016-08-23T20:29:29 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Image at /Plone/fotos/bd-copia.jpg>
+------
+2016-08-23T20:29:29 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Image at delete-copia.jpg>
+------
+2016-08-23T20:29:29 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PhotoGallery at /Plone/fotos>
+------
+2016-08-23T20:29:29 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Image at export-copia.jpg>
+------
+2016-08-23T20:29:29 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Image at /Plone/fotos/delete-copia.jpg>
+------
+2016-08-23T20:29:29 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Image at 1470337140326-copia.png>
+------
+2016-08-23T20:29:30 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PhotoGallery at /Plone/fotos>
+------
+2016-08-23T20:29:30 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PhotoGallery at /Plone/fotos>
+------
+2016-08-23T20:29:30 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Image at /Plone/fotos/export-copia.jpg>
+------
+2016-08-23T20:29:30 INFO ZPublisher.Conflict ConflictError at /Plone/fotos/media_uploader: database conflict error (oid 0x4550, class persistent.list.PersistentList) (5 conflicts (0 unresolved) since startup at Tue Aug 23 20:02:34 2016)
+------
+2016-08-23T20:29:30 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Image at /Plone/fotos/1470337140326-copia.png>
+------
+2016-08-23T20:29:30 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=create object=<Image at export-copia.jpg>
+------
+2016-08-23T20:29:30 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<PhotoGallery at /Plone/fotos>
+------
+2016-08-23T20:29:30 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=modify object=<Image at /Plone/fotos/export-copia.jpg>
+------
+2016-08-23T20:32:50 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-23T20:32:50 INFO Z2 Shutting down
+------
+2016-08-24T11:55:47 INFO ZServer HTTP server started at Wed Aug 24 11:55:47 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-24T11:55:54 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-24T11:55:54 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-24T11:55:56 WARNING ZODB.blob (2035) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-24T11:56:06 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-24T11:56:08 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-24T11:56:09 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-24T11:56:10 WARNING plone.behavior Specifying 'for' in behavior 'Name from user name' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-24T11:56:11 WARNING plone.behavior Specifying 'for' in behavior 'Section' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-24T11:56:12 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-24T11:56:16 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-24T11:56:16 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-24T11:56:16 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-24T11:56:16 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-24T11:56:16 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-24T11:56:16 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-24T11:56:16 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-24T11:56:16 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-24T11:56:16 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-24T11:56:18 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-24T11:56:18 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-24T11:56:18 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-24T11:56:19 ERROR Application Couldn't install plone.app.referenceablebehavior
+Traceback (most recent call last):
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Zope2-2.13.24-py2.7.egg/OFS/Application.py", line 723, in install_package
+    init_func(newContext)
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/__init__.py", line 13, in initialize
+    import plone.app.referenceablebehavior.testing
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/testing.py", line 6, in <module>
+    from plone.app.testing import layers
+ImportError: No module named testing
+------
+2016-08-24T11:56:19 INFO Zope Ready to handle requests
+------
+2016-08-24T12:01:26 INFO collective.fingerpointing user=admin ip=10.0.2.2 action=remove object=<Folder at /Plone/hola>
+------
+2016-08-24T12:26:22 INFO SignalHandler Caught signal SIGINT
+------
+2016-08-24T12:26:22 INFO Z2 Shutting down
+------
+2016-08-24T12:27:51 INFO ZServer HTTP server started at Wed Aug 24 12:27:51 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-08-24T12:27:54 INFO Products.PloneFormGen gpg_subprocess initialized, using /usr/bin/gpg
+------
+2016-08-24T12:27:54 WARNING PloneSoftwareCenter ExternalStorage N/A, falling back to AttributeStorage
+------
+2016-08-24T12:27:55 WARNING ZODB.blob (2209) Blob dir /home/vagrant/Plone_SP/zinstance/var/blobstorage/ has insecure mode setting
+------
+2016-08-24T12:27:59 WARNING plone.behavior Specifying 'for' in behavior 'Related items' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-24T12:28:00 WARNING plone.behavior Specifying 'for' in behavior 'Page refresh' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-24T12:28:00 INFO collective.fingerpointing Start logging audit information to audit.log
+------
+2016-08-24T12:28:01 WARNING plone.behavior Specifying 'for' in behavior 'Name from user name' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-24T12:28:02 WARNING plone.behavior Specifying 'for' in behavior 'Section' if no 'factory' is given has no effect and is superfluous.
+------
+2016-08-24T12:28:02 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-08-24T12:28:05 WARNING Init Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+------
+2016-08-24T12:28:05 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-24T12:28:05 WARNING Init Class plone.app.tiles.browser.add.DefaultAddView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-24T12:28:05 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-24T12:28:05 WARNING Init Class plone.app.tiles.browser.edit.DefaultEditView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-24T12:28:05 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-24T12:28:05 WARNING Init Class collective.cover.tiles.configuration_view.DefaultConfigureView has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-24T12:28:05 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'browserDefault'
+------
+2016-08-24T12:28:05 WARNING Init Class collective.cover.tiles.edit.CustomTileEdit has a security declaration for nonexistent method 'publishTraverse'
+------
+2016-08-24T12:28:06 WARNING Init Class Products.Five.metaclass.SoftwareCenterView has a security declaration for nonexistent method 'has_featured_project'
+------
+2016-08-24T12:28:06 WARNING Init Class Products.Five.viewlet.manager.<ViewletManager providing IResponseAdder> has a security declaration for nonexistent method '__getitem__'
+------
+2016-08-24T12:28:06 INFO PloneFormGen Patching plone.app.portlets ColumnPortletManagerRenderer to not catch Retry exceptions
+------
+2016-08-24T12:28:06 ERROR Application Couldn't install plone.app.referenceablebehavior
+Traceback (most recent call last):
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/Zope2-2.13.24-py2.7.egg/OFS/Application.py", line 723, in install_package
+    init_func(newContext)
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/__init__.py", line 13, in initialize
+    import plone.app.referenceablebehavior.testing
+  File "/home/vagrant/Plone_SP/buildout-cache/eggs/plone.app.referenceablebehavior-0.7.4-py2.7.egg/plone/app/referenceablebehavior/testing.py", line 6, in <module>
+    from plone.app.testing import layers
+ImportError: No module named testing
+------
+2016-08-24T12:28:07 INFO Zope Ready to handle requests
+------
+2016-08-24T12:29:26 INFO CMFQuickInstallerTool Multiple extension profiles found for product collective.onlogin. Used profile: collective.onlogin:default
+------
+2016-08-24T12:29:26 INFO Products.GenericSetup.tool Importing profile profile-collective.onlogin:default with dependency strategy upgrade.
+------
+2016-08-24T12:29:26 INFO Products.GenericSetup.tool Applying main profile profile-collective.onlogin:default
+------
+2016-08-24T12:29:26 WARNING GenericSetup There are unresolved or circular dependencies. Graphviz diagram:: digraph dependencies {"collective.portlet.calendar-upgrades" -> "plone_content"; "caching_policy_mgr" -> "toolset"; "typeinfo" -> "toolset"; "tinymce_settings" -> "componentregistry"; "archetypes-various" -> "componentregistry"; "pleonformgen" -> "toolset"; "pleonformgen" -> "propertiestool"; "pleonformgen" -> "typeinfo"; "plugins";"atcttool" -> "catalog"; "atcttool" -> "componentregistry"; "actions" -> "componentregistry"; "skins" -> "componentregistry"; "cssregistry" -> "skins"; "cssregistry" -> "toolset"; "cssregistry" -> "componentregistry"; "collective.z3cform.datetimewidget_various";"factorytool" -> "componentregistry"; "factorytool" -> "typeinfo"; "archetypetool" -> "archetypes-various"; "ploneboard-various" -> "archetypes-various"; "ploneboard-various" -> "typeinfo"; "ploneboard-various" -> "toolset"; "ploneboard-various" -> "workflow"; "placeful_workflow" -> "typeinfo"; "placeful_workflow" -> "workflow"; "portal-transforms-various" -> "componentregistry"; "import-intid-util" -> "toolset"; "poi_various" -> "catalog"; "controlpanel" -> "actions"; "controlpanel" -> "componentregistry"; "placeful_marker" -> "workflow"; "action-icons" -> "componentregistry"; "componentregistry" -> "toolset"; "content" -> "typeinfo"; "plonesoftwarecenter_various" -> "typeinfo"; "mimetypes-registry-various" -> "componentregistry"; "solgemacontextualcontentmenu";"sharing" -> "rolemap"; "plone.app.event-catalog" -> "plone.app.registry"; "referenceablebehavior-various" -> "toolset"; "reference_catalog" -> "toolset"; "viewlets" -> "componentregistry"; "plone.app.registry" -> "componentregistry"; "plone.app.registry" -> "toolset"; "solgemafullcalendarinstall";"propertiestool" -> "componentregistry"; "various" -> "toolset"; "portlets" -> "componentregistry"; "portlets" -> "content"; "collective.nitf";"content_type_registry" -> "componentregistry"; "plone-final" -> "portlets"; "plone-final" -> "rolemap"; "plone-final" -> "tinymce_settings"; "plone-final" -> "cssregistry"; "plone-final" -> "jsregistry"; "plone-final" -> "viewlets"; "plone-final" -> "controlpanel"; "plone-final" -> "propertiestool"; "plone-final" -> "workflow"; "rolemap";"ploneopenid-various";"update-workflow-rolemap" -> "workflow"; "plone.app.caching";"collective.z3cform.datetimewidget";"uid_catalog" -> "toolset"; "workflow" -> "toolset"; "jquerytools-various" -> "cssregistry"; "s17.person-demo-steps";"contentrules" -> "componentregistry"; "contentrules" -> "content"; "contentrules" -> "workflow"; "catalog" -> "toolset"; "simpleattachment" -> "typeinfo"; "cookie_authentication" -> "toolset"; "import-relations-utils" -> "toolset"; "cmfeditions_various" -> "toolset"; "cmfeditions_various" -> "typeinfo"; "difftool" -> "toolset"; "difftool" -> "componentregistry"; "plone-content" -> "plone-final"; "toolset";"s17.person-upgrades";"properties";"plone.app.contenttypes" -> "typeinfo"; "plonepas" -> "componentregistry"; "plonepas" -> "controlpanel"; "plonepas" -> "memberdata-properties"; "plonepas" -> "rolemap"; "plone.app.theming" -> "toolset"; "tinymce_various" -> "componentregistry"; "browserlayer" -> "componentregistry"; "plone-difftool";"languagetool" -> "toolset"; "plone_outputfilters_various" -> "componentregistry"; "memberdata-properties" -> "componentregistry"; "plonetheme.sunburst-various" -> "actions"; "plone.app.versioningbehavior";"collective.js.jqueryui" -> "cssregistry"; "collective.js.jqueryui" -> "jsregistry"; "collective.js.jqueryui" -> "plone.app.registry"; "formonline-document-versioning" -> "typeinfo"; "mailhost" -> "componentregistry"; "repositorytool" -> "toolset"; "repositorytool" -> "typeinfo"; "repositorytool" -> "cmfeditions_various"; "Products.Ploneboard.uninstallVarious";"various-calendar" -> "toolset"; "plone.contentratings";"plone.app.blocks_default";"membranetool" -> "toolset"; "membranetool" -> "workflow"; "jsregistry" -> "skins"; "jsregistry" -> "toolset"; "jsregistry" -> "componentregistry"; "intid-register-content" -> "catalog"; "intid-register-content" -> "import-intid-util"; "plone.contentratings.uninstallVarious";"s17.person" -> "toolset"; "collective.portlet.calendar-upgrades" [color=red,style=filled]; }
+------
+2016-08-24T12:29:27 INFO GenericSetup.skins Skins tool imported.
+------
+2016-08-24T12:29:28 INFO GenericSetup.controlpanel Control panel imported.
+------
+2016-08-24T12:29:28 INFO GenericSetup.archetypetool Archetype tool imported.
+------
+2016-08-24T12:29:28 INFO GenericSetup.browserlayer Browser layers imported
+------
+2016-08-24T12:29:28 INFO GenericSetup.rolemap Role / permission map imported.
+------
+2016-08-24T14:40:29 INFO SignalHandler Caught signal SIGHUP
+------
+2016-08-24T14:40:29 INFO Z2 Restarting
+------
+2016-08-24T14:40:29 INFO SignalHandler Caught signal SIGTERM
+------
+2016-08-24T14:40:29 INFO Z2 Shutting down fast
+------
+2016-08-24T14:40:29 INFO ZServer closing HTTP to new connections
